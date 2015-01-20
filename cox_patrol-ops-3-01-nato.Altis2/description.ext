@@ -1,0 +1,32 @@
+#include "data\dialogs.hpp"
+#include "scripts\keg_spectate\dialog.hpp"
+#include "VAS\menu.hpp"
+DisabledAI		= 1;			// <!-- Where 0 Fills empty playable slots with AI, 1 is They Don't fill the empty slots
+joinUnassigned	= 0;		// <!-- Where 0 forces joining players into the first empty slot, 1 leaves them to select their own
+enableDebugConsole	= 0;		// <!-- Enable the debug console where (0=disabled),(1=Admins Only),(2=Everyone) DO NOT SET AS 2!
+showGPS			= 1;			// <!-- Allow GPS
+showCompass		= 1;			// <!-- Allow Compass
+showWatch		= 1;			// <!-- Allow Watch
+
+class Header {
+	maxPlayers = 61;	// <!-- CHANGE Where the number is the total playable slots
+	minPlayers = 1;
+	gameType = COOP;
+};
+class CfgDebriefing {
+	#include "data\cfgDebriefing.hpp"
+};
+class CfgFunctions {
+	#include "data\cfgFunctions.hpp"
+	#include "VAS\cfgfunctions.hpp"
+	
+};
+class CfgNotifications {
+	#include "data\cfgNotifications.hpp"
+};
+class Params {
+	#include "data\params.hpp"
+};
+class RscTitles {
+	#include "data\rscTitles.hpp"
+};

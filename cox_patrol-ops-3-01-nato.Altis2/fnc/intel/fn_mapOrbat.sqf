@@ -1,0 +1,1 @@
+((finddisplay 12) displayctrl 51) ctrlAddEventHandler ["draw","_this call BIS_fnc_strategicMapOpen_draw"];

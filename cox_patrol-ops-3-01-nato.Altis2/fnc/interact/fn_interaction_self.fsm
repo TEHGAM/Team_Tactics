@@ -1,0 +1,406 @@
+/*%FSM<COMPILE "C:\Program Files (x86)\Bohemia Interactive\Tools\FSM Editor Personal Edition\scriptedFSM.cfg, PO3_object_interaction_self">*/
+/*%FSM<HEAD>*/
+/*
+item0[] = {"START",0,250,-180.155411,-391.902191,-90.155609,-341.902130,0.000000,"START"};
+item1[] = {"PASS",4,218,-180.014709,-263.329285,-90.014824,-213.329071,0.000000,"PASS"};
+item2[] = {"BEGIN_SELF",2,250,-180.512207,-132.722778,-90.512177,-82.722748,0.000000,"BEGIN_SELF"};
+item3[] = {"isMAN",4,218,-361.558044,-16.549805,-271.558044,33.450150,0.000000,"isMAN"};
+item4[] = {"isLAND",4,218,-224.328384,-9.050351,-134.328339,40.949661,0.000000,"isLAND"};
+item5[] = {"isAIR",4,218,-111.916031,-17.063965,-21.916042,32.936028,0.000000,"isAIR"};
+item6[] = {"isSHIP",4,218,10.664539,-18.537643,100.664551,31.462341,0.000000,"isSHIP"};
+item7[] = {"addactionMAN",2,250,-360.901184,102.463318,-270.901184,152.463318,0.000000,"addactionMAN"};
+item8[] = {"addactionLAND",2,4346,-226.152344,103.634247,-136.152313,153.634247,0.000000,"addactionLAND"};
+item9[] = {"addactionAIR",2,250,-112.386147,102.906372,-22.386135,152.906403,0.000000,"addactionAIR"};
+item10[] = {"addactionSHIP",2,250,10.693043,104.697357,100.693047,154.697357,0.000000,"addactionSHIP"};
+item11[] = {"isMANnot",4,218,-360.935669,204.031921,-270.935669,254.031921,0.000000,"isMANnot"};
+item12[] = {"isLANDnot",4,218,-225.825287,201.603607,-135.825256,251.603607,0.000000,"isLANDnot"};
+item13[] = {"isAIRnot",4,218,-112.109879,201.631409,-22.109890,251.631409,0.000000,"isAIRnot"};
+item14[] = {"isSHIPnot",4,218,9.538593,198.833679,99.538635,248.833710,0.000000,"isSHIPnot"};
+item15[] = {"removeactionSHIP",2,250,9.510792,308.908264,99.510864,358.908325,0.000000,"removeactionSHIP"};
+item16[] = {"removeactionAIR",2,250,-112.464981,307.481628,-22.464962,357.481689,0.000000,"removeactionAIR"};
+item17[] = {"removeactionLAND",2,250,-225.825256,306.166199,-135.825241,356.166199,0.000000,"removeactionLAND"};
+item18[] = {"removeactionMAN",2,250,-361.070862,306.554077,-271.070801,356.554077,0.000000,"removeactionMAN"};
+item19[] = {"",7,210,-319.925171,404.021973,-311.925171,412.021973,0.000000,""};
+item20[] = {"",7,210,-185.889557,404.391968,-177.889557,412.391968,0.000000,""};
+item21[] = {"",7,210,-70.912292,403.997437,-62.912285,411.997437,0.000000,""};
+item22[] = {"",7,210,50.155914,404.063171,58.155914,412.063171,0.000000,""};
+item23[] = {"",7,210,116.076721,404.063171,124.076691,412.063171,0.000000,""};
+item24[] = {"LOOP",4,218,74.523941,-132.777679,164.523956,-82.777679,0.000000,"LOOP"};
+link0[] = {0,1};
+link1[] = {1,2};
+link2[] = {2,3};
+link3[] = {2,4};
+link4[] = {2,5};
+link5[] = {2,6};
+link6[] = {3,7};
+link7[] = {4,8};
+link8[] = {5,9};
+link9[] = {6,10};
+link10[] = {7,11};
+link11[] = {8,12};
+link12[] = {9,13};
+link13[] = {10,14};
+link14[] = {11,18};
+link15[] = {12,17};
+link16[] = {13,16};
+link17[] = {14,15};
+link18[] = {15,22};
+link19[] = {16,21};
+link20[] = {17,20};
+link21[] = {18,19};
+link22[] = {19,20};
+link23[] = {20,21};
+link24[] = {21,22};
+link25[] = {22,23};
+link26[] = {23,24};
+link27[] = {24,2};
+globals[] = {0.000000,0,0,0,0,640,480,2,27,6316128,1,-486.671448,-29.094482,308.338043,-237.280518,651,911,1};
+window[] = {2,-1,-1,-1,-1,810,50,1490,50,3,669};
+*//*%FSM</HEAD>*/
+class FSM
+{
+  fsmName = "PO3_object_interaction_self";
+  class States
+  {
+    /*%FSM<STATE "START">*/
+    class START
+    {
+      name = "START";
+      init = /*%FSM<STATEINIT""">*/""/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "PASS">*/
+        class PASS
+        {
+          priority = 0.000000;
+          to="BEGIN_SELF";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"!isNull player"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "BEGIN_SELF">*/
+    class BEGIN_SELF
+    {
+      name = "BEGIN_SELF";
+      init = /*%FSM<STATEINIT""">*/"_self_actions = [];"/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "isLAND">*/
+        class isLAND
+        {
+          priority = 0.000000;
+          to="addactionLAND";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"vehicle player isKindof ""LandVehicle"""/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+        /*%FSM<LINK "isAIR">*/
+        class isAIR
+        {
+          priority = 0.000000;
+          to="addactionAIR";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"vehicle player isKindof ""Air"""/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+        /*%FSM<LINK "isSHIP">*/
+        class isSHIP
+        {
+          priority = 0.000000;
+          to="addactionSHIP";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"vehicle player isKindof ""Ship"""/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+        /*%FSM<LINK "isMAN">*/
+        class isMAN
+        {
+          priority = 0.000000;
+          to="addactionMAN";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"vehicle player isKindof ""CaManBase"""/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "addactionMAN">*/
+    class addactionMAN
+    {
+      name = "addactionMAN";
+      init = /*%FSM<STATEINIT""">*/"_self_actions = [];" \n
+       "_vehicle = vehicle player;" \n
+       "_vehicle call PO3_fnc_setFiredEH;" \n
+       "" \n
+       "_action = _vehicle addAction [""<t color='#ffc600'>""+localize ""STR_PO3_ACTION_CREATERALLY""+""</t>"",{ [] spawn PO3_fnc_createRallypoint; },[],-100,false,true,"""",""PO3_param_respawn_rallypoint_allow && !PO3_playerIsBusy && !PO3_respawn_rallypoint_active && _target distance (getMarkerPos format[""""respawn_%1"""",playerside]) > 1500 && !(surfaceIsWater(getPos _target))""];" \n
+       "_self_actions set [count _self_actions, _action];" \n
+       "" \n
+       "_action = _vehicle addAction [format[""<t color='#ffc600'>""+localize ""STR_PO3_ACTION_REMOVERALLY""+""</t>"",""""],{ [ missionNamespace getVariable [""PO3_rallypoint_deployed"",objNull] ] spawn PO3_fnc_removeRallypoint; },[],-100,false,true,"""",""PO3_param_respawn_rallypoint_allow && !PO3_playerIsBusy && PO3_respawn_rallypoint_active && _target distance (getMarkerPos format[""""respawn_%1"""",playerside]) < 100""];" \n
+       "_self_actions set [count _self_actions, _action];" \n
+       "" \n
+       "_action = _vehicle addAction [""<t color='#ffc600'>""+localize ""STR_PO3_ACTION_REDEPLOYUNIT""+""</t>"",{ [] spawn PO3_fnc_redeploy; },[],100,false,true,"""",""!PO3_playerIsBusy && ({ _x getVariable ['PO3_redeploy',false]} count (nearestObjects [_target,['ALL'],5]) > 0)""];" \n
+       "_self_actions set [count _self_actions, _action];" \n
+       "" \n
+       "_action = _vehicle addAction [format[""<t color='#ffc600'>""+localize ""STR_PO3_ACTION_PACK"" + ""Tower</t>""],{ _this spawn PO3_fnc_containerPack },[],-100,false,true,"""",""!PO3_playerIsBusy && ({ _x getVariable ['PO3_isPackable',false] && !(_x isKindof """"Cargo_base_F"""")} count (nearestObjects [_target,['ALL'],16]) > 0)""];" \n
+       "_self_actions set [count _self_actions, _action];" \n
+       "" \n
+       "_action = _vehicle addAction [format[""<t color='#ff2626'>""+localize ""STR_PO3_ABORTHEAL"" + ""</t>""],{ PO3_VAR_HealingStatus = false; },[],-100,false,true,"""",""PO3_VAR_HealingStatus""];" \n
+       "_self_actions set [count _self_actions, _action];" \n
+       "" \n
+       "_action = _vehicle addAction [""<t color='#ffc600'><img image='\A3\ui_f\data\gui\rsc\rscdisplayarcademap\icon_config_ca.paa' size='0.7' /> ""+localize ""STR_PO3_ACTION_SETTINGS""+""</t>"",{ [true] spawn PO3_fnc_GUI_display; },[],-100,false,true,"""",""""];" \n
+       "_self_actions set [count _self_actions, _action];" \n
+       "" \n
+       "_action = _vehicle addAction [format[""<t color='#ffc600'><img image='\A3\ui_f\data\gui\rsc\rscdisplayarcademap\icon_config_ca.paa' size='0.7' /> SquadMod</t>""],{ createDialog ""PO3_player_squadMod""; },[],-101,false,true,"""",""!PO3_playerIsBusy && ([group _target,player] call PO3_fnc_isTeamLeader || [_target] call PO3_fnc_isAdministrator)""];" \n
+       "_self_actions set [count _self_actions, _action];" \n
+       "" \n
+       ""/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "isMANnot">*/
+        class isMANnot
+        {
+          priority = 0.000000;
+          to="removeactionMAN";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"vehicle player != _vehicle"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "addactionLAND">*/
+    class addactionLAND
+    {
+      name = "addactionLAND";
+      init = /*%FSM<STATEINIT""">*/"_self_actions = [];" \n
+       "_vehicle = vehicle player;" \n
+       "_descr = [_vehicle] call PO3_fnc_getCfgText;" \n
+       "" \n
+       "_vehicle call PO3_fnc_setFiredEH;" \n
+       "[_vehicle] call PO3_fnc_displayLogisticsFeatures;" \n
+       "if([_vehicle,""CRV""] call PO3_fnc_getCfgPO3) then { [_vehicle] call PO3_fnc_setAsCRV };" \n
+       "" \n
+       "_action = _vehicle addAction [format[""<t color='#ffc600'><img image='\A3\ui_f\data\gui\rsc\rscdisplayarcademap\icon_debug_ca.paa' size='0.7' /> ""+localize ""STR_PO3_VEHRSUP_ACTION""+""</t>"",_descr],{ (vehicle player) spawn PO3_fnc_resupplyVehicle; },[],-100,false,true,"""",""({ _x getVariable ['PO3_resupply',false] && _x != _target } count (nearestObjects [_target,['ALL'],10]) > 0) && driver _target == player""];" \n
+       "_self_actions set [count _self_actions, _action];" \n
+       "" \n
+       "_action = _vehicle addAction [""<t color='#ffc600'><img image='\A3\ui_f\data\gui\rsc\rscdisplayarcademap\icon_config_ca.paa' size='0.7' /> ""+localize ""STR_PO3_ACTION_SETTINGS""+""</t>"",{ [true] spawn PO3_fnc_GUI_display; },[],-100,false,true,"""",""""];" \n
+       "_self_actions set [count _self_actions, _action];" \n
+       "" \n
+       "_action = _vehicle addAction [format[""<t color='#ffc600'><img image='\A3\ui_f\data\gui\cfg\CommunicationMenu\transport_ca.paa' size='0.7' /> Tow Vehicle</t>"",_descr],{ [(_this select 0),(nearestObjects [position (_this select 0),['Landvehicle','Air'],15]) select 1] spawn PO3_fnc_towObjectAttach; },[],-100,false,true,"""",""{ [""""Towable"""",_x,_target] call PO3_fnc_logisticsCheck && _x != _target } count (nearestObjects [position _target,['Landvehicle','Air'],15]) > 0 && _target isKindof """"LandVehicle"""" && (isNull (_target getVariable [""""PO3_loaded"""",objNull]) ) && (isNull (_target getVariable [""""PO3_isTowingObj"""",objNull]) ) && speed _target < 1""];" \n
+       "_self_actions set [count _self_actions, _action];" \n
+       ""/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "isLANDnot">*/
+        class isLANDnot
+        {
+          priority = 0.000000;
+          to="removeactionLAND";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"!(vehicle player isKindof ""LandVehicle"")"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "addactionAIR">*/
+    class addactionAIR
+    {
+      name = "addactionAIR";
+      init = /*%FSM<STATEINIT""">*/"_self_actions = [];" \n
+       "_vehicle = vehicle player;" \n
+       "_descr = [_vehicle] call PO3_fnc_getCfgText;" \n
+       "" \n
+       "_vehicle call PO3_fnc_setFiredEH;" \n
+       "[_vehicle] call PO3_fnc_displayLogisticsFeatures;" \n
+       "if([_vehicle,""Loadable""] call PO3_fnc_getCfgPO3) then { [_vehicle] call PO3_fnc_setAsLiftChopper };" \n
+       "" \n
+       "_action = _vehicle addAction [format[""<t color='#ffc600'><img image='\A3\ui_f\data\gui\rsc\rscdisplayarcademap\icon_debug_ca.paa' size='0.7' /> ""+localize ""STR_PO3_VEHRSUP_ACTION""+""</t>"",_descr],{(vehicle player) spawn PO3_fnc_resupplyVehicle;},[],-100,false,true,"""",""({ _x getVariable ['PO3_resupply',false] && _x != _target } count (nearestObjects [_target,['ALL'],15]) > 0) && driver _target == player && isTouchingGround _target""];" \n
+       "_self_actions set [count _self_actions, _action];" \n
+       "" \n
+       "if(_vehicle getVariable [""PO3_liftchopper"",false]) then {" \n
+       "	_action = _vehicle addAction [format[""<t color='#ffc600'>""+localize ""STR_PO3_ACTION_LIFTHOOKA""+""</t>""],{ [(vehicle player),true] spawn PO3_fnc_liftCamera; },[],-100,false,true,"""",""!PO3_logistics_lifthook_active && driver _target == player""];" \n
+       "	_self_actions set [count _self_actions, _action];" \n
+       "" \n
+       "	_action = _vehicle addAction [format[""<t color='#ffc600'>""+localize ""STR_PO3_ACTION_LIFTHOOKD""+""</t>""],{ [(vehicle player),false] spawn PO3_fnc_liftCamera; },[],-100,false,true,"""",""PO3_logistics_lifthook_active && driver _target == player""];" \n
+       "	_self_actions set [count _self_actions, _action];" \n
+       "" \n
+       "	_action = _vehicle addAction [format[""<t color='#ffc600'>""+localize ""STR_PO3_ACTION_ILLUMFLARE""+""</t>""],{ [(vehicle player),""40_white""] spawn PO3_fnc_createIlluminationFlare; },[],-100,false,true,"""",""((position _target) select 2) > 100 && [player,_target] call PO3_fnc_isDriver""];" \n
+       "	_self_actions set [count _self_actions, _action];" \n
+       "};" \n
+       "" \n
+       "_action = _vehicle addAction [""<t color='#ffc600'><img image='\A3\ui_f\data\gui\rsc\rscdisplayarcademap\icon_config_ca.paa' size='0.7' /> ""+localize ""STR_PO3_ACTION_SETTINGS""+""</t>"",{ [true] spawn PO3_fnc_GUI_display; },[],-100,false,true,"""",""""];" \n
+       "_self_actions set [count _self_actions, _action];" \n
+       "" \n
+       ""/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "isAIRnot">*/
+        class isAIRnot
+        {
+          priority = 0.000000;
+          to="removeactionAIR";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"!(vehicle player isKindof ""Air"")"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "addactionSHIP">*/
+    class addactionSHIP
+    {
+      name = "addactionSHIP";
+      init = /*%FSM<STATEINIT""">*/"_self_actions = [];" \n
+       "_vehicle = vehicle player;" \n
+       "_descr = [_vehicle] call PO3_fnc_getCfgText;" \n
+       "" \n
+       "_vehicle call PO3_fnc_setFiredEH;" \n
+       "[_vehicle] call PO3_fnc_displayLogisticsFeatures;" \n
+       "" \n
+       "_action = _vehicle addAction [format[""<t color='#ffc600'><img image='\A3\ui_f\data\gui\rsc\rscdisplayarcademap\icon_debug_ca.paa' size='0.7' /> ""+localize ""STR_PO3_VEHRSUP_ACTION""+""</t>"",_descr],{(vehicle player) spawn PO3_fnc_resupplyVehicle;},[],-100,false,true,"""",""({ _x getVariable ['PO3_resupply',false] && _x != _target } count (nearestObjects [_target,['ALL'],30]) > 0) && driver _target == player""];" \n
+       "_self_actions set [count _self_actions, _action];" \n
+       "" \n
+       "_action = _vehicle addAction [""<t color='#ffc600'><img image='\A3\ui_f\data\gui\rsc\rscdisplayarcademap\icon_config_ca.paa' size='0.7' /> ""+localize ""STR_PO3_ACTION_SETTINGS""+""</t>"",{ [true] spawn PO3_fnc_GUI_display; },[],-100,false,true,"""",""""];" \n
+       "_self_actions set [count _self_actions, _action];" \n
+       "" \n
+       ""/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "isSHIPnot">*/
+        class isSHIPnot
+        {
+          priority = 0.000000;
+          to="removeactionSHIP";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"!(vehicle player isKindof ""Ship"")"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "removeactionSHIP">*/
+    class removeactionSHIP
+    {
+      name = "removeactionSHIP";
+      init = /*%FSM<STATEINIT""">*/"{" \n
+       "	_vehicle removeAction _x;" \n
+       "}forEach _self_actions;" \n
+       "" \n
+       "_self_actions = [];"/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "LOOP">*/
+        class LOOP
+        {
+          priority = 0.000000;
+          to="BEGIN_SELF";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"TRUE"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "removeactionAIR">*/
+    class removeactionAIR
+    {
+      name = "removeactionAIR";
+      init = /*%FSM<STATEINIT""">*/"{" \n
+       "	_vehicle removeAction _x;" \n
+       "}forEach _self_actions;" \n
+       "" \n
+       "_self_actions = [];"/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "LOOP">*/
+        class LOOP
+        {
+          priority = 0.000000;
+          to="BEGIN_SELF";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"TRUE"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "removeactionLAND">*/
+    class removeactionLAND
+    {
+      name = "removeactionLAND";
+      init = /*%FSM<STATEINIT""">*/"{" \n
+       "	_vehicle removeAction _x;" \n
+       "}forEach _self_actions;" \n
+       "" \n
+       "_self_actions = [];"/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "LOOP">*/
+        class LOOP
+        {
+          priority = 0.000000;
+          to="BEGIN_SELF";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"TRUE"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "removeactionMAN">*/
+    class removeactionMAN
+    {
+      name = "removeactionMAN";
+      init = /*%FSM<STATEINIT""">*/"{" \n
+       "	_vehicle removeAction _x;" \n
+       "}forEach _self_actions;" \n
+       "" \n
+       "_self_actions = [];"/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "LOOP">*/
+        class LOOP
+        {
+          priority = 0.000000;
+          to="BEGIN_SELF";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"TRUE"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+  };
+  initState="START";
+  finalStates[] =
+  {
+  };
+};
+/*%FSM</COMPILE>*/
