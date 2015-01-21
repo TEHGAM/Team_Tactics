@@ -18,12 +18,12 @@
     <img src="http://img.shields.io/github/issues-raw/TEHGAM/Tactical-Patrol.svg?label=Задачи&style=flat"
          alt="Задачи" />
   </a>
-    <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.ru">
-    <img src="http://img.shields.io/badge/Лицензия-BY--NC--SA-red.svg?style=flat"
-         alt="Лицензия" />
-  </a>
     <a href="http://www.tehgam.com/viewforum.php?f=237">
-    <img src="https://img.shields.io/badge/TEHGAM 5-Форум-lightgrey.svg?style=flat"
+    <img src="https://img.shields.io/badge/TEHGAM-Форум-lightgrey.svg?style=flat"
          alt="Форум" />
+  </a>
+    <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.ru">
+    <img src="http://img.shields.io/badge/Лицензия-CC-red.svg?style=flat"
+         alt="Лицензия" />
   </a>
 </p>
