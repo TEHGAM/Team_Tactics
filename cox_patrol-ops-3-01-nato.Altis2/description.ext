@@ -1,3 +1,4 @@
+#include "taw_vd\dialog.hpp"
 #include "data\dialogs.hpp"
 #include "scripts\keg_spectate\dialog.hpp"
 #include "VAS\menu.hpp"
@@ -19,6 +20,7 @@ class CfgDebriefing {
 class CfgFunctions {
 	#include "data\cfgFunctions.hpp"
 	#include "VAS\cfgfunctions.hpp"
+	#include "taw_vd\CfgFunctions.hpp"
 	
 };
 class CfgNotifications {

@@ -1338,7 +1338,7 @@ class PO3_respawn_map {
 	};
 };
 
-class PO3_player_HUDsettings {
+/*class PO3_player_HUDsettings {
 	idd = PO3CNTRL_00;
 	movingEnable = false;
 	enableSimulation = true;
@@ -1547,7 +1547,7 @@ class PO3_player_HUDsettings {
 			h = 0.02 * safezoneH;
 		};
 	};
-};
+};*/
 
 
 /* class PO3_player_squadMod {

@@ -1,9 +1,9 @@
 if(dialog) exitWith {};
 
-if(count _this <= 1) then {
+/*if(count _this <= 1) then {
 	[ localize "STR_PO3_DIALOG_GRAPHIC_KEYPRESS" ] call PO3_fnc_hint;
 };
-
+//менял
 switch (true) do {
 /*	// LAND
 	case ((vehicle player) isKindof "Wheeled_APC_F");
@@ -33,5 +33,5 @@ switch (true) do {
 	// SEA
 	case ((vehicle player) isKindof "Ship")			: { createDialog "PO3_player_HUDsettings" };
 
-*/	default { createDialog "PO3_player_HUDsettings" };
-};
+	default { createDialog "PO3_player_HUDsettings" };
+};*/

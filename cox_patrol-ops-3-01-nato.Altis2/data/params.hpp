@@ -33,7 +33,7 @@ class PO3_param_missions_title {
 		title = $STR_PO3_PARAM_SETAISKILL;
 		values[]={1,2,3,4};
 		texts[]={$STR_PO3_TEXT_LOW,$STR_PO3_TEXT_MED,$STR_PO3_TEXT_HIGH,$STR_PO3_TEXT_ULTRA};
-		default=1;
+		default=3;
 		code = "PO3_param_ai_skill = 0.8 + log((%1)/4)";
 	};
 	class param_PO3_ai_Tkill {
