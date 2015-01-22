@@ -1,4 +1,4 @@
-<h1 align="center">Team Tactics<br />
+<h1 align="center">Team Tactics<br /> 
 <p align="center"><sup><strong>Миссия на основе Patrol Operations 3</strong></sup></p>
 Мы приветствуем, будем рады и благодарны за любой вклад в развитие нашей версии [Patrol Operations 3](http://dev.withsix.com/projects/patrol-ops). Вы можете помочь в этом оставляя свои отзывы в нашем разделе [форума TEHGAM](http://www.tehgam.com/viewforum.php?f=237), а также определяя и ставя [новые задачи](https://github.com/TEHGAM/Tactical-Patrol/issues) для будущих исправлений и улучшений миссии.
 
