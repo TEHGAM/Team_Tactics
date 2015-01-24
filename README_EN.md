@@ -11,7 +11,7 @@ If you have some experience with editing Arma 3 and are interested in assisting 
          alt="Version" />
   </a>
   <a href="http://www.armaholic.com/page.php?id=23671">
-    <img src="http://img.shields.io/badge/Download-1_МБ-brightgreen.svg?style=flat"
+    <img src="http://img.shields.io/badge/Download-1_MB-brightgreen.svg?style=flat"
          alt="Download" />
   </a>
   <a href="https://github.com/TEHGAM/Team_Tactics/issues">
