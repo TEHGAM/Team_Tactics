@@ -1,6 +1,6 @@
 <h1 align="center">Team Tactics</h1>
 <p align="center"><sup><strong>Миссия на базе Patrol Operations 3</strong></sup></p>
-Мы приветствуем, будем рады и благодарны за любой вклад в развитие данной версии [Patrol Operations 3](http://dev.withsix.com/projects/patrol-ops). Вы можете помочь нам в этом оставляя свои отзывы в [частном разделе](http://www.tehgam.com/viewforum.php?f=237) TEHGAM форума, а также [определяя задачи](https://github.com/TEHGAM/Team_Tactics/issues) по его дальнейшему улучшению.
+Мы приветствуем, будем рады и благодарны за любой вклад в развитие данной версии [Patrol Operations 3](http://dev.withsix.com/projects/patrol-ops). Вы можете помочь нам в этом оставляя свои отзывы в [частном разделе](http://www.tehgam.com/viewforum.php?f=237) проекта на форуме TEHGAM, а также [определяя задачи](https://github.com/TEHGAM/Team_Tactics/issues) по его дальнейшему улучшению.
 
 При наличии навыков редактирования Arma 3 и желании содействовать дальнейшей разработке миссии напрямую, вы можете присоединиться к [её разработчикам](https://github.com/TEHGAM/Team_Tactics/graphs/contributors) оставляя [запросы на включение](https://github.com/TEHGAM/Team_Tactics/pulls?q=is%3Apr+is%3Aclosed) своих изменений для рассмотрения [руководителем проекта](https://github.com/AlNazir).
 
