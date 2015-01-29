@@ -11,7 +11,7 @@
          alt="Версия" />
   </a>
   <a href="http://www.armaholic.com/page.php?id=23671">
-    <img src="http://img.shields.io/badge/Скачать-1_МБ-brightgreen.svg?style=flat"
+    <img src="http://img.shields.io/badge/Скачать-1_МБ-green.svg?style=flat"
          alt="Скачать" />
   </a>
   <a href="https://github.com/TEHGAM/Team_Tactics/issues">
