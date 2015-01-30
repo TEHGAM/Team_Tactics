@@ -9,9 +9,9 @@ item4[] = {"isLAND",4,218,-224.328384,-9.050351,-134.328339,40.949661,0.000000,"
 item5[] = {"isAIR",4,218,-111.916031,-17.063965,-21.916042,32.936028,0.000000,"isAIR"};
 item6[] = {"isSHIP",4,218,10.664539,-18.537643,100.664551,31.462341,0.000000,"isSHIP"};
 item7[] = {"addactionMAN",2,250,-360.901184,102.463318,-270.901184,152.463318,0.000000,"addactionMAN"};
-item8[] = {"addactionLAND",2,4346,-226.152344,103.634247,-136.152313,153.634247,0.000000,"addactionLAND"};
+item8[] = {"addactionLAND",2,250,-226.152344,103.634247,-136.152313,153.634247,0.000000,"addactionLAND"};
 item9[] = {"addactionAIR",2,250,-112.386147,102.906372,-22.386135,152.906403,0.000000,"addactionAIR"};
-item10[] = {"addactionSHIP",2,250,10.693043,104.697357,100.693047,154.697357,0.000000,"addactionSHIP"};
+item10[] = {"addactionSHIP",2,4346,10.693043,104.697357,100.693047,154.697357,0.000000,"addactionSHIP"};
 item11[] = {"isMANnot",4,218,-360.935669,204.031921,-270.935669,254.031921,0.000000,"isMANnot"};
 item12[] = {"isLANDnot",4,218,-225.825287,201.603607,-135.825256,251.603607,0.000000,"isLANDnot"};
 item13[] = {"isAIRnot",4,218,-112.109879,201.631409,-22.109890,251.631409,0.000000,"isAIRnot"};
@@ -54,8 +54,8 @@ link24[] = {21,22};
 link25[] = {22,23};
 link26[] = {23,24};
 link27[] = {24,2};
-globals[] = {0.000000,0,0,0,0,640,480,2,27,6316128,1,-486.671448,-29.094482,308.338043,-237.280518,651,911,1};
-window[] = {2,-1,-1,-1,-1,810,50,1490,50,3,669};
+globals[] = {0.000000,0,0,0,0,640,480,2,27,6316128,1,-311.377258,146.199707,308.338043,-237.280518,651,911,1};
+window[] = {2,-1,-1,-1,-1,910,150,1590,150,3,669};
 *//*%FSM</HEAD>*/
 class FSM
 {
@@ -157,9 +157,6 @@ class FSM
        "_action = _vehicle addAction [format[""<t color='#ff2626'>""+localize ""STR_PO3_ABORTHEAL"" + ""</t>""],{ PO3_VAR_HealingStatus = false; },[],-100,false,true,"""",""PO3_VAR_HealingStatus""];" \n
        "_self_actions set [count _self_actions, _action];" \n
        "" \n
-       "_action = _vehicle addAction [""<t color='#ffc600'><img image='\A3\ui_f\data\gui\rsc\rscdisplayarcademap\icon_config_ca.paa' size='0.7' /> ""+localize ""STR_PO3_ACTION_SETTINGS""+""</t>"",{ [true] spawn PO3_fnc_GUI_display; },[],-100,false,true,"""",""""];" \n
-       "_self_actions set [count _self_actions, _action];" \n
-       "" \n
        "_action = _vehicle addAction [format[""<t color='#ffc600'><img image='\A3\ui_f\data\gui\rsc\rscdisplayarcademap\icon_config_ca.paa' size='0.7' /> SquadMod</t>""],{ createDialog ""PO3_player_squadMod""; },[],-101,false,true,"""",""!PO3_playerIsBusy && ([group _target,player] call PO3_fnc_isTeamLeader || [_target] call PO3_fnc_isAdministrator)""];" \n
        "_self_actions set [count _self_actions, _action];" \n
        "" \n
@@ -193,9 +190,6 @@ class FSM
        "if([_vehicle,""CRV""] call PO3_fnc_getCfgPO3) then { [_vehicle] call PO3_fnc_setAsCRV };" \n
        "" \n
        "_action = _vehicle addAction [format[""<t color='#ffc600'><img image='\A3\ui_f\data\gui\rsc\rscdisplayarcademap\icon_debug_ca.paa' size='0.7' /> ""+localize ""STR_PO3_VEHRSUP_ACTION""+""</t>"",_descr],{ (vehicle player) spawn PO3_fnc_resupplyVehicle; },[],-100,false,true,"""",""({ _x getVariable ['PO3_resupply',false] && _x != _target } count (nearestObjects [_target,['ALL'],10]) > 0) && driver _target == player""];" \n
-       "_self_actions set [count _self_actions, _action];" \n
-       "" \n
-       "_action = _vehicle addAction [""<t color='#ffc600'><img image='\A3\ui_f\data\gui\rsc\rscdisplayarcademap\icon_config_ca.paa' size='0.7' /> ""+localize ""STR_PO3_ACTION_SETTINGS""+""</t>"",{ [true] spawn PO3_fnc_GUI_display; },[],-100,false,true,"""",""""];" \n
        "_self_actions set [count _self_actions, _action];" \n
        "" \n
        "_action = _vehicle addAction [format[""<t color='#ffc600'><img image='\A3\ui_f\data\gui\cfg\CommunicationMenu\transport_ca.paa' size='0.7' /> Tow Vehicle</t>"",_descr],{ [(_this select 0),(nearestObjects [position (_this select 0),['Landvehicle','Air'],15]) select 1] spawn PO3_fnc_towObjectAttach; },[],-100,false,true,"""",""{ [""""Towable"""",_x,_target] call PO3_fnc_logisticsCheck && _x != _target } count (nearestObjects [position _target,['Landvehicle','Air'],15]) > 0 && _target isKindof """"LandVehicle"""" && (isNull (_target getVariable [""""PO3_loaded"""",objNull]) ) && (isNull (_target getVariable [""""PO3_isTowingObj"""",objNull]) ) && speed _target < 1""];" \n
@@ -242,10 +236,6 @@ class FSM
        "	_action = _vehicle addAction [format[""<t color='#ffc600'>""+localize ""STR_PO3_ACTION_ILLUMFLARE""+""</t>""],{ [(vehicle player),""40_white""] spawn PO3_fnc_createIlluminationFlare; },[],-100,false,true,"""",""((position _target) select 2) > 100 && [player,_target] call PO3_fnc_isDriver""];" \n
        "	_self_actions set [count _self_actions, _action];" \n
        "};" \n
-       "" \n
-       "_action = _vehicle addAction [""<t color='#ffc600'><img image='\A3\ui_f\data\gui\rsc\rscdisplayarcademap\icon_config_ca.paa' size='0.7' /> ""+localize ""STR_PO3_ACTION_SETTINGS""+""</t>"",{ [true] spawn PO3_fnc_GUI_display; },[],-100,false,true,"""",""""];" \n
-       "_self_actions set [count _self_actions, _action];" \n
-       "" \n
        ""/*%FSM</STATEINIT""">*/;
       precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
       class Links
@@ -276,10 +266,6 @@ class FSM
        "" \n
        "_action = _vehicle addAction [format[""<t color='#ffc600'><img image='\A3\ui_f\data\gui\rsc\rscdisplayarcademap\icon_debug_ca.paa' size='0.7' /> ""+localize ""STR_PO3_VEHRSUP_ACTION""+""</t>"",_descr],{(vehicle player) spawn PO3_fnc_resupplyVehicle;},[],-100,false,true,"""",""({ _x getVariable ['PO3_resupply',false] && _x != _target } count (nearestObjects [_target,['ALL'],30]) > 0) && driver _target == player""];" \n
        "_self_actions set [count _self_actions, _action];" \n
-       "" \n
-       "_action = _vehicle addAction [""<t color='#ffc600'><img image='\A3\ui_f\data\gui\rsc\rscdisplayarcademap\icon_config_ca.paa' size='0.7' /> ""+localize ""STR_PO3_ACTION_SETTINGS""+""</t>"",{ [true] spawn PO3_fnc_GUI_display; },[],-100,false,true,"""",""""];" \n
-       "_self_actions set [count _self_actions, _action];" \n
-       "" \n
        ""/*%FSM</STATEINIT""">*/;
       precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
       class Links

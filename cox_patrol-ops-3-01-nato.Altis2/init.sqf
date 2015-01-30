@@ -1,6 +1,8 @@
 ["INIT",format["Executing %1 init.sqf",missionName],true] call PO3_fnc_log;
 
 [] execVM "Patrol_Ops_3.sqf";
+[] execVM "tags.sqf";
+
 
 if(!isDedicated) then {
 	Receiving_finish = false;
