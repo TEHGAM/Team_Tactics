@@ -20,8 +20,8 @@ if(!isDedicated && !PO3_debug) then {
 	[] spawn { sleep 20; 8 fadeMusic 0; };*/
 
 //External Injury system (Future Mod Support)
-	TCB_AIS_PATH = "scripts\ais_injury\";
-	{[_x] call compile preprocessFile (TCB_AIS_PATH+"init_ais.sqf")} forEach (if (isMultiplayer) then {playableUnits} else {switchableUnits});		// execute for every playable unit
+	//TCB_AIS_PATH = "scripts\ais_injury\";
+	//{[_x] call compile preprocessFile (TCB_AIS_PATH+"init_ais.sqf")} forEach (if (isMultiplayer) then {playableUnits} else {switchableUnits});		// execute for every playable unit
 //External Logistics (Future Mod Support)
 	[] execVM "scripts\IgiLoad\IgiLoadInit.sqf";
 };

@@ -114,9 +114,9 @@ if(PO3CLI) then {
 			default { player setVariable ["PO3_VAR_roleAttribute","Rifleman",true] };
 		};
 	};
-	[player] spawn PO3_fnc_vehicleRestrict;
+	//[player] spawn PO3_fnc_vehicleRestrict;
 
-	if([group player,player] call PO3_fnc_isTeamLeader && isNull ((group player) getVariable ["PO3_var_groupLeader",objNull])) then {
+	/*if([group player,player] call PO3_fnc_isTeamLeader && isNull ((group player) getVariable ["PO3_var_groupLeader",objNull])) then {
 		[player,group player,false] call PO3_fnc_assignGroupLeader;
 	}else{
 		_leader = (group player) getVariable ["PO3_var_groupLeader",objNull];
@@ -125,6 +125,6 @@ if(PO3CLI) then {
 				[_leader,group player,false] call PO3_fnc_assignGroupLeader;
 			};
 		};
-	};
+	};*/
 };
 [] spawn PO3_fnc_protector;

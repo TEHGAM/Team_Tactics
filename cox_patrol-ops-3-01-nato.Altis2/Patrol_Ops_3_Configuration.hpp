@@ -139,7 +139,7 @@ PO3_rescue_heliTypes = ["B_Heli_Attack_01_F","I_Heli_Transport_02_F","B_Heli_Lig
 
 // = Pre-Defining Respawn Deployment Points =====================================================
 PO3_CfgRespawn_PreDefinedPositions = [
-	 [west,"redeploy_west","b_hq","Base"]
+	 [west,"respawn_west","b_hq","Base"]
 	,[west,"redeploy_west_marine","b_naval","Marina Base South"]
 	,[west,"redeploy_west_marine_1","b_naval","Marina Base North"]
 	,[east,"redeploy_east","o_hq","Base"]

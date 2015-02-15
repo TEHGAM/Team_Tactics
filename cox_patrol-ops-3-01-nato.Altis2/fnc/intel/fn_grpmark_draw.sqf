@@ -9,7 +9,7 @@ if(PO3_param_grpmark_squad_allow) then { [] call PO3_fnc_grpmark_detectTeam };
 waitUntil {
 	_displayIcon = if( ([player] call PO3_fnc_hasARgear || !(PO3_param_hud_requireGlasses)) && PO3_hud_worldtoscreen_display ) then { true }else{ false };
 	setGroupIconsVisible [PO3_param_grpmark_allow,_displayIcon];
-	if(PO3_param_grpmark_allow) then { call PO3_fnc_grpmark_detectGroups };
+	//if(PO3_param_grpmark_allow) then { call PO3_fnc_grpmark_detectGroups };
 	sleep 0.1;
 	false;
 };

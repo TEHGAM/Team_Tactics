@@ -1,4 +1,4 @@
-if(PO3SRV) then {
+/* if(PO3SRV) then {
 	acreTower_1 = "ACRE_OE_303" createVehicle ("acreTowerLoc_1" call PO3_fnc_getPos); publicVariable "acreTower_1";
 	acreTower_2 = "ACRE_OE_303" createVehicle ("acreTowerLoc_2" call PO3_fnc_getPos); publicVariable "acreTower_2";
 	acreTower_3 = "ACRE_OE_303" createVehicle ("acreTowerLoc_3" call PO3_fnc_getPos); publicVariable "acreTower_3";
@@ -21,3 +21,4 @@ if(PO3CLI) then {
 		[[getPosASL acreTower_5 select 0, getPosASL acreTower_5 select 1, (getPosASL acreTower_5 select 2) + 2500], 36.625, 342.675, 20000] spawn acre_api_fnc_createRxmtStatic;
 	};
 };
+ */

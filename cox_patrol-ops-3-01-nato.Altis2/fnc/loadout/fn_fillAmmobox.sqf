@@ -28,12 +28,12 @@ while {alive _cache} do {
 
 //	_magazinecapacity  = 300 max ( (getNumber (configFile >> "CfgVehicles" >> typeOf _cache >> "transportMaxMagazines")) min 1400);
 
-	{ _cache addWeaponCargo [_x, 1]; } foreach (_data select 0);
+	/* { _cache addWeaponCargo [_x, 1]; } foreach (_data select 0);
 	{ _cache addMagazineCargo [_x, 20]; } foreach (_data select 1);
 	{ _cache addItemCargo [_x, 1]; } foreach (_data select 2);
 	{ _cache addBackpackCargo [_x, 1]; } foreach (_data select 3);
 	{ _cache addItemCargo [_x, 1]; } foreach (_data select 4);
-	{ _cache addItemCargo [_x, 1]; } foreach (_data select 5);
+	{ _cache addItemCargo [_x, 1]; } foreach (_data select 5); */
 
 	waitUntil { sleep 10; _timer = _timer - 1; !(rank player == _rank && _timer > 0 && _class == player getVariable ["PO3_VAR_roleAttribute","Rifleman"]) };
 };

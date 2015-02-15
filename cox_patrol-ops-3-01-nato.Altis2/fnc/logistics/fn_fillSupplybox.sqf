@@ -1,7 +1,7 @@
 private["_cache","_rank","_timer"];
 
 _cache = _this select 0;
-_data = [];
+//_data = [];
 
 player reveal _cache;
 
@@ -9,9 +9,9 @@ _cache setVariable ["PO3_VAS",true,false];
 
 while {alive _cache} do {
 
-	_data = call PO3_fnc_getCfgPO3Loadout;
+	//_data = call PO3_fnc_getCfgPO3Loadout;
 
-	if(isNil "_data") exitWith{};
+	//if(isNil "_data") exitWith{};
 
 	_rank = rank player;
 	_timer = 30;
@@ -22,10 +22,13 @@ while {alive _cache} do {
 	clearWeaponCargo _cache;
 	clearItemCargo _cache;
 	clearBackpackCargo _cache;
+	
+	//Задаем экипировку!!!
+	_cache addMagazineCargo ["30Rnd_65x39_caseless_mag",20];
 
 //	{ _cache addWeaponCargo [_x, 1]; } foreach (_data select 0);
-	{ _cache addMagazineCargo [_x, 12]; } foreach (_data select 1);
-	{ _cache addItemCargo [_x, 2]; } foreach (_data select 2);
+//	{ _cache addMagazineCargo [_x, 12]; } foreach (_data select 1);
+//	{ _cache addItemCargo [_x, 2]; } foreach (_data select 2);
 //	{ _cache addBackpackCargo [_x, 1]; } foreach (_data select 3);
 //	{ _cache addItemCargo [_x, 1]; } foreach (_data select 4);
 //	{ _cache addItemCargo [_x, 1]; } foreach (_data select 5);

@@ -43,7 +43,7 @@
 			class setKilledEH;
 			class setRespawnEH;
 		};
-		class Injury {
+		/*class Injury {
 			file = "fnc\injury";
 			class aidInjured;
 			class carryInjured;
@@ -61,7 +61,7 @@
 			class injuredBloodloss {ext=".fsm";};
 			class injuredEffects;
 			class unitInAgony;
-		};
+		};*/
 		class Interactions {
 			file = "fnc\interact";
 			class checkActionBusy;
@@ -228,7 +228,7 @@
 			class registerLocations;
 			class checkNearEntities;
 		};
-		class Respawn {
+		/*class Respawn {
 			file = "fnc\respawn";
 			class addRespawnPos;
 			class addRespawnPosLocal;
@@ -252,7 +252,7 @@
 			class removeRespawnPos;
 			class removeRespawnPosLocal;
 			class redeployByHALO;
-		};
+		};*/
 		class Intel {
 			file = "fnc\intel";
 			class chat;
