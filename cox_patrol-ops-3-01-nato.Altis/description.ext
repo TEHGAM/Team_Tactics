@@ -8,6 +8,7 @@ enableDebugConsole	= 0;		// <!-- Enable the debug console where (0=disabled),(1=
 showGPS			= 1;			// <!-- Allow GPS
 showCompass		= 1;			// <!-- Allow Compass
 showWatch		= 1;			// <!-- Allow Watch
+enableDebugConsole = 1; //0 = disabled. 1 = admins, 2 = everybody. 0 is recommended in MP.
 
 class Header {
 	maxPlayers = 61;	// <!-- CHANGE Where the number is the total playable slots
