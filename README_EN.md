@@ -5,6 +5,7 @@ We welcome, appreciate and would be grateful for any contributions to the ongoin
 If you have some experience with editing Arma 3 and are interested in assisting the development of Team Tactics directly, you can join its [development team](https://github.com/TEHGAM/Team_Tactics/graphs/contributors) by creating [pull requests](https://github.com/TEHGAM/Team_Tactics/pulls?q=is%3Apr+is%3Aclosed) with your changes, for consideration by the [project lead](https://github.com/AlNazir).
 
 <hr />
+<!---
 <p align="center">
   <a href="http://dev.withsix.com/versions/1552">
     <img src="http://img.shields.io/badge/Version-3.1-blue.svg?style=flat"
@@ -14,6 +15,7 @@ If you have some experience with editing Arma 3 and are interested in assisting 
     <img src="http://img.shields.io/badge/Download-1_MB-green.svg?style=flat"
          alt="Download" />
   </a>
+  --->
   <a href="https://github.com/TEHGAM/Team_Tactics/issues">
     <img src="http://img.shields.io/github/issues-raw/TEHGAM/Team_Tactics.svg?label=Задачи&style=flat"
          alt="Issues" />
