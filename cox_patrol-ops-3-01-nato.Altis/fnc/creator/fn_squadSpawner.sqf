@@ -23,7 +23,7 @@ _units = if( toupper(typename _type) == "STRING" ) then { _type call PO3_fnc_get
 _spwngrp = createGroup _side;
 if(count _units == 0 || isNull _spwngrp) exitWith { ["PO3_fnc_squadSpawner",format["ERROR No Units in List %1",_type],true] call PO3_fnc_log; grpNull };
 _strength = if( toupper(typename _type) == "ARRAY" ) then { count _units }else{ if(_thisCount > 5) then { _strength }else{ count _units }; };
-_position = if(_radius > 0) then { [_position,_radius,random 360] call PO3_fnc_getPos }else{ _position call PO3_fnc_getPos };
+_position = if(_radius > 0) then { [_position,_radius,random 360] call PO3_fnc_getPosRadius }else{ _position call PO3_fnc_getPos };
 
 for "_j" from 0 to (_strength - 1) do {
 	_unit = _spwngrp createUnit [_units select _j, _position, [], 0, "NONE"];
