@@ -6,6 +6,7 @@
 
 <hr />
 <p align="center">
+<!---
   <a href="http://dev.withsix.com/versions/1552">
     <img src="http://img.shields.io/badge/Версия-3.1-blue.svg?style=flat"
          alt="Версия" />
@@ -14,6 +15,7 @@
     <img src="http://img.shields.io/badge/Скачать-1_МБ-green.svg?style=flat"
          alt="Скачать" />
   </a>
+  --->
   <a href="https://github.com/TEHGAM/Team_Tactics/issues">
     <img src="http://img.shields.io/github/issues-raw/TEHGAM/Team_Tactics.svg?label=Задачи&style=flat"
          alt="Задачи" />
