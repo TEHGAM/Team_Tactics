@@ -6,16 +6,14 @@
 
 <hr />
 <p align="center">
-<!---
-  <a href="http://dev.withsix.com/versions/1552">
-    <img src="http://img.shields.io/badge/Версия-3.1-blue.svg?style=flat"
+  <a href="https://github.com/TEHGAM/Team_Tactics/tree/master/cox_patrol-ops-3-01-nato.Altis">
+    <img src="http://img.shields.io/badge/Версия-3.01-blue.svg?style=flat"
          alt="Версия" />
   </a>
-  <a href="http://www.armaholic.com/page.php?id=23671">
-    <img src="http://img.shields.io/badge/Скачать-1_МБ-green.svg?style=flat"
+  <a href="https://github.com/TEHGAM/Team_Tactics/raw/master/cox_patrol-ops-3-01-nato.Altis.pbo">
+    <img src="http://img.shields.io/badge/Скачать-1.94_МБ-green.svg?style=flat"
          alt="Скачать" />
   </a>
-  --->
   <a href="https://github.com/TEHGAM/Team_Tactics/issues">
     <img src="http://img.shields.io/github/issues-raw/TEHGAM/Team_Tactics.svg?label=Задачи&style=flat"
          alt="Задачи" />
