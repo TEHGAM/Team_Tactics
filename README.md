@@ -6,12 +6,12 @@
 
 <hr />
 <p align="center">
-  <a href="https://github.com/TEHGAM/Team_Tactics/tree/master/cox_patrol-ops-3-01-nato.Altis">
-    <img src="http://img.shields.io/badge/Версия-3.01-blue.svg?style=flat"
+  <a href="https://github.com/TEHGAM/Team_Tactics/tree/master/team_tactics.altis">
+    <img src="http://img.shields.io/badge/Версия-0.1-blue.svg?style=flat"
          alt="Версия" />
   </a>
-  <a href="https://github.com/TEHGAM/Team_Tactics/raw/master/cox_patrol-ops-3-01-nato.Altis.pbo">
-    <img src="http://img.shields.io/badge/Скачать-1.94_МБ-green.svg?style=flat"
+  <a href="https://github.com/TEHGAM/Team_Tactics/raw/master/team_tactics.Altis.pbo">
+    <img src="http://img.shields.io/badge/Скачать-2.04_МБ-green.svg?style=flat"
          alt="Скачать" />
   </a>
   <a href="https://github.com/TEHGAM/Team_Tactics/issues">
