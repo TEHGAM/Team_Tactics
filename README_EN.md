@@ -10,7 +10,7 @@ If you have some experience with editing Arma 3 and are interested in assisting 
     <img src="http://img.shields.io/badge/Version-0.1-blue.svg?style=flat"
          alt="Version" />
   </a>
-  <a href="https://github.com/TEHGAM/Team_Tactics/blob/master/team_tactics.Altis.pbo">
+  <a href="https://github.com/TEHGAM/Team_Tactics/raw/master/team_tactics.Altis.pbo">
     <img src="http://img.shields.io/badge/Download-2.04_MB-green.svg?style=flat"
          alt="Download" />
   </a>
