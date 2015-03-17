@@ -1,0 +1,53 @@
+REMOVED from Public Version
+ - NCWS (Load intensive)
+ - Support System (Load intensive)
+ - AI Recruitment
+
+Versions
+[OBS]PO3_0000_20131130.7z - Release 0 (Released)
+[CUR]PO3_1000_20140301.7z - Release 1
+[FTR]PO3_2000_20140501.7z - Release 2
+
+[LIST]
+[*]AI Movement
+[*] - Ambushing positions
+[*] - Defending positions including occupation of static defenses and nearby buildings
+[*] - Randomly Patroling Areas increasing likelyhood off flanking attacks
+[*]HUD
+[*] - In-game Visual Settings adjustment for View Distances and Terrain Detail
+[*] - Active 3D Hud showing Squad Details
+[*] - Assigned Colours also linked into ShackTac's HUD (ST_HUD Not Required)
+[*] - 3D Hud use linked to the requirement of AR equpiment such as Tactical Goggles and Pilot Helmets
+[*] - Progress Bars displays status from task completion to Unit Healing
+[*]MAP Gui
+[*] - Unit Tracking and Squad member icons track your squad movements
+[*]Ambient Weather Cycle (thanks to MeatBall)
+[*]Base protection from players firing at base
+[*]Map based Redeployment on killed or from base flag
+[*] - HALO Redeploy options for Server Admin
+[*] - Rallypoints allowing Redeployment to the field
+[*]Alternate Injury system improving damage handling and injured/critical states
+[*] - Dragging injured to cover
+[*] - Providing tactical assistance to get the injured up and moving again
+[*]Loadout management through Customised Ammoboxes based on assigned role (Overriden if VAS is chosen instead)
+[*]Optional use of Virutal Ammobox System by Tonic
+[*]Logistics system allowing
+[*] - Lift choppers capable of lifting lighter vehicles and supply boxes
+[*] - Air Drop from lift choppers, assend > 100m height to airdrop your load instead of landing in a HOT LZ
+[*] - Drop Illumination Flares from Liftchoppers if >100m height
+[*] - Create Supply boxes for infantry at supply points and airlift them to the frontline or load them on the back of trucks
+[*] - Vehicle Towing by Large Trucks and CRVs
+[*] - Loading allows tanks and shipping containers to be loaded onto trucks for faster deployment
+[*] - Vehicle Resupply will repair, rearm and refuel your vehicle from supply points and supply vehicles
+[*] - Multirotor UAV operators can replace batteries (refuel) in the field when landed
+[*]Squad Management System (Admins Overide all functions)
+[*] - Teamleaders can name their squad
+[*] - Teamleaders can assign roles to squad members such as AT,MG,Sniper which will affect their ammobox loadouts
+[*] - Teamleaders can assign other members to their squads and elect squad leaders
+[*] - Admins can replace a teamleader by assigning other members as teamleaders.
+[*]Advanced Taskmaster System (Shuko)
+[*]Deaths Limitation with Spectator (Server Mission Parameters)
+[*]ACRE Natively supported (adds radios to boxes and creates retrans towers around island automatically when mod detected)
+[*]7 Language Localization Supported
+[/LIST]
+

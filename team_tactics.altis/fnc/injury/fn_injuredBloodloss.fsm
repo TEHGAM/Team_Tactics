@@ -1,0 +1,187 @@
+/*%FSM<COMPILE "scriptedFSM.cfg, bloodloss">*/
+/*%FSM<HEAD>*/
+/*
+item0[] = {"start",0,250,-373.662689,-270.615845,-333.829987,-243.358398,0.000000,"start"};
+item1[] = {"_",8,218,-51.170582,-269.230865,-14.013382,-247.324463,0.000000,""};
+item2[] = {"fade_out",2,4346,-56.521717,-186.956528,-5.986601,-146.321106,0.000000,"fade" \n "out"};
+item3[] = {"sleep",4,218,-64.407600,-100.484978,1.512154,-59.180626,0.000000,"sleep"};
+item4[] = {"healed___died",4,218,116.722412,-113.377907,206.722412,-63.377907,50.000000,"healed /" \n "died"};
+item5[] = {"bleed_of_death",4,218,-259.866211,-120.066917,-155.819397,-75.418060,99.000000,"bleed of death"};
+item6[] = {"death",1,250,-234.448166,16.387945,-181.906342,46.989937,0.000000,"death"};
+item7[] = {"end",1,250,144.816040,86.512665,179.297653,116.445808,0.000000,"end"};
+item8[] = {"is_AI",4,218,-382.201263,-207.757919,-324.170807,-176.201874,100.000000,"is AI"};
+item9[] = {"exit",1,250,-368.675690,-145.048447,-334.007568,-120.870018,0.000000,"exit"};
+link0[] = {0,1};
+link1[] = {0,8};
+link2[] = {1,2};
+link3[] = {2,3};
+link4[] = {2,4};
+link5[] = {2,5};
+link6[] = {3,2};
+link7[] = {4,7};
+link8[] = {5,6};
+link9[] = {8,9};
+globals[] = {0.000000,0,0,0,0,640,480,1,16,6316128,1,-394.074188,187.909012,278.929840,-343.355072,924,881,1};
+window[] = {2,-1,-1,-1,-1,911,175,1435,175,3,942};
+*//*%FSM</HEAD>*/
+class FSM
+{
+  fsmName = "bloodloss";
+  class States
+  {
+    /*%FSM<STATE "start">*/
+    class start
+    {
+      name = "start";
+      init = /*%FSM<STATEINIT""">*/"_unit = _this select 0;" \n
+       "_is_ai = if !(isPlayer _unit) then { true }else{ false };" \n
+       "" \n
+       "_timer = 180;" \n
+       "" \n
+       "_timeStart = time;" \n
+       "_timeNow = time;" \n
+       "_timeBleedout = time + _timer;" \n
+       "" \n
+       "_ppEffBlur = 0;" \n
+       "_ppEffColour = 0;" \n
+       "" \n
+       "if(_unit == player) then {" \n
+       "	addCamShake [20, 300, 0.7];" \n
+       "	_ppEffBlur = ppEffectCreate [""radialblur"", 170];" \n
+       "	_ppEffColour = ppEffectCreate [""colorcorrections"", 1580];" \n
+       "	{_x ppEffectEnable true} forEach [_ppEffBlur,_ppEffColour];" \n
+       "};"/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "is_AI">*/
+        class is_AI
+        {
+          priority = 100.000000;
+          to="exit";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"_is_ai"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+        /*%FSM<LINK "_">*/
+        class _
+        {
+          priority = 0.000000;
+          to="fade_out";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/""/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "fade_out">*/
+    class fade_out
+    {
+      name = "fade_out";
+      init = /*%FSM<STATEINIT""">*/"_timeNow = time;" \n
+       "_timeleft = (_timeBleedout - _timeNow) / _timer;" \n
+       "" \n
+       "[ [_unit],[""Bloodloss"",(_timeleft max 0) min 1] ] call PO3_fnc_progressBar;" \n
+       "" \n
+       "if(_unit == player) then {" \n
+       "	_ppEffBlur ppEffectAdjust [random 0.025, random 0.025, 0.0, 0.0]; " \n
+       "	_ppEffBlur ppEffectCommit 0.5; " \n
+       "	_ppEffColour ppEffectAdjust [_timeleft, 1.0, 0.0, random 0.75, 0.0, 0.0, random 0.75, 0.0, 0.0, 1.0, 1.0, 0.199, 0.587, 0.114, 1.0]; " \n
+       "	_ppEffColour ppEffectCommit 0.5;" \n
+       "};"/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "bleed_of_death">*/
+        class bleed_of_death
+        {
+          priority = 99.000000;
+          to="death";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"time > _timeBleedout"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+        /*%FSM<LINK "healed___died">*/
+        class healed___died
+        {
+          priority = 50.000000;
+          to="end";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"!(_unit getVariable ['PO3_injury_inAgony',false]) || !(alive _unit)"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+        /*%FSM<LINK "sleep">*/
+        class sleep
+        {
+          priority = 0.000000;
+          to="fade_out";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"time - _timeNow > 1"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "death">*/
+    class death
+    {
+      name = "death";
+      init = /*%FSM<STATEINIT""">*/"if(alive _unit) then{ _unit setDamage 1 };" \n
+       "" \n
+       "{_x ppEffectEnable false} forEach [_ppEffBlur,_ppEffColour];" \n
+       "" \n
+       "if(_unit == player) then {" \n
+       "	resetCamShake;" \n
+       "	ppEffectDestroy _ppEffBlur;" \n
+       "	ppEffectDestroy _ppEffColour;" \n
+       "};"/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "end">*/
+    class end
+    {
+      name = "end";
+      init = /*%FSM<STATEINIT""">*/"{_x ppEffectEnable false} forEach [_ppEffBlur,_ppEffColour];" \n
+       "" \n
+       "if(_unit == player) then {" \n
+       "	resetCamShake;" \n
+       "	ppEffectDestroy _ppEffBlur;" \n
+       "	ppEffectDestroy _ppEffColour;" \n
+       "};"/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "exit">*/
+    class exit
+    {
+      name = "exit";
+      init = /*%FSM<STATEINIT""">*/""/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+      };
+    };
+    /*%FSM</STATE>*/
+  };
+  initState="start";
+  finalStates[] =
+  {
+    "death",
+    "end",
+    "exit",
+  };
+};
+/*%FSM</COMPILE>*/

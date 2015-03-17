@@ -1,0 +1,343 @@
+/*%FSM<COMPILE "scriptedFSM.cfg, crewRestrict">*/
+/*%FSM<HEAD>*/
+/*
+item0[] = {"START",0,250,-385.035065,513.607361,-295.035065,563.607361,0.000000,"START"};
+item1[] = {"_",4,218,-385.035034,683.504639,-295.035034,733.504639,0.000000,""};
+item2[] = {"isMan",2,250,-385.027191,817.262634,-295.027161,867.262634,0.000000,"isMan"};
+item3[] = {"getIn",4,218,-385.429504,964.266724,-295.429504,1014.266724,0.000000,"getIn"};
+item4[] = {"inVehicle",2,250,-384.777710,1097.351440,-294.777679,1147.351440,0.000000,"inVehicle"};
+item5[] = {"isCrewCheck",4,218,-480.722015,1212.866943,-390.722015,1262.866943,0.000000,"isCrewCheck"};
+item6[] = {"__isCrewCheck",4,4314,-276.477325,1204.437988,-186.477325,1254.437988,0.000000,"!isCrewCheck"};
+item7[] = {"isCrew",2,250,-480.722015,1353.568848,-390.721985,1403.568848,0.000000,"isCrew"};
+item8[] = {"notCrew",2,250,-277.125671,1353.568970,-187.125687,1403.568970,0.000000,"notCrew"};
+item9[] = {"getOut",4,218,-375.033478,1525.962769,-285.033478,1575.962769,0.000000,"getOut"};
+item10[] = {"CheckAlive",2,250,-685.774414,1528.084839,-595.774414,1578.084839,0.000000,"CheckAlive"};
+item11[] = {"isDEAD",4,218,-684.452698,1061.498657,-594.452698,1111.498657,0.000000,"isDEAD"};
+item12[] = {"getName",2,250,-684.452637,917.425110,-594.452637,967.425110,0.000000,"getName"};
+item13[] = {"waitUntilAlive",4,218,-686.060608,772.029907,-596.060608,822.029907,0.000000,"waitUntilAlive"};
+item14[] = {"getUnit",2,250,-687.747253,684.012268,-597.747253,734.012268,0.000000,"getUnit"};
+item15[] = {"isAlive",4,218,-554.450745,1065.872314,-464.450745,1115.872314,0.000000,"isAlive"};
+item16[] = {"doNothing",3,250,-548.043823,914.960938,-458.043732,964.960938,0.000000,"doNothing"};
+link0[] = {0,1};
+link1[] = {1,2};
+link2[] = {2,3};
+link3[] = {3,4};
+link4[] = {4,5};
+link5[] = {4,6};
+link6[] = {5,7};
+link7[] = {6,8};
+link8[] = {7,6};
+link9[] = {7,9};
+link10[] = {8,5};
+link11[] = {8,9};
+link12[] = {9,10};
+link13[] = {10,11};
+link14[] = {10,15};
+link15[] = {11,12};
+link16[] = {12,13};
+link17[] = {13,14};
+link18[] = {14,1};
+link19[] = {15,16};
+link20[] = {16,1};
+globals[] = {0.000000,0,0,0,0,640,480,1,20,6316128,1,-1226.624268,262.758484,1935.912842,462.701416,921,911,1};
+window[] = {2,-1,-1,-1,-1,1190,225,1171,225,3,939};
+*//*%FSM</HEAD>*/
+class FSM
+{
+  fsmName = "crewRestrict";
+  class States
+  {
+    /*%FSM<STATE "START">*/
+    class START
+    {
+      name = "START";
+      init = /*%FSM<STATEINIT""">*/"_unit = _this select 0;"/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "_">*/
+        class _
+        {
+          priority = 0.000000;
+          to="isMan";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"true"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "isMan">*/
+    class isMan
+    {
+      name = "isMan";
+      init = /*%FSM<STATEINIT""">*/"_vehicle = vehicle _unit;"/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "getIn">*/
+        class getIn
+        {
+          priority = 0.000000;
+          to="inVehicle";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"vehicle _unit != _unit"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "inVehicle">*/
+    class inVehicle
+    {
+      name = "inVehicle";
+      init = /*%FSM<STATEINIT""">*/"_vehicle = vehicle _unit;"/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "__isCrewCheck">*/
+        class __isCrewCheck
+        {
+          priority = 0.000000;
+          to="notCrew";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"driver _vehicle != _unit" \n
+           "&& commander _vehicle != _unit" \n
+           "&& gunner _vehicle != _unit" \n
+           "&& if(_vehicle isKindof ""Helicopter"") then {" \n
+           "	_unit != (_vehicle turretUnit [0])" \n
+           "}else{ true }" \n
+           "|| !alive _unit"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+        /*%FSM<LINK "isCrewCheck">*/
+        class isCrewCheck
+        {
+          priority = 0.000000;
+          to="isCrew";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"driver _vehicle == _unit" \n
+           "|| commander _vehicle == _unit" \n
+           "|| gunner _vehicle == _unit" \n
+           "|| {if(_vehicle isKindof ""Helicopter"") then { _unit == (_vehicle turretUnit [0]) }else{ false }}"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "isCrew">*/
+    class isCrew
+    {
+      name = "isCrew";
+      init = /*%FSM<STATEINIT""">*/"_allowed = switch (true) do {" \n
+       "	// Land" \n
+       "	case ((vehicle player) isKindof ""Tank_F"");" \n
+       "	case ((vehicle player) isKindof ""Tank"");" \n
+       "	case ((vehicle player) isKindof ""Wheeled_APC_F"");" \n
+       "	case ((vehicle player) isKindof ""Wheeled_APC"")	: { _unit getVariable [""PO3_VAR_DriverLicense"",false] };" \n
+       "	case ((vehicle player) isKindof ""Truck_F"");" \n
+       "	case ((vehicle player) isKindof ""Truck"");" \n
+       "	case ((vehicle player) isKindof ""Car_F"");" \n
+       "	case ((vehicle player) isKindof ""Car"");" \n
+       "	case ((vehicle player) isKindof ""Motorcycle"");" \n
+       "	case ((vehicle player) isKindof ""StaticWeapon"");" \n
+       "	case ((vehicle player) isKindof ""LandVehicle"")		: { true };" \n
+       "	// AIR" \n
+       "	case ((vehicle player) isKindof ""UAV"");" \n
+       "	case ((vehicle player) isKindof ""ParachuteBase"")	: { true };" \n
+       "	case ((vehicle player) isKindof ""Helicopter_Base_F"");" \n
+       "	case ((vehicle player) isKindof ""Helicopter"");" \n
+       "	case ((vehicle player) isKindof ""Plane_Base_F"");" \n
+       "	case ((vehicle player) isKindof ""Plane"");" \n
+       "	case ((vehicle player) isKindof ""Air"")			: { _unit getVariable [""PO3_VAR_PilotLicense"",false] };" \n
+       "	// SEA" \n
+       "	case ((vehicle player) isKindof ""Ship"")			: { true };" \n
+       "" \n
+       "	default { true };" \n
+       "};" \n
+       "" \n
+       "if !(_allowed) then {" \n
+       "	_unit action [""getOut"",_vehicle];" \n
+       "	_vehicle spawn {" \n
+       "		_fuel = fuel _this;" \n
+       "		_this setFuel 0;" \n
+       "		sleep 1;" \n
+       "		_this setFuel _fuel;		" \n
+       "	};" \n
+       "	[true,""HINTC"",""You're not LICENSED to operate this vehicle. Please seek mission ADMIN for qualification.""] call PO3_fnc_hint;" \n
+       "	_vehicle engineOn false;" \n
+       "};" \n
+       ""/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "getOut">*/
+        class getOut
+        {
+          priority = 0.000000;
+          to="CheckAlive";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"vehicle _unit == _unit || !alive _unit"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+        /*%FSM<LINK "__isCrewCheck">*/
+        class __isCrewCheck
+        {
+          priority = 0.000000;
+          to="notCrew";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"driver _vehicle != _unit" \n
+           "&& commander _vehicle != _unit" \n
+           "&& gunner _vehicle != _unit" \n
+           "&& if(_vehicle isKindof ""Helicopter"") then {" \n
+           "	_unit != (_vehicle turretUnit [0])" \n
+           "}else{ true }" \n
+           "|| !alive _unit"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "notCrew">*/
+    class notCrew
+    {
+      name = "notCrew";
+      init = /*%FSM<STATEINIT""">*/""/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "getOut">*/
+        class getOut
+        {
+          priority = 0.000000;
+          to="CheckAlive";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"vehicle _unit == _unit || !alive _unit"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+        /*%FSM<LINK "isCrewCheck">*/
+        class isCrewCheck
+        {
+          priority = 0.000000;
+          to="isCrew";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"driver _vehicle == _unit" \n
+           "|| commander _vehicle == _unit" \n
+           "|| gunner _vehicle == _unit" \n
+           "|| {if(_vehicle isKindof ""Helicopter"") then { _unit == (_vehicle turretUnit [0]) }else{ false }}"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "CheckAlive">*/
+    class CheckAlive
+    {
+      name = "CheckAlive";
+      init = /*%FSM<STATEINIT""">*/""/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "isAlive">*/
+        class isAlive
+        {
+          priority = 0.000000;
+          to="doNothing";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"alive _unit"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+        /*%FSM<LINK "isDEAD">*/
+        class isDEAD
+        {
+          priority = 0.000000;
+          to="getName";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"not alive _unit"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "getName">*/
+    class getName
+    {
+      name = "getName";
+      init = /*%FSM<STATEINIT""">*/"_nameUnit = name _unit;"/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "waitUntilAlive">*/
+        class waitUntilAlive
+        {
+          priority = 0.000000;
+          to="getUnit";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"{_nameUnit == name _x} count playableUnits > 0"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "getUnit">*/
+    class getUnit
+    {
+      name = "getUnit";
+      init = /*%FSM<STATEINIT""">*/"{" \n
+       "	if(name _x == _nameUnit) exitWith{_unit = _x};" \n
+       "} foreach playableUnits;"/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "_">*/
+        class _
+        {
+          priority = 0.000000;
+          to="isMan";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"true"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "doNothing">*/
+    class doNothing
+    {
+      name = "doNothing";
+      init = /*%FSM<STATEINIT""">*/""/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "_">*/
+        class _
+        {
+          priority = 0.000000;
+          to="isMan";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"true"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+  };
+  initState="START";
+  finalStates[] =
+  {
+  };
+};
+/*%FSM</COMPILE>*/
