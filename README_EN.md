@@ -6,12 +6,12 @@ If you have some experience with editing Arma 3 and are interested in assisting 
 
 <hr />
 <p align="center">
-  <a href="https://github.com/TEHGAM/Team_Tactics/tree/master/cox_patrol-ops-3-01-nato.Altis">
-    <img src="http://img.shields.io/badge/Version-3.01-blue.svg?style=flat"
+  <a href="https://github.com/TEHGAM/Team_Tactics/tree/master/team_tactics.altis">
+    <img src="http://img.shields.io/badge/Version-0.1-blue.svg?style=flat"
          alt="Version" />
   </a>
-  <a href="https://github.com/TEHGAM/Team_Tactics/raw/master/cox_patrol-ops-3-01-nato.Altis.pbo">
-    <img src="http://img.shields.io/badge/Download-1.94_MB-green.svg?style=flat"
+  <a href="https://github.com/TEHGAM/Team_Tactics/blob/master/team_tactics.Altis.pbo">
+    <img src="http://img.shields.io/badge/Download-2.04_MB-green.svg?style=flat"
          alt="Download" />
   </a>
   <a href="https://github.com/TEHGAM/Team_Tactics/issues">
