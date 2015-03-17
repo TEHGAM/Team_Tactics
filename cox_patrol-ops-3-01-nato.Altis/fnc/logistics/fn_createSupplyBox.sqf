@@ -5,7 +5,8 @@ _side = _this select 1;
 _position = _vehicle call PO3_fnc_getPos;
 
 _boxid = format["SUPPLYBOX%1%2%3",round (_position select 0),round (_position select 1),(round random 999)];
-_boxType = ["B_supplyCrate_F","O_supplyCrate_F","I_supplyCrate_F"] select ([west,east,resistance] find _side);
+//менял
+_boxType = ["B_CargoNet_01_ammo_F","O_supplyCrate_F","I_supplyCrate_F"] select ([west,east,resistance] find _side);
 
 _ammobox = createVehicle [_boxType,[0,0,0],[],0,"CAN_COLLIDE"];
 _ammobox setVariable ["PO3_loadout_boxID",[_side,_boxid],true];

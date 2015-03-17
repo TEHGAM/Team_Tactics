@@ -93,7 +93,7 @@
 			class createSupplybox;
 			class declareSupplybox;
 			class detectLiftable;
-			class displayLogisticsFeatures;
+			//class displayLogisticsFeatures;
 			class dragObject;
 			class dropObject;
 			class fillSupplybox;
@@ -341,7 +341,7 @@
 		};
 	};
 //};
-	class tcb_ais {
+	/* class tcb_ais {
 		tag = "tcb";
 		class ais {
 			file = "scripts\ais_injury\func";
@@ -363,4 +363,4 @@
 			class lookingForWoundedMates;
 			class checklauncher;
 		};
-	};
+	}; */

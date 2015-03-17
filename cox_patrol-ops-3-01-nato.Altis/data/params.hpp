@@ -11,7 +11,7 @@ class PO3_param_missions_title {
 	class param_PO3_missionhour {
 		title = "Mission Hour";
 		values[]={0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23};
-		default=12;
+		default=18;
 		texts[]={"0000H","0100H","0200H","0300H","0400H","0500H","0600H","0700H","0800H","0900H","1000H","1100H","1200H","1300H","1400H","1500H","1600H","1700H","1800H","1900H","2000H","2100H","2200H","2300H"};
 		code = "PO3_param_missionhour = %1;";
 	};
@@ -19,21 +19,21 @@ class PO3_param_missions_title {
 		title = "Number of Missions";
 		values[]={1,2,3,5,7,9,15,30,99};
 		texts[]={"One","Two","Three","Five","Seven","Nine","Fifteen","Thirty","Unlimited"};
-		default=9;
+		default=99;
 		code = "PO3_param_missioncount = if(%1 < 99)then{%1}else{-1};";
 	};
 	class param_PO3_missionskill {
 		title = "Mission Difficulty";
 		values[]={1,2,4,6};
 		texts[]={$STR_PO3_TEXT_LOW,$STR_PO3_TEXT_MED,$STR_PO3_TEXT_HIGH,$STR_PO3_TEXT_ULTRA};
-		default=4;
+		default=1;
 		code = "PO3_param_missionskill = (%1/3);";
 	};
 	class param_PO3_ai_skill {
 		title = $STR_PO3_PARAM_SETAISKILL;
 		values[]={1,2,3,4};
 		texts[]={$STR_PO3_TEXT_LOW,$STR_PO3_TEXT_MED,$STR_PO3_TEXT_HIGH,$STR_PO3_TEXT_ULTRA};
-		default=3;
+		default=4;
 		code = "PO3_param_ai_skill = 0.8 + log((%1)/4)";
 	};
 	class param_PO3_ai_Tkill {
@@ -68,7 +68,7 @@ class PO3_param_ambient_title {
 		title = "Ambient Spawn Radius";
 		values[]={0,500,1000,1500,2000,2500,5000,10000};
 		texts[]={$STR_PO3_TEXT_OFF,"500","1000","1500","2000","2500","5000","10000"};
-		default=1500;
+		default=5000;
 		code = "PO3_radius_ambientpatrolgnd = %1;";
 	};
 class PO3_param_injury_title {

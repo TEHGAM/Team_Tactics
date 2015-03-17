@@ -186,7 +186,6 @@ class FSM
        "_descr = [_vehicle] call PO3_fnc_getCfgText;" \n
        "" \n
        "_vehicle call PO3_fnc_setFiredEH;" \n
-       "[_vehicle] call PO3_fnc_displayLogisticsFeatures;" \n
        "if([_vehicle,""CRV""] call PO3_fnc_getCfgPO3) then { [_vehicle] call PO3_fnc_setAsCRV };" \n
        "" \n
        "_action = _vehicle addAction [format[""<t color='#ffc600'><img image='\A3\ui_f\data\gui\rsc\rscdisplayarcademap\icon_debug_ca.paa' size='0.7' /> ""+localize ""STR_PO3_VEHRSUP_ACTION""+""</t>"",_descr],{ (vehicle player) spawn PO3_fnc_resupplyVehicle; },[],-100,false,true,"""",""({ _x getVariable ['PO3_resupply',false] && _x != _target } count (nearestObjects [_target,['ALL'],10]) > 0) && driver _target == player""];" \n
@@ -220,7 +219,6 @@ class FSM
        "_descr = [_vehicle] call PO3_fnc_getCfgText;" \n
        "" \n
        "_vehicle call PO3_fnc_setFiredEH;" \n
-       "[_vehicle] call PO3_fnc_displayLogisticsFeatures;" \n
        "if([_vehicle,""Loadable""] call PO3_fnc_getCfgPO3) then { [_vehicle] call PO3_fnc_setAsLiftChopper };" \n
        "" \n
        "_action = _vehicle addAction [format[""<t color='#ffc600'><img image='\A3\ui_f\data\gui\rsc\rscdisplayarcademap\icon_debug_ca.paa' size='0.7' /> ""+localize ""STR_PO3_VEHRSUP_ACTION""+""</t>"",_descr],{(vehicle player) spawn PO3_fnc_resupplyVehicle;},[],-100,false,true,"""",""({ _x getVariable ['PO3_resupply',false] && _x != _target } count (nearestObjects [_target,['ALL'],15]) > 0) && driver _target == player && isTouchingGround _target""];" \n
@@ -262,7 +260,6 @@ class FSM
        "_descr = [_vehicle] call PO3_fnc_getCfgText;" \n
        "" \n
        "_vehicle call PO3_fnc_setFiredEH;" \n
-       "[_vehicle] call PO3_fnc_displayLogisticsFeatures;" \n
        "" \n
        "_action = _vehicle addAction [format[""<t color='#ffc600'><img image='\A3\ui_f\data\gui\rsc\rscdisplayarcademap\icon_debug_ca.paa' size='0.7' /> ""+localize ""STR_PO3_VEHRSUP_ACTION""+""</t>"",_descr],{(vehicle player) spawn PO3_fnc_resupplyVehicle;},[],-100,false,true,"""",""({ _x getVariable ['PO3_resupply',false] && _x != _target } count (nearestObjects [_target,['ALL'],30]) > 0) && driver _target == player""];" \n
        "_self_actions set [count _self_actions, _action];" \n

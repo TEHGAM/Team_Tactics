@@ -1,13 +1,41 @@
-player createDiarySubject ["PO3WB","Patrol Ops WIKI"];
-player createDiaryRecord ["PO3WB",["Ambient Patrols",format ["%1%2",
-	if( PO3_param_ambientpatrolair ) then { "The enemy have deployed Air Patrols over the area of operations.<br/>Seek out and destroy the enemy JTAC to prevent them from orgainising their AIR FORCES<br/><br/>" }else{""},
-	if( PO3_param_ambientpatrolgnd ) then { "The enemy have deployed Ground Patrols over the area.<br/>Seek out and destroy the enemy COMMANDER to prevent them from orgainising further PATROLS<br/><br/>" }else{""}
+﻿player createDiarySubject ["PO3WB","Patrol Ops Вики"];
+player createDiaryRecord ["PO3WB",["Силы противника",format ["%1%2",
+	if( PO3_param_ambientpatrolair ) then { "На территории операции присутствуют воздушные силы противника.<br/>Нужно найти и уничтожить вражескую JTAC, чтобы деорганизовать воздушные силы противника.<br/><br/>" }else{""},
+	if( PO3_param_ambientpatrolgnd ) then { "На территории операции присутствуют вражеские патрули.<br/>Найдите и уничтожьте вражеского командира(COMMANDER), чтобы внести разлад в действия наземных сил противника.<br/><br/>" }else{""}
 	]
 ]];
 
-player createDiarySubject ["PO3WK","Information"];
-player createDiarySubject ["PO3CR","About PO3"];
-player createDiaryRecord ["PO3CR",["Credits","Framework Written/Compiled by Eightysix for Online Combat Battalion Tactical Missions<br/><br/>Online Combat Battalion Australia (www.ocb.net.au), their support and testing has been vital to the success.<br/>- [OCB]Dash for Code, Inpiration and Effort in helping development<br/><br/>
+player createDiaryRecord ["diary", ["Ограничения","Воздушная техника<br/><br/>
+1. Пилоты боевых вертолетов могут управлять обоими типами вертолетов(транспортными и боевыми).<br/>
+2. Пилоты транспортных вертолетов могут управлять только транспортными вертолетами.<br/>
+3. Пилоты самолетов могут управлять только боевыми самолетами.<br/><br/>
+Наземная техника<br/><br/>
+Ограничения введены только на некоторые виды техники, такие как М4, М2А4, РСЗО М5, IFV-6A.<br/>
+На места механика, командира, стрелка могут садиться только солдаты таких классов как:<br/>
+1. Командир<br/>
+2. Член экипажа<br/>
+3. Механик<br/>
+Для того, чтобы иметь возможность пользоваться специальной техникой, вы должны занять соответствующий слот.
+Остальная техника находится в свободном доступе."]];
+player createDiaryRecord ["diary", ["Поддержка","Ремонт, дозаправка техники<br/><br/>
+Отремонтировать технику, пополнить ее БК и заправиться можно на базе. У ангара стоит специализированный грузовик HEMTT. Чтобы отремонтировать/заправить технику,
+подъедьте к нему на близкое расстояние и активируйте появившуюся опцию из контекстного меню -Resupply-. Через некоторое время ваша техника
+полностью отремонтируется, дозаправится и восполнит БК.<br/>
+Для ремонта авиации удобнее использовать точно такой же грузовик, который находится возле ВПП.<br/><br/>
+
+В полевых условиях можно пользоваться тремя стандартными грузовиками, которые изначально находятся на базе возле ангаров. Они предоставляют точно такие же возможности по
+ремонту и заправке техники, как и стационарный грузовик на базе, но по отдельности.<br/><br/>
+Пехота<br/><br/>
+Для пополнения БК пехоты в бою можно использовать специальные ящики с боеприпасами. Их можно получить на базе у специального грузовика HEMTT, что у ангаров или на ВПП.
+Для этого нужно использовать опцию -Unload Ammobox- из контекстного меню грузовика. Выгруженный ящик можно перевозить с помощью других грузовиков
+или с помощью вертолетов.
+
+
+"]];
+
+player createDiarySubject ["PO3WK","Info"];
+player createDiarySubject ["PO3CR","О миссии"];
+player createDiaryRecord ["PO3CR",["Благодарности","Framework Written/Compiled by Eightysix for Online Combat Battalion Tactical Missions<br/><br/>Online Combat Battalion Australia (www.ocb.net.au), their support and testing has been vital to the success.<br/>- [OCB]Dash for Code, Inpiration and Effort in helping development<br/><br/>
 Language Translations By:<br/>
 - Czech: -<br/>
 - French: GranolaBar<br/>
@@ -32,23 +60,32 @@ Language Translations By:<br/>
 - Dslyecxi for his Paper doll giving insight on how to detect item types.<br/>
 - Any and All ArmA community members for support, inspiration and solutions that have helped build this framework"]];
 
-player createDiaryRecord ["PO3CR",["Version",format["MultiPlayer Scripting Framework<br/>Version %1",localize "STR_PO3_VERSION"]]];
+player createDiaryRecord ["PO3CR",["Версия",format["MultiPlayer Scripting Framework<br/>Version %1",localize "STR_PO3_VERSION"]]];
 
-player createDiaryRecord ["PO3WK",["Tasks","
+player createDiaryRecord ["PO3WK",["Миссии","
 Taskmaster System<br/>
-Access by pressing ""J"" or in the tasks menu from the map screen.<br/
-This shows all the tasks assigned to you and your team with the status of those tasks.<br/>
+Нажмите ""J"" чтобы открыть список задач.<br/
+Здесь показаны все задачи для вашей команды, а также их статус.<br/>
 <br/>
-<img image='\A3\ui_f\data\map\mapcontrol\taskIcon_ca.paa' width='25px'/> Status: Active - Colour: White<br/>
-<img image='\A3\ui_f\data\map\mapcontrol\taskIconCanceled_ca.paa' width='25px'/> Status: Canceled - Colour: Grey<br/>
-<img image='\A3\ui_f\data\map\mapcontrol\taskIconFailed_ca.paa' width='25px'/> Status: Failed - Colour: Red<br/>
-<img image='\A3\ui_f\data\map\mapcontrol\taskIconDone_ca.paa' width='25px'/> Status: Succeeded - Colour: Green<br/>"]];
+<img image='\A3\ui_f\data\map\mapcontrol\taskIcon_ca.paa' width='25px'/> Статус: активно - цвет: белый<br/>
+<img image='\A3\ui_f\data\map\mapcontrol\taskIconCanceled_ca.paa' width='25px'/> Статус: отменено  - цвет: серый<br/>
+<img image='\A3\ui_f\data\map\mapcontrol\taskIconFailed_ca.paa' width='25px'/> Статус: провалено - цвет: красный<br/>
+<img image='\A3\ui_f\data\map\mapcontrol\taskIconDone_ca.paa' width='25px'/> Статус: выполнено - цвет: зеленый<br/>"]];
 
 //player createDiaryRecord ["PO3WK",["Support","Support Requests are Work in Progress"]];
 
-player createDiaryRecord ["PO3WK",["Squad Markers",format["Squad Marker System<br/><br/>Any Squad friendly to your side is marked on the map via their respective icon.<br/><br/>The icon shows you what vehicle their team leader has occupied.<br/><img image='%1' width='25px'/> - Infantry<br/><img image='%2' width='25px'/> - Armour<br/><img image='%3' width='25px'/> - Helicopter<br/><img image='%4' width='25px'/> - Mechanised: <br/><img image='%5' width='25px'/> - Motorised<br/><img image='%6' width='25px'/> - Plane<br/><img image='%7' width='25px'/> - Static Weapon<br/><img image='%8' width='25px'/> - UAV<br/>",["n_inf"] call PO3_fnc_getCfgIcon,["n_armor"] call PO3_fnc_getCfgIcon,["n_air"] call PO3_fnc_getCfgIcon,["n_mech_inf"] call PO3_fnc_getCfgIcon,["n_motor_inf"] call PO3_fnc_getCfgIcon,["n_plane"] call PO3_fnc_getCfgIcon,["n_art"] call PO3_fnc_getCfgIcon,["n_uav"] call PO3_fnc_getCfgIcon] ] ];
+player createDiaryRecord ["PO3WK",["Отрядные маркеры",format["Squad Marker System<br/><br/>Любой дружественный отряд отмечен на карте соответствующей
+иконкой.<br/><br/>Иконка также показывает, что ваш командир занял технику.<br/>
+<img image='%1' width='25px'/> - Infantry<br/><img image='%2' width='25px'/> - Бронированный<br/>
+<img image='%3' width='25px'/> - Helicopter<br/>
+<img image='%4' width='25px'/> - Mechanised: <br/><img image='%5' width='25px'/> - Моторизованный<br/>
+<img image='%6' width='25px'/> - Plane<br/>
+<img image='%7' width='25px'/> - Static Weapon<br/><img image='%8' width='25px'/> - UAV<br/>",["n_inf"] call PO3_fnc_getCfgIcon,
+["n_armor"] call PO3_fnc_getCfgIcon,["n_air"] call PO3_fnc_getCfgIcon,["n_mech_inf"] call PO3_fnc_getCfgIcon,
+["n_motor_inf"] call PO3_fnc_getCfgIcon,["n_plane"] call PO3_fnc_getCfgIcon,["n_art"] call PO3_fnc_getCfgIcon,
+["n_uav"] call PO3_fnc_getCfgIcon] ] ];
 
-player createDiaryRecord ["PO3WK",["Spectator","
+player createDiaryRecord ["PO3WK",["Спектатор","
 Spectator System<br/>
 <br/>
 The spectator system is a version of Kegetys Spectator Script and is only accessible upon death.<br/>
@@ -77,7 +114,7 @@ Right button - Rotate camera (free camera mode only)<br/>
 Left button - Move camera<br/>
 Left and right button - Zoom"]];
 
-player createDiaryRecord ["PO3WK",["Redeployment","
+/*player createDiaryRecord ["PO3WK",["Redeployment","
 Redeployment System<br/>
 <br/>
 A player can redeploy at any redeployment point or if killed and they have enough lives left to continue.<br/>
@@ -98,7 +135,7 @@ Land Vehicles can only be redeployed to if:<br/>
  - The vehicle is stationary<br/>
 <br/>
 Players can also redploy by HALO if the mission allows this and they are over the minimum amount of time between jumps.<br/>
-To HALO, select HALO from the left menu and double click on a location on the map to begin the jump."]];
+To HALO, select HALO from the left menu and double click on a location on the map to begin the jump."]];*/
 /*
 player createDiaryRecord ["PO3WK",["NCWS","
 Info about the Network Centric Warefare System
@@ -111,7 +148,7 @@ They can be brought to concious again by team mates through the First Aid Intera
 however require medical attention before being fully operational again.<br/>
 "]];
 */
-player createDiaryRecord ["PO3WK",["Logistics","
+player createDiaryRecord ["PO3WK",["Логистика","
 Vehicle Logistics System<br/>
 <br/>
 Resupply of a vehicle will repair, refuel and rearm the vehicle back to its full state. This can be done near any object designated as a resupply point.<br/>
@@ -125,7 +162,7 @@ Cargo Helicopters and Planes can be loaded with ammoboxes or other vehicles and 
 Cargo Helicopter: Hover over the object and select the action to lift. If there is no action, the object is too heavy.<br/>
 Cargo Planes: Move the object to the rear of the plane and load the object inside. The pilot will then have the action to air drop the object when they are above 150m over the terrain or water.<br/>"]];
 
-player createDiaryRecord ["PO3WK",["IEDs","
+/*player createDiaryRecord ["PO3WK",["IEDs","
 IED System<br/>
 <br/>
 In the latest version, IEDs are dangerous to both Infantry and Vehicles.<br/>
@@ -135,6 +172,6 @@ If you suspect an object is an IED, dismount from the vehicle and approach the o
 To disarm the IED, aim at the IED and select ""Disarm IED"" from your action menu.<br/>
 If you are not an engineer, you have a risk of failure. This will result in the IED detonating.<br/>
 Alternately you can just set a C4 explosive next to it and detonate it once clear.
-"]];
+"]];*/
 
-player createDiaryRecord ["PO3WK",["HUD","The Player Hud<br/><br/>The hud allows you to set your view distance options, terrain detail and density and toggle the 3D names that appear above each of nearby players.<br/>These options can be disabled by the mission admin."]];
+//player createDiaryRecord ["PO3WK",["HUD","The Player Hud<br/><br/>The hud allows you to set your view distance options, terrain detail and density and toggle the 3D names that appear above each of nearby players.<br/>These options can be disabled by the mission admin."]];
