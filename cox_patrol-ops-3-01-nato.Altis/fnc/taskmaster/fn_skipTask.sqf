@@ -1,1 +1,0 @@
-PO3_force_TASKEND = true;publicVariableServer "PO3_force_TASKEND";

@@ -1,1 +1,0 @@
-(_this select 0) setDir (_this select 1);
