@@ -16,9 +16,9 @@ if(!isDedicated && !PO3_debug) then {
 	
 	[] execVM "scripts\IgiLoad\IgiLoadInit.sqf";
 	[] execVM "scripts\tags.sqf";
-	[] execVM "scripts\proba.sqf";
+	[] execVM "scripts\kickass.sqf";
 	[] execVM "scripts\rearm_unit.sqf";
-	createDialog "ICE_DIALOG";
+	createDialog "HELLO_WIN";
 };
 
 ["PO3_taskmaster"] call PO3_fnc_runTaskSequence;

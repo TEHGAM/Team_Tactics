@@ -77,8 +77,8 @@ PO3_core_init = true;
 
 sleep 1;
 
-if (PO3_mod_acre_enabled) then { [] execVM "scripts\Radios\PO3_setupACRE.sqf"; };
-if (PO3_mod_tfr_enabled) then { [] execVM "scripts\Radios\PO3_setupTFR.sqf"; };
+//if (PO3_mod_acre_enabled) then { [] execVM "scripts\Radios\PO3_setupACRE.sqf"; };
+//if (PO3_mod_tfr_enabled) then { [] execVM "scripts\Radios\PO3_setupTFR.sqf"; };
 
 [PO3_param_missionhour,0] spawn PO3_fnc_setTime;
 

@@ -1,8 +1,7 @@
 ﻿#include "scripts\defines.hpp"
 #include "scripts\dialogs.hpp"
-#include "taw_vd\dialog.hpp"
+#include "scripts\taw_vd\dialog.hpp"
 #include "data\dialogs.hpp"
-#include "scripts\keg_spectate\dialog.hpp"
 #include "VAS\menu.hpp"
 DisabledAI		= 1;			// <!-- Where 0 Fills empty playable slots with AI, 1 is They Don't fill the empty slots
 joinUnassigned	= 0;		// <!-- Where 0 forces joining players into the first empty slot, 1 leaves them to select their own
@@ -22,7 +21,7 @@ class CfgDebriefing {
 class CfgFunctions {
 	#include "data\cfgFunctions.hpp"
 	#include "VAS\cfgfunctions.hpp"
-	#include "taw_vd\CfgFunctions.hpp"
+	#include "scripts\taw_vd\CfgFunctions.hpp"
 	
 };
 class CfgNotifications {

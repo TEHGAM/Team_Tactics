@@ -1,8 +1,6 @@
 // =========================================================================================================
 // !!  DO NOT MODIFY THIS FILE  !!
 // =========================================================================================================
-
-//class cfgFunctions{
 	class PO3 {
 		tag = "PO3";
 		class Camera {
@@ -43,25 +41,6 @@
 			class setKilledEH;
 			class setRespawnEH;
 		};
-		/*class Injury {
-			file = "fnc\injury";
-			class aidInjured;
-			class carryInjured;
-			class dragInjured;
-			class dropInjured;
-			class injuredIsBeingDragged;
-			class injuredIsBeingHealed;
-			class injuredIsDraggable;
-			class injuredIsDroppable;
-			class injuredIsHealable;
-			class isMedic;
-			class useFirstAidKit;
-			class useMedkit;
-			class handleInjuryDamage;
-			class injuredBloodloss {ext=".fsm";};
-			class injuredEffects;
-			class unitInAgony;
-		};*/
 		class Interactions {
 			file = "fnc\interact";
 			class checkActionBusy;
@@ -340,27 +319,3 @@
 			class updateLocalTask;
 		};
 	};
-//};
-	/* class tcb_ais {
-		tag = "tcb";
-		class ais {
-			file = "scripts\ais_injury\func";
-			class handleDamage;
-			class keyUnbind;
-			class firstAid;
-			class isHealable;
-			class progressBar;
-			class isMedic;
-			class drag;
-			class carry;
-			class drop;
-			class injuredEffects;
-			class progressBarInit;
-			class sendaihealer;
-			class delbody;
-			class quote;
-			class deadcam;
-			class lookingForWoundedMates;
-			class checklauncher;
-		};
-	}; */

@@ -83,4 +83,4 @@ PO3_a3 = true;
 PO3_reference_object = "Sign_Pointer_F";
 PO3_reference_heliempty = "Land_HelipadEmpty_F";
 PO3_cfg_ammobox = "B_supplyCrate_F";
-PO3_spectate_start = { [_this select 0, _this select 1, _this select 2] execVM ("scripts\keg_spectate\PO3_specate_Kegetys.sqf"); };
+//PO3_spectate_start = { [_this select 0, _this select 1, _this select 2] execVM ("scripts\keg_spectate\PO3_specate_Kegetys.sqf"); };
