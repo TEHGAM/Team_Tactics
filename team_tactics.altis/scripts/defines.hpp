@@ -107,7 +107,7 @@ class RscText
     colorText[] = {1,1,1,.8};
     text = "";
     shadow = 2;
-    font = "";
+    font = "EtelkaNarrowMediumPro";
     SizeEx = 0.04;
     fixedWidth = 0;
     x = 0;
@@ -125,7 +125,7 @@ class RscPicture
     style = ST_PICTURE;
     colorBackground[] = {0,0,0,0};
     colorText[] = {1,1,1,1};
-    font = "";
+    font = "EtelkaNarrowMediumPro";
     sizeEx = 0;
     lineSpacing = 0;
     text = "";
@@ -161,7 +161,7 @@ class RscButton
     w = 0.055589;
     h = 0.039216;
     shadow = 2;
-    font = "";
+    font = "EtelkaNarrowMediumPro";
     sizeEx = 0.03921;
     offsetX = 0.003;
     offsetY = 0.003;
@@ -178,7 +178,7 @@ class RscFrame
     shadow = 2;
     colorBackground[] = {0,0,0,0};
     colorText[] = {1,1,1,0.9};
-    font = "";
+    font = "EtelkaNarrowMediumPro";
     sizeEx = 0.06;
     text = "";
 };
@@ -190,7 +190,7 @@ class BOX
     style = ST_CENTER;
     shadow = 2;
     colorText[] = {1,1,1,1};
-    font = "";
+    font = "EtelkaNarrowMediumPro";
     sizeEx = 0.02;
     colorBackground[] = { 0.2,0.2,0.2, 0.9 }; 
     text = ""; 
@@ -218,39 +218,40 @@ class MyRscHTML {
   nextPage = "\ca\ui\data\arrow_right_ca.paa";
     	
 	class H1 {
-		font = "";
-		fontBold = "default";
-		sizeEx = 0.05;
+		font = "EtelkaNarrowMediumPro";
+		fontBold = "EtelkaNarrowMediumPro";
+		sizeEx = safezoneH*0.032;
+		
 	};
 	
-	class H2 {
-		font = "";
-		fontBold = "";
-		sizeEx = 0.04;
+	class H2 {		
+		font = "EtelkaNarrowMediumPro";
+		fontBold = "EtelkaNarrowMediumPro";
+		sizeEx =safezoneH*0.023;
 	};
 	
-	class H3 {
-		font = "";
-		fontBold = "";
-		sizeEx = 0.03;
+	class H3 {		
+		font = "EtelkaNarrowMediumPro";
+		fontBold = "EtelkaNarrowMediumPro";
+		sizeEx =safezoneH*0.02;
 	};
 	
-	class H4 {
-		font = "";
-		fontBold = "";
-		sizeEx = 0.02;
+	class H4 {		
+		font = "EtelkaNarrowMediumPro";
+		fontBold = "EtelkaNarrowMediumPro";
+		sizeEx =safezoneH*0.015;
 	};
 	
-	class H5 {
-		font = "";
-		fontBold = "";
-		sizeEx = 0.0208333;
+	class H5 {		
+		font = "EtelkaNarrowMediumPro";
+		fontBold = "EtelkaNarrowMediumPro";
+		sizeEx = 0.01;
 	};
 	
-	class H6 {
-		font = "";
-		fontBold = "";
-		sizeEx = 0.0208333;
+	class H6 {		
+		font = "EtelkaNarrowMediumPro";
+		fontBold = "EtelkaNarrowMediumPro";
+		sizeEx = 0.01;
 	};
 	class p : H1
 	{
