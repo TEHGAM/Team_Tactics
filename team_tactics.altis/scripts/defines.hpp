@@ -107,7 +107,7 @@ class RscText
     colorText[] = {1,1,1,.8};
     text = "";
     shadow = 2;
-    font = "default";
+    font = "";
     SizeEx = 0.04;
     fixedWidth = 0;
     x = 0;
@@ -125,7 +125,7 @@ class RscPicture
     style = ST_PICTURE;
     colorBackground[] = {0,0,0,0};
     colorText[] = {1,1,1,1};
-    font = "default";
+    font = "";
     sizeEx = 0;
     lineSpacing = 0;
     text = "";
@@ -161,7 +161,7 @@ class RscButton
     w = 0.055589;
     h = 0.039216;
     shadow = 2;
-    font = "default";
+    font = "";
     sizeEx = 0.03921;
     offsetX = 0.003;
     offsetY = 0.003;
@@ -178,7 +178,7 @@ class RscFrame
     shadow = 2;
     colorBackground[] = {0,0,0,0};
     colorText[] = {1,1,1,0.9};
-    font = "default";
+    font = "";
     sizeEx = 0.06;
     text = "";
 };
@@ -190,7 +190,7 @@ class BOX
     style = ST_CENTER;
     shadow = 2;
     colorText[] = {1,1,1,1};
-    font = "default";
+    font = "";
     sizeEx = 0.02;
     colorBackground[] = { 0.2,0.2,0.2, 0.9 }; 
     text = ""; 
@@ -218,38 +218,38 @@ class MyRscHTML {
   nextPage = "\ca\ui\data\arrow_right_ca.paa";
     	
 	class H1 {
-		font = "default";
+		font = "";
 		fontBold = "default";
 		sizeEx = 0.05;
 	};
 	
 	class H2 {
-		font = "default";
-		fontBold = "default";
+		font = "";
+		fontBold = "";
 		sizeEx = 0.04;
 	};
 	
 	class H3 {
-		font = "default";
-		fontBold = "default";
+		font = "";
+		fontBold = "";
 		sizeEx = 0.03;
 	};
 	
 	class H4 {
-		font = "defaultItalic";
-		fontBold = "default";
+		font = "";
+		fontBold = "";
 		sizeEx = 0.02;
 	};
 	
 	class H5 {
-		font = "default";
-		fontBold = "default";
+		font = "";
+		fontBold = "";
 		sizeEx = 0.0208333;
 	};
 	
 	class H6 {
-		font = "default";
-		fontBold = "default";
+		font = "";
+		fontBold = "";
 		sizeEx = 0.0208333;
 	};
 	class p : H1
