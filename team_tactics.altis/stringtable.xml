@@ -2157,7 +2157,7 @@
 		</Key>
 	</Package>
 
-	<Package name="VASMain">
+	<!-- <Package name="VASMain">
 		<Key ID="STR_VAS_Main_Weapons">
 			<Original>Weapons</Original>
 			<German>Waffen</German>
@@ -2420,8 +2420,8 @@
 			<Original>is a restricted item and will not be added to your inventory.</Original>
 			<Italian>è un oggetto bloccato e non sarà aggiunto al tuo inventario</Italian>
 		</Key>
-	</Package>
-	<Package name="LoadGear">
+	</Package> -->
+	<!-- <Package name="LoadGear">
 		<Key ID="STR_VAS_Load_Title">
 			<Original>Virtual Ammobox System - Load Gear</Original>
 			<German>Virtual Ammobox System - Ausrüstung Laden</German>
@@ -2603,6 +2603,6 @@
 			<French>Si vous choisissez de placer cette objet sur votre arme, sachez que l'objet actuellement placé sur l'arme sera automatiquement supprimé</French>
 			<Russian>Пожалуйста, знайте, что если вы прикрепите его к своему оружию, то ваше текущее крепление в этом слоте будет потеряно.</Russian>
 		</Key>
-	</Package>
+	</Package> -->
 
 </Project>
