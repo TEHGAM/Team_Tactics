@@ -18,8 +18,8 @@ If you have some experience with editing Arma 3 and are interested in assisting 
     <img src="http://img.shields.io/github/issues-raw/TEHGAM/Team_Tactics.svg?label=Issues&style=flat"
          alt="Issues" />
   </a>
-    <a href="http://www.tehgam.com/viewforum.php?f=237">
-    <img src="https://img.shields.io/badge/TEHGAM-Forum-lightgrey.svg?style=flat"
+    <a href="http://arma3.ru/forums/topic/3972-arma3ru-team-tactics-addons-cba-vts-task-force-ru/">
+    <img src="https://img.shields.io/badge/ARMA3.RU-Forum-lightgrey.svg?style=flat"
          alt="Forum" />
   </a>
     <a href="http://creativecommons.org/licenses/by-nc-sa/3.0">
