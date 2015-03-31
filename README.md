@@ -18,8 +18,8 @@
     <img src="http://img.shields.io/github/issues-raw/TEHGAM/Team_Tactics.svg?label=Задачи&style=flat"
          alt="Задачи" />
   </a>
-    <a href="http://www.tehgam.com/viewforum.php?f=237">
-    <img src="https://img.shields.io/badge/TEHGAM-Форум-lightgrey.svg?style=flat"
+    <a href="http://arma3.ru/forums/topic/3972-arma3ru-team-tactics-addons-cba-vts-task-force-ru/">
+    <img src="https://img.shields.io/badge/ARMA3.RU-Форум-lightgrey.svg?style=flat"
          alt="Форум" />
   </a>
     <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.ru">
