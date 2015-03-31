@@ -7,11 +7,11 @@
 <hr />
 <p align="center">
   <a href="https://raw.githubusercontent.com/TEHGAM/Team_Tactics/master/team_tactics.altis/Changelog.txt">
-    <img src="http://img.shields.io/badge/Версия-0.1-blue.svg?style=flat"
+    <img src="http://img.shields.io/badge/Версия-0.2-blue.svg?style=flat"
          alt="Версия" />
   </a>
   <a href="https://github.com/TEHGAM/Team_Tactics/raw/master/team_tactics.Altis.pbo">
-    <img src="http://img.shields.io/badge/Скачать-1.9_МБ-green.svg?style=flat"
+    <img src="http://img.shields.io/badge/Скачать-1.74_МБ-green.svg?style=flat"
          alt="Скачать" />
   </a>
   <a href="https://github.com/TEHGAM/Team_Tactics/issues">
