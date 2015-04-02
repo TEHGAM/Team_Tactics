@@ -19,8 +19,8 @@
          alt="Задачи" />
   </a>
     <a href="http://arma3.ru/forums/topic/3972-arma3ru-team-tactics-addons-cba-vts-task-force-ru/">
-    <img src="https://img.shields.io/badge/ARMA3.RU-Форум-lightgrey.svg?style=flat"
-         alt="Форум" />
+    <img src="https://img.shields.io/badge/ARMA3.RU-Тема-lightgrey.svg?style=flat"
+         alt="ARMA3.RU Тема" />
   </a>
     <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.ru">
     <img src="http://img.shields.io/badge/Лицензия-CC-red.svg?style=flat"
