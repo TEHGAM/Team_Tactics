@@ -7,20 +7,20 @@
 <hr />
 <p align="center">
   <a href="https://raw.githubusercontent.com/TEHGAM/Team_Tactics/master/team_tactics.altis/Changelog.txt">
-    <img src="http://img.shields.io/badge/Версия-0.1-blue.svg?style=flat"
+    <img src="http://img.shields.io/badge/Версия-0.2-blue.svg?style=flat"
          alt="Версия" />
   </a>
   <a href="https://github.com/TEHGAM/Team_Tactics/raw/master/team_tactics.Altis.pbo">
-    <img src="http://img.shields.io/badge/Скачать-1.9_МБ-green.svg?style=flat"
+    <img src="http://img.shields.io/badge/Скачать-1.74_МБ-green.svg?style=flat"
          alt="Скачать" />
   </a>
   <a href="https://github.com/TEHGAM/Team_Tactics/issues">
     <img src="http://img.shields.io/github/issues-raw/TEHGAM/Team_Tactics.svg?label=Задачи&style=flat"
          alt="Задачи" />
   </a>
-    <a href="http://www.tehgam.com/viewforum.php?f=237">
-    <img src="https://img.shields.io/badge/TEHGAM-Форум-lightgrey.svg?style=flat"
-         alt="Форум" />
+    <a href="http://arma3.ru/forums/topic/3972-arma3ru-team-tactics-addons-cba-vts-task-force-ru/">
+    <img src="https://img.shields.io/badge/ARMA3.RU-Тема-lightgrey.svg?style=flat"
+         alt="ARMA3.RU Тема" />
   </a>
     <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.ru">
     <img src="http://img.shields.io/badge/Лицензия-CC-red.svg?style=flat"

@@ -7,20 +7,20 @@ If you have some experience with editing Arma 3 and are interested in assisting 
 <hr />
 <p align="center">
   <a href="https://raw.githubusercontent.com/TEHGAM/Team_Tactics/master/team_tactics.altis/Changelog.txt">
-    <img src="http://img.shields.io/badge/Version-0.1-blue.svg?style=flat"
+    <img src="http://img.shields.io/badge/Version-0.2-blue.svg?style=flat"
          alt="Version" />
   </a>
   <a href="https://github.com/TEHGAM/Team_Tactics/raw/master/team_tactics.Altis.pbo">
-    <img src="http://img.shields.io/badge/Download-1.9_MB-green.svg?style=flat"
+    <img src="http://img.shields.io/badge/Download-1.74_MB-green.svg?style=flat"
          alt="Download" />
   </a>
   <a href="https://github.com/TEHGAM/Team_Tactics/issues">
     <img src="http://img.shields.io/github/issues-raw/TEHGAM/Team_Tactics.svg?label=Issues&style=flat"
          alt="Issues" />
   </a>
-    <a href="http://www.tehgam.com/viewforum.php?f=237">
-    <img src="https://img.shields.io/badge/TEHGAM-Forum-lightgrey.svg?style=flat"
-         alt="Forum" />
+    <a href="http://arma3.ru/forums/topic/3972-arma3ru-team-tactics-addons-cba-vts-task-force-ru/">
+    <img src="https://img.shields.io/badge/ARMA3.RU-Thread-lightgrey.svg?style=flat"
+         alt="ARMA3.RU Thread" />
   </a>
     <a href="http://creativecommons.org/licenses/by-nc-sa/3.0">
     <img src="http://img.shields.io/badge/License-CC-red.svg?style=flat"
