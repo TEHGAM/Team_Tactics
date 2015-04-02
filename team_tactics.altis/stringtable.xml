@@ -3,2606 +3,908 @@
 	<Package name="PO3Strings">
 		<Key ID="STR_PO3_M01_TITLE">
 			<Original>Штурмуйте</Original>
-			<Portuguese>Ataque %1</Portuguese>
-			<French>Attaquer %1</French>
-			<Spanish>Asalta %1</Spanish>			
-			<Polish>Zaatakuj %1</Polish>
-			<German>Greife %1 an</German>
-			<Czech>Zaútoč na %1</Czech>
 			<Russian>Штурмуйте</Russian>
 		</Key>
 		<Key ID="STR_PO3_M01_DESCR">
 			<Original>Миссия #%1&lt;br/&gt;&lt;br/&gt;Информация: Вражеские силы продвинулись к %2, отрезали наши коммуникации. Мы не знаем, сколько их там, есть ли у них техника и авиация.&lt;br/&gt;&lt;br/&gt;Задача: Атаковать %2 и отбросить противника назад.</Original>
-			<Portuguese>Missão #%1&lt;br/&gt;&lt;br/&gt;Brief: As forças inimigas avançaram para %2, e cortou nossas comunicações. Não há informação disponível sobre o que enfrentaremos, mas é possível que o inimigo tenha suporte de blindados pesado e veículos aéreos.&lt;br/&gt;&lt;br/&gt;Tarefa: Ataque %2 e expulse os inimigos de lá.</Portuguese>
-			<French>Mission #%1&lt;br/&gt;&lt;br/&gt;Situation: Les forces ennemies ont progressé sur %2 en détruisant nos communications. Aucune information n'est disponible concernant leur nombre et type d'armement utilisé.&lt;br/&gt;&lt;br/&gt;Tâche: attaquer % 2 et chasser les ennemis.</French>
-			<Spanish>Misión #%1&lt;br/&gt;&lt;br/&gt;Informe: Las fuerzas enemigas han avanzado en un %2, cortando nuestras comunicaciones. No tenemos información sobre su número y fuerza pero es posible que cuenten con apoyo aéreo y de blindados.&lt;br/&gt;&lt;br/&gt;Objetivo: Ataca el %2 y expúlsalos.</Spanish>
-			<Polish>Misja #%1&lt;br/&gt;&lt;br/&gt;Odprawa: Nieprzyjaciel opanował rejon %2, odcinając nam łączność. Nie znamy składu ani liczebności sił wroga, ale jest prawdopodobne, iż dysponuje wsparciem pancernym i powietrznym.&lt;br/&gt;&lt;br/&gt;Rozkazy: Przeprowadzić kontrnatarcie na %2 i wyprzeć stamtąd npla.</Polish>
-			<German>Mission #%1&lt;br/&gt;&lt;br/&gt;Lage: Feindliche Einheiten sind mittels %2 vorgerückt und haben unsere Kommunikationswege unterbrochen. Wir haben keine Information über die Zahl und Stärke der Truppen, aber schwere Panzer- und Luftunterstützung ist zu erwarten.&lt;br/&gt;&lt;br/&gt;Aufgabe: Vertreiben Sie die Feindkräfte von %2.</German>
-			<Czech>Mise #%1&lt;br/&gt;&lt;br/&gt;Informace: Nepřátelské jednotky postoupily až k %2, tím odřízli naší komunikaci. Nevíme kolik jich je, ale mohou mít obrněnou a možná i leteckou podporu.&lt;br/&gt;&lt;br/&gt;Task: Zaútočte na %2 a zatlačte je zpátky.</Czech>
 			<Russian>Миссия #%1&lt;br/&gt;&lt;br/&gt;Информация: Вражеские силы продвинулись к %2, отрезали наши коммуникации. Мы не знаем, сколько их там, есть ли у них техника и авиация.&lt;br/&gt;&lt;br/&gt;Задача: Атаковать %2 и отбросить противника назад.</Russian>
 		</Key>
 		<Key ID="STR_PO3_M02_TITLE">
 			<Original>Засада</Original>
-			<German>Hinterhalt auf gepanzerte Patrouille</German>
-			<Portuguese>Emboscada à Patrulha Blindada</Portuguese>
-			<French>Embusquer une patrouille blindée</French>
-			<Czech>Přepadněte Obrněnou Patrolu</Czech>
 			<Russian>Засада</Russian>
 		</Key>
 		<Key ID="STR_PO3_M02_DESCR">
 			<Original>Миссия #%1&lt;br/&gt;&lt;br/&gt;Ситуация: Гражданские сообщают о колонне противника недалеко от %2. Командование считает, что они проводят патрулирование для разведки и дальнейшего закрепления на стратегически важных позициях.&lt;br/&gt;&lt;br/&gt;Задача: Переместитесь в АО, найдите бронированный конвой и уничтожьте всю вражескую активность.</Original>
-			<German>Mission #%1&lt;br/&gt;&lt;br/&gt;Zivilisten berichten von einem %3 gepanzerten Konvoi, der nahe %2 patrouillert. COMMAND nimmt an, dass die Einheiten Schlüsselstellungen aufklären und sichern sollen.&lt;br/&gt;&lt;br/&gt;Aufgabe: Begeben Sie sich ins Operationsgebiet, finden und vernichten Sie den Konvoi.</German>
-			<Portuguese>Missão #%1&lt;br/&gt;&lt;br/&gt;A população civil reportou um %3 comboio blindado em patrulha perto de %2. O Comando acredita que eles estão conduzindo a patrulha para observar e manter pontos estratégicos.&lt;br/&gt;&lt;br/&gt;Tarefa: Vá para a área de operação, localize o comboio blindado e destrua todos os equipamentos inimigos.</Portuguese>
-			<French>Mission #%1&lt;br/&gt;&lt;br/&gt;Les civils ont rapporté un convoi armé %3 patrouillant près de %2. Notre commandement estime qu'ils conduisent une patrouille afin de sécuriser les principaux points d'accès&lt;br/&gt;&lt;br/&gt;Tâche: déplacer-vous dans la zone indiquée, localisez le convoi armé, détruisez le ainsi que l'ensemble des forces ennemies.</French>
-			<Czech>Mise #%1&lt;br/&gt;&lt;br/&gt;Civilisté hlásí obrněný konvoj %3 ,který hlídkuje poblíž %2. Velení se domnívá, že provádí průzkum oblasti, a snaží se zajmout některé klíčové body..&lt;br/&gt;&lt;br/&gt;Task: Konvoj najděte a celý zničte.</Czech>
 			<Russian>Миссия #%1&lt;br/&gt;&lt;br/&gt;Ситуация: Гражданские сообщают о колонне противника недалеко от %2. Командование считает, что они проводят патрулирование для разведки и дальнейшего закрепления на стратегически важных позициях.&lt;br/&gt;&lt;br/&gt;Задача: Переместитесь в АО, найдите бронированный конвой и уничтожьте всю вражескую активность.</Russian>
 		</Key>
 		<Key ID="STR_PO3_M03_TITLE">
 			<Original>Захват конвоя снабжения</Original>
-			<German>Nachschubkonvoi kapern</German>
-			<Portuguese>Captura do Comboio de Suprimentos</Portuguese>
-			<French>Capturer le convoi d'approvisionnement</French>
-			<Czech>Zajmněte zásobovací konvoj</Czech>
 			<Russian>Захват конвоя снабжения</Russian>
 		</Key>
 		<Key ID="STR_PO3_M03_DESCR">
 			<Original>Миссия #%1&lt;br/&gt;&lt;br/&gt;Ситуация: Командование считает, что силы %3 имеют доступ к WMD. Нужная нам информация находится в транспортом контейнере, который перевозит конвой поддержки.&lt;br/&gt;&lt;br/&gt;Задача: Найти и захватить данный контейнер, обездвижив при этом машину, на которой он перевозится. Командование ожидает данный груз на базе для дальнейшего осмотра</Original>
-			<German>Mission #%1&lt;br/&gt;&lt;br/&gt;COMMAND nimmt an, dass %3 Truppen Zugriff auf eine Massenvernichtungswaffe erhalten haben. INTEL berichtet, dass sie in einem Container eines Nachschubkonvois gelagert ist, der permanent in Bewegung ist.&lt;br/&gt;&lt;br/&gt;Aufgabe: Orten und erobern Sie den Container, indem sie das transportierende Fahrzeug bewegungsunfähig machen. COMMAND erwartet, dass es zum "Rückkehrpunkt"-Marker für eine genauere Untersuchung gebracht wird.</German>
-			<Portuguese>Missão #%1&lt;br/&gt;&lt;br/&gt;O Comando acredita que %3 inimigos tiveram acesso a Armas de Destruição em Massa. A Inteligência localizou a arma em um container transportado em um comboio de suprimentos que está sempre se deslocando.&lt;br/&gt;&lt;br/&gt;Tarefa: Localize e capture o conteiner sequestrando o veículo que o transporta. O Comando aguarda a entrega do objetivo no "Return Point" marcado para inspeciona-lo.</Portuguese>
-			<French>Mission #%1&lt;br/&gt;&lt;br/&gt;Notre commandement estime que les forces %3 ont accès à une arme de destruction massive. Il semblerait qu'elle soit dans un conteneur transporté par un convoi qui se déplace constamment.&lt;br/&gt;&lt;br/&gt;Tâche: localisez et capturer le conteneur en paralysant le véhicule de transport. Le commandement attendra ensuite que le conteneur soit ramené au marqueur (RETURN POINT) dans la base afin d'être inspecté.</French>
-			<Czech>Mise #%1&lt;br/&gt;&lt;br/&gt;Velení se domnívá, že jednotky %3 mají přístup ke zbraním hromadného ničení. Podle informací se nacházejí v kontejneru, který je v pohybu.&lt;br/&gt;&lt;br/&gt;Task: Najděte a zajistěte kontejner znehybněním transportního vozidla. Poté ho převezte na "Return Point" aby ho mohli experti prozkoumat.</Czech>
 			<Russian>Миссия #%1&lt;br/&gt;&lt;br/&gt;Ситуация: Командование считает, что силы %3 имеют доступ к WMD. Нужная нам информация находится в транспортом контейнере, который перевозит конвой поддержки.&lt;br/&gt;&lt;br/&gt;Задача: Найти и захватить данный контейнер, обездвижив при этом машину, на которой он перевозится. Командование ожидает данный груз на базе для дальнейшего осмотра</Russian>
 		</Key>
 		<Key ID="STR_PO3_M04_TITLE">
 			<Original>Перехватить важные данные</Original>
-			<German>Informationen sicherstellen</German>
-			<Portuguese>Obtenha Informação Valiosa</Portuguese>
-			<French>Récuperez l'information essentielle</French>
-			<Czech>Zajistěte důležitá data</Czech>
 			<Russian>Перехватить важные данные</Russian>
 		</Key>
 		<Key ID="STR_PO3_M04_DESCR">
 			<Original>Миссия #%1&lt;br/&gt;&lt;br/&gt; Ситуация: Разведка сообщила, что силы %4 недалеко от %2 располагают информацией об их силе и стратегии.&lt;br/&gt;&lt;br/&gt;Задача: Выдвинуться в данный район и найти %3 части данной информации.</Original>
-			<German>Mission #%1&lt;br/&gt;&lt;br/&gt;COMMAND hat erfahren, dass %4 Truppen wichtige Unterlagen über Stärke und Strategien nahe %2 aufbewahrt werden.&lt;br/&gt;&lt;br/&gt;Aufgabe: Begeben Sie sich ins Operationsgebiet und finden Sie %3 Unterlagen. </German>
-			<Portuguese>Missão #%1&lt;br/&gt;&lt;br/&gt;O Comando localizou %4 inimigos que estão guardando informações valiosas sobre sseu efetivo e suas estratégias perto de %2.&lt;br/&gt;&lt;br/&gt;Tarefa: Mova para a áre de operação e encontre %3 informações valiosas.</Portuguese>
-			<French>Mission #%1&lt;br/&gt;&lt;br/&gt;Le commandement vient d'apprendre que les forces %4 gardent de l'informations essentielle sur leurs forces et stratégies près de %2.&lt;br/&gt;&lt;br/&gt;Tâche: déplacez-vous dans la zone indiquée et retrouvez les %3 pièces d'informations.</French>
-			<Czech>Mise #%1&lt;br/&gt;&lt;br/&gt;Rozvědka zjistila, že kde se nacházejí dokumenty o síle a rozmístění sil %4 . Podle informací to má být poblíž %2.&lt;br/&gt;&lt;br/&gt;Task: Přesuňte se do oblasti a najděte %3 dokumentů.</Czech>
 			<Russian>Миссия #%1&lt;br/&gt;&lt;br/&gt; Ситуация: Разведка сообщила, что силы %4 недалеко от %2 располагают информацией об их силе и стратегии.&lt;br/&gt;&lt;br/&gt;Задача: Выдвинуться в данный район и найти %3 части данной информации.</Russian>
 		</Key>
 		<Key ID="STR_PO3_M05_TITLE">
 			<Original>Захватите</Original>
-			<Portuguese>Capture %1</Portuguese>
-			<French>Capturer %1</French>
-			<Spanish>Captura %1</Spanish>
-			<Polish>Pojmij: %1</Polish>
-			<German>Erobere %1</German>
-			<Czech>Zajměte %1</Czech>
 			<Russian>Захватите</Russian>
 		</Key>
 		<Key ID="STR_PO3_M05_DESCR_01">
 			<Original>Миссия #%1&lt;br/&gt;&lt;br/&gt;Ситуация: Важная цель была замечена недалеко от %2.&lt;br/&gt;Цель %3 - вражеский офицер, координирующий оборону в области.&lt;br/&gt;&lt;br/&gt;Задача: Поймать этого редиску и доставить его на базу. Мы будем ждать его на точке возврата(RETURN POINT).&lt;br/&gt;&lt;br/&gt;НЕ убивайте его, если позволяет ситуация.</Original>
-			<Portuguese>Missão #%1&lt;br/&gt;&lt;br/&gt;Brief: Um alvo de oportunidade foi espotado perto de %2.&lt;br/&gt;O alvo é %3, um oficial que acreditamos que sabe sobre o posicionamento inimigo e seus planos de ataque.&lt;br/&gt;&lt;br/&gt;Tarefa: Providencie sua captura e traga-o para base para interrogatório.&lt;br/&gt;Contamos com a presença dele em "Return Point".&lt;br/&gt;&lt;br/&gt;Você não possui autorização para matar o alvo, a não ser que segundo as regras de engajamento</Portuguese>
-			<Spanish>Misión #%1&lt;br/&gt;&lt;br/&gt;Informe: Un posible e inesperado objetivo ha sido descubierto cerca de %2.&lt;br/&gt;El objetivo es %3, un oficial enemigo de quien se piensa está al tanto de los movimientos y estrategias de ataque del enemigo.&lt;br/&gt;&lt;br/&gt;Objetivo: Organiza su captura y tráelo a la base para ser interrogado.&lt;br/&gt;Se espera su presencia en el "Punto de retorno" de la misión.&lt;br/&gt;&lt;br/&gt;No tienes autorización para eliminar al objetivo a no ser que la situación te obligue.</Spanish>
-			<Polish>Misja #%1&lt;br/&gt;&lt;br/&gt;Odprawa: Trafia nam się okazja w pobliżu miejscowości %2.&lt;br/&gt;Celem jest %3, jeden z oficerów wroga, który według naszych ustaleń posiada wiedzę na temat aktualnego rozlokowania, rozkazów i planowanej strategii ataku sił npla.&lt;br/&gt;&lt;br/&gt;Rozkazy: Pojmać cel żywcem i dostarczyć na przesłuchanie.&lt;br/&gt;Przejmiemy jeńca w miejscu oznaczonym na potrzeby misji jako "Return Point".&lt;br/&gt;&lt;br/&gt;Cel musi pozostać przy życiu, chyba że reguły prowadzenia walki wymuszą jego likwidację.</Polish>
-			<German>Mission #%1&lt;br/&gt;&lt;br/&gt;Lage: Ein bedeutendes Ziel wurde nahe %2 gesichtet.&lt;br/&gt;Ziel ist %3, ein feindlicher Offiziert, der vermutlich wichtige Informationen über Feindbewegungen und Aufstellungen besitzt.&lt;br/&gt;&lt;br/&gt;Aufgabe: Nehmen Sie den Offizier gefangen und bringen Sie ihn zwecks Befragung zurück zur Basis.&lt;br/&gt;Er wird am mit "Rückkehrpunkt" auf der Karte markierten Stelle übergeben.&lt;br/&gt;&lt;br/&gt;Das Eliminieren des Ziels ist im Rahmen der Rules of Engagement zu vermeiden.</German>
-			<French>Mission #%1&lt;br/&gt;&lt;br/&gt;Situation: Une cible d'opportunité a été identifiée près de %2.&lt;br/&gt;la cible est %3, un officier ennemi qui détient des informations à propos des mouvements et des stratégies de l'ennemi.&lt;br/&gt;&lt;br/&gt;Tâche: organisez sa capture (si possible) et ramenez l'officier à la base (Marqueur RETURN POINT) pour être interrogé.&lt;br/&gt;&lt;br/&gt;Vous n'avez pas l'autorisation de tuer l'officier à moins que les règles d'engagement vous y obligent.</French>
-			<Czech>Mise #%1&lt;br/&gt;&lt;br/&gt;Situace: Důležitý cíl byl spatřen poblíž %2.&lt;br/&gt;Cílem je %3, nepřátelský důstojník, který koordinuje obranu v oblasti.&lt;br/&gt;&lt;br/&gt;Úkol: Zajměte důstojníka a dopravte ho na základnu k výslechu.&lt;br/&gt;Budeme na něj čekat u bodu "Return Point".&lt;br/&gt;&lt;br/&gt;NESMÍTE HO ZABÍT, pokud vás situace nepřinutí.</Czech>
 			<Russian>Миссия #%1&lt;br/&gt;&lt;br/&gt;Ситуация: Важная цель была замечена недалеко от %2.&lt;br/&gt;Цель %3 - вражеский офицер, координирующий оборону в области.&lt;br/&gt;&lt;br/&gt;Задача: Поймать этого редиску и доставить его на базу. Мы будем ждать его на точке возврата(RETURN POINT).&lt;br/&gt;&lt;br/&gt;НЕ убивайте его, если позволяет ситуация.</Russian>
 		</Key>
 		<Key ID="STR_PO3_M05_DESCR_02">
 			<Original>Миссия #%1&lt;br/&gt;&lt;br/&gt;Ситуация: Важная цель была замечена недалеко от %2.&lt;br/&gt;Цель %3 - вражеский офицер, координирующий оборону в области.&lt;br/&gt;&lt;br/&gt;Задача: Поймать офицера и доставить его на базу для допроса.&lt;br/&gt;Мы будем ждать его на точке возврата(RETURN POINT).&lt;br/&gt;&lt;br/&gt;НЕ убивайте его, если позволяет ситуация.</Original>
-			<Portuguese>Missão #%1&lt;br/&gt;&lt;br/&gt;Brief:Um alvo de oportunidade foi espotado perto de %2.&lt;br/&gt;O alvo é %3, um oficial que acreditamos que sabe sobre a movimentação inimiga e seus planos de ataque.&lt;br/&gt;&lt;br/&gt;Tarefa: Providencie sua captura (se possível) e traga-o para base para interrogatório.&lt;br/&gt;Contamos com a presença dele em "Return Point".&lt;br/&gt;&lt;br/&gt;Você não possui autorização para matar o alvo, a não ser que segundo as regras de engajamento</Portuguese>
-			<French>Mission #%1&lt;br/&gt;&lt;br/&gt;Situation: Une cible d'opportunité a été identifiée près de %2.&lt;br/&gt;la Cible est %3, un officier ennemi qui détient des informations à propos des mouvements et des stratégies de l'ennemi.&lt;br/&gt;&lt;br/&gt;Tâche: organisez sa capture (si possible) et ramenez l'officier à la base (Marqueur RETURN POINT) pour être interrogé.&lt;br/&gt;&lt;br/&gt;Vous n'avez pas l'autorisation de tuer l'officier à moins que les règles d'engagement vous y obligent.</French>
-			<Spanish>Misión #%1&lt;br/&gt;&lt;br/&gt;Informe: Un posible e inesperado objetivo ha sido descubierto cerca de %2.&lt;br/&gt;El objetivo es %3, un oficial enemigo de quien se piensa está al tanto de los movimientos y estrategias de ataque del enemigo.&lt;br/&gt;&lt;br/&gt;Objetivo: Organiza su captura (si es posible) y tráelo a la base para ser interrogado.&lt;br/&gt;Se espera su presencia en el "Punto de retorno" de la misión.&lt;br/&gt;&lt;br/&gt;No tienes autorización para eliminar al objetivo a no ser que la situación te obligue.</Spanish>
-			<Polish>Misja #%1&lt;br/&gt;&lt;br/&gt;Odprawa: Trafia nam się okazja w pobliżu miejscowości %2.&lt;br/&gt;Celem jest %3, jeden z oficerów wroga, który według naszych ustaleń posiada wiedzę na temat aktualnego rozlokowania, rozkazów i planowanej strategii ataku sił npla.&lt;br/&gt;&lt;br/&gt;Rozkazy: W miarę możliwości pojmać cel żywcem i dostarczyć na przesłuchanie.&lt;br/&gt;Przejmiemy jeńca w miejscu oznaczonym na potrzeby misji jako "Return Point".&lt;br/&gt;&lt;br/&gt;Cel musi pozostać przy życiu, chyba że reguły prowadzenia walki wymuszą jego likwidację.</Polish>
-			<German>Mission #%1&lt;br/&gt;&lt;br/&gt;Lage: Ein bedeutendes Ziel wurde nahe %2 gesichtet.&lt;br/&gt;Ziel ist %3, ein feindlicher Offiziert, der vermutlich wichtige Informationen über Feindbewegungen und Aufstellungen besitzt.&lt;br/&gt;&lt;br/&gt;Aufgabe: Nehmen Sie den Offizier gefangen und bringen Sie ihn zwecks Befragung zurück zur Basis.&lt;br/&gt;Er wird am mit "Rückkehrpunkt" auf der Karte markierten Stelle übergeben.&lt;br/&gt;&lt;br/&gt;Das Eliminieren des Ziels ist im Rahmen der Rules of Engagement zu vermeiden.</German>
-			<Czech>Mise #%1&lt;br/&gt;&lt;br/&gt;Situace: Důležitý cíl byl spatřen poblíž %2.&lt;br/&gt;Cílem je %3, nepřátelský důstojník, který koordinuje obranu v oblasti.&lt;br/&gt;&lt;br/&gt;Úkol: Zajměte důstojníka a dopravte ho na základnu k výslechu.&lt;br/&gt;Budeme na něj čekat u bodu "Return Point".&lt;br/&gt;&lt;br/&gt;NESMÍTE HO ZABÍT, pokud vás situace nepřinutí.</Czech>
 			<Russian>Миссия #%1&lt;br/&gt;&lt;br/&gt;Ситуация: Важная цель была замечена недалеко от %2.&lt;br/&gt;Цель %3 - вражеский офицер, координирующий оборону в области.&lt;br/&gt;&lt;br/&gt;Задача: Поймать офицера и доставить его на базу для допроса.&lt;br/&gt;Мы будем ждать его на точке возврата(RETURN POINT).&lt;br/&gt;&lt;br/&gt;НЕ убивайте его, если позволяет ситуация.</Russian>
 		</Key>
 		<Key ID="STR_PO3_M06_TITLE">
 			<Original>Отбейте</Original>
-			<Portuguese>Retome %1</Portuguese>
-			<French>Reprendre %1</French>
-			<Spanish>Recupera %1</Spanish>
-			<Polish>Odbij: %1</Polish>
-			<German>Erobere %1 zurück</German>
-			<Czech>Získejte zpět %1</Czech>
 			<Russian>Отбейте</Russian>
 		</Key>
 		<Key ID="STR_PO3_M06_DESCR">
 			<Original>Миссия #%1&lt;br/&gt;&lt;br/&gt;Брифинг: Вражеские войска вторглись в деревню %2. Мы не знаем ничего о численности и составе их войск, но возможно среди них есть бронетехника и авиация.&lt;br/&gt;&lt;br/&gt;Задача: Отбейте %2 обратно и изгоните противника из данного района.</Original>
-			<Portuguese>Missão #%1&lt;br/&gt;&lt;br/&gt;Brief: As forças inimigas avançaram para %2. Não há informação disponível sobre o que enfrentaremos, mas é possível que tenham suporte de blindados pesado e veículos aéreos.&lt;br/&gt;&lt;br/&gt;Tarefa: Retome %2 e expulse os inimigos de lá.</Portuguese>
-			<French>Mission #%1&lt;br/&gt;&lt;br/&gt;Situation: Les forces ennemies ont avancé sur %2. Aucune information n'est disponible sur leur nombre et le type d'unité mais il est possible qu'il y ai des blindés et de l'appui aérien.&lt;br/&gt;&lt;br/&gt;Tâche: reprendre %2 et forcer l'ennemi à évacuer.</French>
-			<Spanish>Misión #%1&lt;br/&gt;&lt;br/&gt;Informe: Fuerzas enemigas avanzan en el %2. No tenemos información sobre su número y fuerza pero es posible que cuenten con apoyo aéreo y de blindados.&lt;br/&gt;&lt;br/&gt;Objetivo: Recupera %2 y expulsa al enemigo.</Spanish>
-			<Polish>Misja #%1&lt;br/&gt;&lt;br/&gt;Odprawa: Siły wroga wkroczyły do miejscowości %2. Nie znamy składu ani liczebności sił wroga, ale przypuszcza się, iż może dysponować wsparciem pancernym i powietrznym.&lt;br/&gt;&lt;br/&gt;Rozkazy: Odbić miejscowość %2 wypierając stamtąd npla.</Polish>
-			<German>Mission #%1&lt;br/&gt;&lt;br/&gt;Lage: Feindliche Truppen sind auf %2 vorgerückt. Wir haben keine Informationen über Stärke und Zahl, aber schwere Panzer- und Luftunterstützung ist zu erwarten.&lt;br/&gt;&lt;br/&gt;Aufgabe: Eroberen Sie %2 zurück und vertreiben Sie den Feind.</German>
 			<Russian>Миссия #%1&lt;br/&gt;&lt;br/&gt;Брифинг: Вражеские войска вторглись в деревню %2. Мы не знаем ничего о численности и составе их войск, но возможно среди них есть бронетехника и авиация.&lt;br/&gt;&lt;br/&gt;Задача: Отбейте %2 обратно и изгоните противника из данного района.</Russian>
 		</Key>
 		<Key ID="STR_PO3_M07_TITLE">
 			<Original>Захватите %1</Original>
-			<Portuguese>Capture o %1 </Portuguese>
-			<French>Capturer un %1</French>
-			<Spanish>Captura un %1</Spanish>
-			<Polish>Przejmij %1</Polish>
-			<German>Erobere einen %1</German>
-			<Czech>Obsaďte %1</Czech>
 			<Russian>Захватите %1</Russian>			
 		</Key>
 		<Key ID="STR_PO3_M07_DESCR">
 			<Original>Миссия #%1&lt;br/&gt;&lt;br/&gt;Ситуация: Важная цель была замечена недалеко от %2.&lt;br/&gt; Враг проводит испытания нового оборудования. Мы считаем, что испытания подходят к концу и скоро оно будет использовано против нас.&lt;br/&gt;Цель - %3. Мы считаем, что она представляет из себя разведовательные инновационные технологии отслеживания цели.&lt;br/&gt;&lt;br/&gt;Задача: Захватить цель и доставить для анализа.&lt;br/&gt;&lt;br/&gt;Мы будем ждать ее в точке возврата.&lt;br/&gt;&lt;br/&gt; Цель ни в коем случае не должна быть повреждена!</Original>
-			<Portuguese>Missão #%1&lt;br/&gt;&lt;br/&gt;Brief: Um alvo de oportunidade foi espotado perto de %2.&lt;br/&gt;O inimigo está testando seu novo equipamento e acreditamos que está nas etapas finais de desenvolvimento antes utilizá-lo contra nós.&lt;br/&gt;O alvo é um %3, acreditamos que ele contém novas tecnologias embarcadas, como radares e dispositivos ópticos.&lt;br/&gt;&lt;br/&gt;Tarefa: Providencie a captura da alvo e o traga para base para análise.&lt;br/&gt;&lt;br/&gt;Esperaremos a entrega no "Return Point".&lt;br/&gt;&lt;br/&gt;Você não possui autorizaçao para destruir o objetivo!</Portuguese>
-			<French>Mission #%1&lt;br/&gt;&lt;br/&gt;Siuation: Une cible d'opportunité a été repérée près de %2.&lt;br/&gt;Leurs tests étant presque terminés, l'ennemi se prépare à utiliser cert équipement contre nous.&lt;br/&gt;La cible est un %3, contenant de nouvelles technologies de detection et d'engagement de cibles.&lt;br/&gt;&lt;br/&gt;Tâche: organiser sa capture et ramener le à la base (Marqueur RETURN POINT) pour analyse.&lt;br/&gt;&lt;br/&gt;Interdiction de détruire la cible!</French>
-			<Spanish>Misión #%1&lt;br/&gt;&lt;br/&gt;Informe: Un posible e inesperado objetivo ha sido descubierto cerca de %2.&lt;br/&gt;El enemigo ha estado probando su nueva tecnología y se cree que están a punto de terminar los últimos ensayos antes de emplearla contra nosotros.&lt;br/&gt;El objetivo es un %3, el cual creemos que contiene nuevas tecnologías que permiten la comprensión del espacio de batalla y ópticas de combate.&lt;br/&gt;&lt;br/&gt;Objetivo: Organiza su captura y tráelo a la base para analizarlo.&lt;br/&gt;&lt;br/&gt;Se espera su presencia en el "Punto de retorno" de la misión.&lt;br/&gt;&lt;br/&gt;¡No tienes autorización para destruir el objetivo!</Spanish>
-			<Polish>Misja #%1&lt;br/&gt;&lt;br/&gt;Odprawa: W pobliżu miejscowości %2 natrafiliśmy na nieoczekiwaną sposobność.&lt;br/&gt;Wróg testuje tam nowe wyposażenie. Próby są w fazie finalnej i uważamy, że wkrótce będzie gotów użyć testowanego systemu przeciwko nam.&lt;br/&gt;Celem jest %3. Jak sądzimy, zawiera prototypowe technologie rozpoznania pola walki i nowatorskie systemy namierzania celu.&lt;br/&gt;&lt;br/&gt;Rozkazy: Cel zdobyć i dostarczyć do analizy.&lt;br/&gt;&lt;br/&gt;Przejmiemy go w miejscu oznaczonym na potrzeby misji jako "Return Point".&lt;br/&gt;&lt;br/&gt;Cel pod żadnym pozorem nie może ulec uszkodzeniu!</Polish>
-			<German>Mission #%1&lt;br/&gt;&lt;br/&gt;Aufgabe: Ein bedeutendes Ziel wurde nahe %2 ausgemacht.&lt;br/&gt;Der Feind hat hier neue Ausrüstung getestet und es wird vermutet, dass sie kurz vor der Indienststellung steht.&lt;br/&gt;Ziel ist ein %3, der neue Technologien zur Steigerung von Schlachtfeldwahrnehmung und Zielerfassungsoptiken enthalten soll.&lt;br/&gt;&lt;br/&gt;Aufgabe: Erobern Sie es und übergeben Sie es am mit "Rückkehrpunkt" markierten Ort unseren Technikern.&lt;br/&gt;&lt;br/&gt;Die Vernichtung des Ziels ist zu vermeiden!</German>
-			<Czech>Mise #%1&lt;br/&gt;&lt;br/&gt;Situace: Důležitý cíl by spatřen nedaleko %2.&lt;br/&gt;Nepřátelé testují nové vybavení a věříme, že jsou skoro ukonce. Potom na nás to vybavení použijí.&lt;br/&gt;Cílem je %3, měl by obsahovat novou elektroniku a další zajímavá vylepšení.&lt;br/&gt;&lt;br/&gt;Úkol: Vaším cílem je dopravit tento prototyp na základnu.&lt;br/&gt;&lt;br/&gt;Budeme na něj čekat na bodě "Return Point".&lt;br/&gt;&lt;br/&gt;NESMÍTE PROTOTYP ZNIČIT!</Czech>
 			<Russian>Миссия #%1&lt;br/&gt;&lt;br/&gt;Ситуация: Важная цель была замечена недалеко от %2.&lt;br/&gt; Враг проводит испытания нового оборудования. Мы считаем, что испытания подходят к концу и скоро оно будет использовано против нас.&lt;br/&gt;Цель - %3. Мы считаем, что она представляет из себя разведовательные инновационные технологии отслеживания цели.&lt;br/&gt;&lt;br/&gt;Задача: Захватить цель и доставить для анализа.&lt;br/&gt;&lt;br/&gt;Мы будем ждать ее в точке возврата.&lt;br/&gt;&lt;br/&gt; Цель ни в коем случае не должна быть повреждена!</Russian>
 		</Key>
 		<Key ID="STR_PO3_M08_TITLE">
 			<Original>Очистите минное поле</Original>
-			<Portuguese>Limpar o campo minado</Portuguese>
-			<French>Nettoyez le champ de mines</French>
-			<Spanish>Limpia el Campo de Minas</Spanish>
-			<Polish>Oczyść pole minowe</Polish>
-			<German>Minenfeld räumen</German>
-			<Czech>Zneškodněte minové pole</Czech>
 			<Russian>Очистите минное поле</Russian>			
 		</Key>
 		<Key ID="STR_PO3_M08_DESCR_1">
 			<Original>Миссия #%1&lt;br/&gt;&lt;br/&gt;Обстановка: Местные жители сообщили о пострадавших от мин типа %2 недалеко от %3.&lt;br/&gt;&lt; Задача: Обеспечить безопасность в данном районе и обезвредить мины (по крайней мере %4)</Original>
-			<Portuguese>Missão #%1&lt;br/&gt;&lt;br/&gt;Brief: A população civil tem reportado ferimentos causados por %2s ao redor de %3.&lt;br/&gt;&lt;br/&gt;Tarefa: Limpe a área e desarme pelo menos %4 minas.</Portuguese>
-			<French>Mission #%1&lt;br/&gt;&lt;br/&gt;Situation: des civils ont rapporté des blessures causées par %2s près de %3.&lt;br/&gt;&lt;br/&gt;Tâche: sécurisez la zone et désarmez au moins %4 mines.</French>
-			<Spanish>Misión #%1&lt;br/&gt;&lt;br/&gt;Informe: Civiles informan de lesiones causadas por %2s cerca de %3.&lt;br/&gt;&lt;br/&gt;Objetivo: Asegura el área y desactiva al menos %4 minas.</Spanish>
-			<Polish>Misja #%1&lt;br/&gt;&lt;br/&gt;Odprawa: Miejscowa ludność donosi o poszkodowanych przez miny typu %2 w rejonie miejscowości %3.&lt;br/&gt;&lt;br/&gt;Rozkazy: Zabezpieczyć teren i usunąć miny (co najmniej %4).</Polish>
-			<German>Mission #%1&lt;br/&gt;&lt;br/&gt;Lage: Zivilisten haben durch %2 verursachte Verletzungen in der Nähe von %3 gemeldet.&lt;br/&gt;&lt;br/&gt;Aufgabe: Sichern Sie das Gebiet und räumen Sie mindestens %4 Minen.</German>
-			<Czech>Mise #%1&lt;br/&gt;&lt;br/&gt;Situace: Civilisté nám nahlásili přítomnost minových polí, která vytvořil %2 poblíž %3.&lt;br/&gt;&lt;br/&gt;Úkol: Zabezpečte oblast a zneškodněte alespoň %4 min.</Czech>
 			<Russian>Миссия #%1&lt;br/&gt;&lt;br/&gt;Обстановка: Местные жители сообщили о пострадавших от мин типа %2 недалеко от %3.&lt;br/&gt;&lt; Задача: Обеспечить безопасность в данном районе и обезвредить мины (по крайней мере %4).</Russian>
 		</Key>
 		<Key ID="STR_PO3_M08_DESCR_2">
 			<Original>Миссия #%1&lt;br/&gt;&lt;br/&gt; Ситуация: Гражданские получили ранения от мин типа %2 на дорогах недалеко от %3.&lt;br/&gt;&lt;br/&gt;Задача: Обеспечить безопасность на месте и обезвредить %4 мин(ы).</Original>
-			<Portuguese>Missão #%1&lt;br/&gt;&lt;br/&gt;Brief: A população civil tem reportado ferimentos causados por %2s nas ruas perto de %3.&lt;br/&gt;&lt;br/&gt;Tarefa: Limpe a área e desarme pelo menos %4 minas.</Portuguese>
-			<French>Mission #%1&lt;br/&gt;&lt;br/&gt;Situation: Des civils ont rapporté des blessures causées par des %2s le long des routes près de %3.&lt;br/&gt;&lt;br/&gt;Tâche: securisez la zone et désarmez au moins %4 mines.</French>
-			<Spanish>Misión #%1&lt;br/&gt;&lt;br/&gt;Informe: Civiles informan de lesiones causadas por %2s a lo largo de las carreteras cercanas a %3.&lt;br/&gt;&lt;br/&gt;Objetivo: Asegura el área y desactiva al menos %4 minas.</Spanish>
-			<Polish>Misja #%1&lt;br/&gt;&lt;br/&gt;Odprawa: Cywile donoszą o poszkodowanych przez miny typu %2 przy drogach wokół miejscowości %3.&lt;br/&gt;&lt;br/&gt;Rozkazy: Zabezpieczyć teren i usunąć miny (co najmniej %4).</Polish>
-			<German>Mission #%1&lt;br/&gt;&lt;br/&gt;Lage: Zivilisten haben durch %2 verursachte Verletzungen in der Nähe von %3 gemeldet.&lt;br/&gt;&lt;br/&gt;Aufgabe: Sichern Sie das Gebiet und räumen Sie mindestens %4 Minen.</German>
-			<Czech>Mise #%1&lt;br/&gt;&lt;br/&gt;Situace: Civilisté nám nahlásili přítomnost minových polí, která vytvořil %2 poblíž %3.&lt;br/&gt;&lt;br/&gt;Úkol: Zabezpečte oblast a zneškodněte alespoň %4 min.</Czech>
 			<Russian>Миссия #%1&lt;br/&gt;&lt;br/&gt; Ситуация: Гражданские получили ранения от мин типа %2 на дорогах недалеко от %3.&lt;br/&gt;&lt;br/&gt;Задача: Обеспечить безопасность на месте и обезвредить %4 мин(ы).</Russian>
 		</Key>
 		<Key ID="STR_PO3_M08_MSG_0">
 			<Original>Спутник сообщает о минной активности в данном районе. Соблюдайте осторожность.</Original>
-			<Portuguese>AS IMAGENS DE SATÉLITE CONFIRMARAM A PRESENÇA DE MINAS NA ÁREA. PROSSIGA COM CAUTELA</Portuguese>
-			<French>LE SATELLITE CONFIRME QUE DES MINES SONT PRÉSENTES DANS LA ZONE. AGISSEZ AVEC PRECAUTION</French>
-			<Spanish>EL SATÉLITE CONFIRMA LA PRESENCIA DE MINAS ACTIVAS EN EL ÁREA. PROCEDE CON PRECAUCIÓN</Spanish>
-			<Polish>SATELITA POTWIERDZA OBECNOŚĆ AKTYWNYCH MIN W REJONIE. ZACHOWAJ OSTROŻNOŚĆ</Polish>
-			<German>SATELLIT BESTÄTIGT SCHARFE MINEN IN DER NÄHE. VORSICHTIG VORGEHEN. </German>
-			<Czech>DRUŽICE ZACHYTILA PŘÍTOMNOST MIN V OBLASTI. BUĎTE OPATRNÍ KAM ŠLAPETE!</Czech>
 			<Russian>Спутник сообщает о минной активности в данном районе. Соблюдайте осторожность.</Russian>
 		</Key>
 		<Key ID="STR_PO3_M08_MSG_1">
 			<Original>Мы потеряли контроль над районом. Жители были убиты, потому что они обратились к нам за помощью.</Original>
-			<Portuguese>Perdemos o controle de área. Os civis estão sendo massacrados e pediram nossa ajuda</Portuguese>
-			<French>Nous avons perdu le contrôle de la zone. Les civils ont été tués après leur appel à l'aide.</French>
-			<Spanish>Hemos perdido el control de la zona. Todos los civiles han sido asesinados por recurrir a nuestra ayuda.</Spanish>
-			<Polish>Straciliśmy kontrolę nad tym obszarem. Mieszkańców wymordowano, ponieważ poprosili nas o pomoc.</Polish>
-			<German>Wir haben die Kontrolle über das Gebiet verloren. Alle Zivilisten wurden exekutiert, weil sie uns um Hilfe gerufen haben.</German>
-			<Czech>Ztratili jsme kotrolu nad oblastí. Civilisté byli zmasakrováni za to, že nás zavolali.</Czech>
 			<Russian>Мы потеряли контроль над районом. Жители были убиты, потому что они обратились к нам за помощью.</Russian>
 		</Key>
 		<Key ID="STR_PO3_M09_TITLE">
 			<Original>Восстановите и отремонтируйте аэродром</Original>
-			<German>Erobern und Instandsetzen des Flugfeldes</German>
-			<Portuguese>Recupere e Repare o Aeroporto</Portuguese>
-			<French>Récupérer et réparer l'aérodrome</French>
-			<Czech>Obsaďte a opravte letiště</Czech>
 			<Russian>Восстановите и отремонтируйте аэродром</Russian>
 		</Key>
 		<Key ID="STR_PO3_M09_DESCR">
 			<Original>Миссия #%1&lt;br/&gt;&lt;br/&gt;Ситуация: %2 разбомбила ВПП настолько, что вы не можете ей пользоваться! Нужно привести ВПП в порядок как можно скорее.&lt;br/&gt;&lt;br/&gt;Задача: Обеспечьте безопасность аэродрому, используйте CRV для того, чтобы сровнять все %3 кратеров от снарядов.</Original>
-			<German>Mission #%1&lt;br/&gt;&lt;br/&gt;Lage: %2 Truppen haben mit einem Bombenteppich die Landebahn zerstört. COMMAND benötigt das Flugfeld in Einsatzbereitschaft.&lt;br/&gt;&lt;br/&gt;Aufgabe: Sichern Sie das Flugfeld und nutzen Sie ein CRV um alle %3 Krater zu beseitigen, um Einsatzbereitschaft herzustellen.</German>
-			<Portuguese>Missão #%1&lt;br/&gt;&lt;br/&gt;Brief: %2 inimigos iniciaram um ataque contra o aeroporto que ocasionaram crateras na pista de pouso/decolagem. O Comando necessita desse aeroporto de volta a ativa.&lt;br/&gt;&lt;br/&gt;Tarefa: Limpe o aeroporto e use o CRV -trator blindado- para reparar todas as %3 crateras.</Portuguese>
-			<French>Mission #%1&lt;br/&gt;&lt;br/&gt;Situation: les forces %2 ont lancées une attaque contre un aérodrome afin de bloquer le traffic aérien. Notre commandement a besoin de cet aérodrome pour ses opérations.&lt;br/&gt;&lt;br/&gt;Tâche: sécurisez l'aérodrome et utilisez un CRV pour enlever les %3 barils afin de rétablir le bon fonctionnement.</French>
-			<Czech>Mission #%1&lt;br/&gt;&lt;br/&gt;Situace: %2 bombardovala letiště a poškodila runway tak moc, že se nedá používat. Potřebujeme letiště zprovoznit co nejdříve.&lt;br/&gt;&lt;br/&gt;Úkol: Zajistěte letiště a použijte ženijní vozítko na srovnání všech %3 kráterů.</Czech>
 			<Russian>Миссия #%1&lt;br/&gt;&lt;br/&gt;Ситуация: %2 разбомбила ВПП настолько, что вы не можете ей пользоваться! Нужно привести ВПП в порядок как можно скорее.&lt;br/&gt;&lt;br/&gt;Задача: Обеспечьте безопасность аэродрому, используйте CRV для того, чтобы сровнять все %3 кратеров от снарядов.</Russian>
 		</Key>
 		<Key ID="STR_PO3_M10_TITLE">
 			<Original>Нейтрализуйте подводные мины</Original>
-			<Portuguese>Desabilite as minas aquáticas</Portuguese>
-			<French>Neutraliser les mines sous-marines</French>
-			<Spanish>Limpia el campo de minas marino</Spanish>
-			<Polish>Oczyść morskie pole minowe</Polish>
-			<German>Seeminen räumen</German>
-			<Czech>Zneškodněte podmořské miny</Czech>
 			<Russian>Нейтрализуйте подводные мины</Russian>
 		</Key>
 		<Key ID="STR_PO3_M10_DESCR_1">
 			<Original>Миссия #%1&lt;br/&gt;&lt;br/&gt;Обстановка: Войска %2 устанавливают подводные мины в %3. Это помешает нашим военно-морским операциям и местным рыбакам.&lt;br/&gt;&lt;br/&gt;Задача: Зачистите область и обезвредьте по крайней мере %4 морских мин(ы).</Original>
-			<Portuguese>Missão #%1&lt;br/&gt;&lt;br/&gt;Brief: %2 Inimigos estão implantando minas aquáticas em %3. Isso irá devastar todos os pescadores locais e prejudicar nossas operações navais.&lt;br/&gt;&lt;br/&gt;Tarefa: Limpe a área e remova pelo menos %4 minas aquáticas</Portuguese>
-			<French>Mission #%1&lt;br/&gt;&lt;br/&gt;Situation: %2 L'ennemi a deployé des MINES SOUS MARINES près de %3. Elles nuisent aux pêcheurs locaux et à nos opérations navales.&lt;br/&gt;&lt;br/&gt;Tâche: sécurisez la zone, désarmez au moins %4 mines sous-marines par tous les moyens.</French>
-			<Spanish>Misión #%1&lt;br/&gt;&lt;br/&gt;Informe: %2 Fuerzas enemigas están desplegando MINAS MARINAS en %3. Esto acabará con los pescadores locales e intrerrumpirá nuestras operaciones navales.&lt;br/&gt;&lt;br/&gt;Objetivo: Asegura el área y desactiva cuando sea posible al menos %4 minas marinas.</Spanish>
-			<Polish>Misja #%1&lt;br/&gt;&lt;br/&gt;Odprawa: Jednostki %2 rozmieszczają MINY MORSKIE w sektorze %3. To oznacza koniec rybołówstwa na tym akwenie i utrudnienie naszych operacji morskich.&lt;br/&gt;&lt;br/&gt;Rozkazy: Zabezpieczyć obszar i usunąć przynajmniej %4 min morskich, optymalnie ile tylko będzie możliwe.</Polish>
-			<German>Mission #%1&lt;br/&gt;&lt;br/&gt;Lage: %2 Truppen haben in %3 Seeminen gelegt. Diese stellen ein hohes Risiko für örtliche Fischer und unsere Marineoperationen dar.&lt;br/&gt;&lt;br/&gt;Aufgabe: Sichern Sie das Gebiet und entfernen Sie mindestens %4 der Seeminen.</German>
-			<Czech>Mise #%1&lt;br/&gt;&lt;br/&gt;Situace: %2 rozmisťuje lodní miny v %3. To ochromí místní rybáře a naše operace na moři.&lt;br/&gt;&lt;br/&gt;Úkol: Zajistěte oblast a odstraňte alespoň %4 min.</Czech>
 			<Russian>Миссия #%1&lt;br/&gt;&lt;br/&gt;Обстановка: Войска %2 устанавливают подводные мины в %3. Это помешает нашим военно-морским операциям и местным рыбакам.&lt;br/&gt;&lt;br/&gt;Задача: Зачистите область и обезвредьте по крайней мере %4 морских мин(ы).</Russian>
 		</Key>
 		<Key ID="STR_PO3_M10_DESCR_2">
 			<Original>Миссия #%1&lt;br/&gt;&lt;br/&gt;Обстановка: Войска %2 устанавливают подводные мины в %3. Это помешает нашим военно-морским операциям и местным рыбакам. Также местные жители заметили поблизости несколько грузовиков, которые, как они предполагают, используются для перевозки мин.&lt;br/&gt;&lt;br/&gt;Задача: Зачистите область и обезвредьте по крайней мере %4 морских мин и уничтожьте любые %2 грузовика в зоне.</Original>
-			<Portuguese>Missão #%1&lt;br/&gt;&lt;br/&gt;Brief: %2 Inimigos estão implantando minas aquáticas em %3. Isso irá devastar todos os pescadores locais e prejudicar nossas operações navais. A população local também avistou caminhões de carga na região que provavelmente está sendo usado como transporte das minas.&lt;br/&gt;&lt;br/&gt;Tarefa: Limpe a área e remova pelo menos %4 minas aquáticas e destrua qualquer %2 caminhão de transporte na área</Portuguese>
-			<French>Mission #%1&lt;br/&gt;&lt;br/&gt;Situation: %2 L'ennemi a deployé des MINES SOUS MARINES in %3. Elles nuisent aux pêcheurs locaux et à nos opérations navales. Les locaux ont aussi remarqués des camions dans le coin qui semblent servir au transport des mines.&lt;br/&gt;&lt;br/&gt;Tâche: sécurisez la zone, désarmez au moins %4 mines sous-marines et si possible detruisez les %2 camions dans la zone.</French>
-			<Spanish>Misión #%1&lt;br/&gt;&lt;br/&gt;Informe: %2 Fuerzas enemigas están desplegando MINAS MARINAS en %3. Esto acabará con los pescadores locales e intrerrumpirá nuestras operaciones navales. La población local también ha visto camiones de carga en las inmediaciones, y se cree que están siendo utilizados para transportar las minas.&lt;br/&gt;&lt;br/&gt;Objetivo: Asegura el área y desactiva cuando sea posible al menos %4 minas marinas, destruye también cualquier camión de suministros %2 en la zona.</Spanish>
-			<Polish>Misja #%1&lt;br/&gt;&lt;br/&gt;Odprawa: Jednostki %2 rozmieszczają MINY MORSKIE w sektorze %3. Będą stanowić zagrożenie dla rybołówstwa na tym akwenie i utrudnią nam operacje morskie. Miejscowi zauważyli również ciężarówki na tym odcinku wybrzeża. Prawdopodobnie służą do transportu min.&lt;br/&gt;&lt;br/&gt;Rozkazy: Zabezpieczyć obszar i usunąć przynajmniej %4 min morskich, optymalnie ile tylko będzie możliwe. Zniszczyć wszystkie ciężarówki %2 w rejonie.</Polish>
-			<German>Mission #%1&lt;br/&gt;&lt;br/&gt;Lage: %2 Truppen haben in %3 Seeminen gelegt. Diese stellen ein hohes Risiko für örtliche Fischer und unsere Marineoperationen dar. Einheimische berichten außerdem von Lastwagen in der Nähe, welche vermutlich für den Transport der Minen verwendet wurden.&lt;br/&gt;&lt;br/&gt;Aufgabe: Sichern Sie das Gebiet, entfernen Sie mindestens %4 Seeminen und zerstören Sie alle %2 Lastwagen im Zielgebiet.</German>
-			<Czech>Mise #%1&lt;br/&gt;&lt;br/&gt;Situace: %2 rozmisťuje lodní miny v %3. To ochromí místní rybáře a naše operace na moři. Místní také nahlásili přítomnost nákladních vozidel, ve kterých se miny převáží.&lt;br/&gt;&lt;br/&gt;Úkol: Zajistěte oblast a odstraňte alespoň %4 min nejlépe všechny a a zničte všechny náklaďáky %2 v oblasti.</Czech>
 			<Russian>Миссия #%1&lt;br/&gt;&lt;br/&gt;Обстановка: Войска %2 устанавливают подводные мины в %3. Это помешает нашим военно-морским операциям и местным рыбакам. Также местные жители заметили поблизости несколько грузовиков, которые, как они предполагают, используются для перевозки мин.&lt;br/&gt;&lt;br/&gt;Задача: Зачистите область и обезвредьте по крайней мере %4 морских мин и уничтожьте любые %2 грузовика в зоне.</Russian>
 		</Key>
 		<Key ID="STR_PO3_M11_TITLE">
 			<Original>Доставка срочных грузов</Original>
-			<Portuguese>Entrega de suprimentos Urgentes</Portuguese>
-			<French>Livrer des ravitaillements d'urgence</French>
-			<Spanish>Envío urgente de suministros</Spanish>
-			<Polish>Dostarcz pilne zaopatrzenie</Polish>
-			<German>Dringende Nachschubgüter zustellen</German>
-			<Czech>Doručte důležité zásoby</Czech>
 			<Russian>Доставка срочных грузов</Russian>
 		</Key>
 		<Key ID="STR_PO3_M11_DESCR">
 			<Original>Миссия #%1&lt;br/&gt;&lt;br/&gt;Ситуация: %2 сильно пострадала от врагов и отчаянно нуждается в поставках. &lt;br/&gt;&lt;br/&gt;Задача: Используйте контейнеры на базе для поставки в город %2.</Original>
-			<Portuguese>Missão #%1&lt;br/&gt;&lt;br/&gt;Brief: %2 foi atacada por forças inimigas e precisa urgentemente de suprimentos.&lt;br/&gt;&lt;br/&gt;Tarefa: Usa a logística para entregar o conteiner de suprimentos da base RETURN POINT para a cidade de %2.</Portuguese>
-			<French>Mission #%1&lt;br/&gt;&lt;br/&gt;Situation: %2 ont été frappés par les forces ennemies et ont besoin désespérement de ravitaillements.&lt;br/&gt;&lt;br/&gt;Tâche: utilisez votre logistique pour délivrer les conteneurs d'aide présents à votre base (Marqueur RETURN POINT) vers la ville de %2.</French>
-			<Spanish>Misión #%1&lt;br/&gt;&lt;br/&gt;Informe: %2 ha sido golpeado duramente por las fuerzas enemigas y necesita desesperadamente nuevos suministros.&lt;br/&gt;&lt;br/&gt;Objetivo: Usa la logística para enviar los contenedores con suministros desde el PUNTO DE RETORNO de la base al pueblo de %2.</Spanish>
-			<Polish>Misja #%1&lt;br/&gt;&lt;br/&gt;Odprawa: %2 znajduje się pod naporem wroga i desperacko potrzebuje zaopatrzenia.&lt;br/&gt;&lt;br/&gt;Rozkazy: Przy użyciu adekwatnych środków transportowych dostarczyć skrzynie z zaopatrzeniem z bazy RETURN POINT do miejscowości %2.</Polish>
-			<German>Mission #%1&lt;br/&gt;&lt;br/&gt;Lage: %2 wurde von feindlichen Kräften angegriffen und braucht dringend Nachschub.&lt;br/&gt;&lt;br/&gt;Aufgabe: Liefern Sie die Versorgungscontainer vom "Rückkehrpunkt" an der Basis nach %2.</German>
-			<Czech>Mise #%1&lt;br/&gt;&lt;br/&gt;Situace:Město %2 bylo poškozeno nepřátelskou palbou a nutně potřebuje zásoby.&lt;br/&gt;&lt;br/&gt;Task: Naložte kontejnery, které jsou na RETURN POINTu a dovezte je do %2.</Czech>
 			<Russian>Миссия #%1&lt;br/&gt;&lt;br/&gt;Ситуация: %2 сильно пострадала от врагов и отчаянно нуждается в поставках. &lt;br/&gt;&lt;br/&gt;Задача: Используйте контейнеры на базе для поставки в город %2.</Russian>
 		</Key>
 		<Key ID="STR_PO3_M12_TITLE">
 			<Original>Развертывание станции связи</Original>
-			<Portuguese>Implante uma Torre de Comunicação</Portuguese>
-			<French>Deployez une tour de communication</French>
-			<Spanish>Despliega una torre de comunicaciones</Spanish>
-			<Polish>Rozstaw maszt komunikacyjny</Polish>
-			<German>Funkturm errichten</German>
-			<Czech>Postavte komunikační věž</Czech>
 			<Russian>Развертывание станции связи</Russian>
 		</Key>
 		<Key ID="STR_PO3_M12_DESCR">
 			<Original>Миссия #%1&lt;br/&gt;&lt;br/&gt;Ситуация: Противник уничтожил часть сети коммуникаций рядом с %2. Нам нужно развернуть оборудование связи в данной области для обслуживания населения и поддержания связи с войсками поблизости.&lt;br/&gt;&lt;br/&gt;Задача: Доставить специализированный контейнер с коммуникационным оборудованием с базы в отмеченную точку и установить его.&lt;br/&gt;Установка оборудования и загрузка прошивки займет некоторое время и завершится командой </Original>
-			<Portuguese>Missão #%1&lt;br/&gt;&lt;br/&gt;Brief: As forças inimigas destruiram parte da nossa rede de comunicação perto de %2. Precisamos implantar equipamentos de comunicação adicionais na área para a população local e para manter contato com as tropas na área.&lt;br/&gt;&lt;br/&gt;Tarefa: Com a logística disponível, corregue um conteiner contendo uma torre de comunicação na base RETURN POINT e instale perto da localização indicada.&lt;br/&gt;Irá levar algum tempo para criptografar o link e baixar e carregar o novo firmware, portanto mantenha a segurança do local até a liberação pelo ALTO COMANDO</Portuguese>
-			<French>Mission #%1&lt;br/&gt;&lt;br/&gt;Situation: Les forces ennemies ont démonté une partie du réseau du communication près de %2.  Nous devons redéployer des équipements de communication supplémentaires dans la zone, afin de rétablir le service à la population locale et garder le contact avec les troupes opérant à proximité.&lt;br/&gt;&lt;br/&gt;Tâche: avec vos véhicules de logistique, prenez le "conteneur d'aide" au niveau du marqueur RETURN POINT contenant une tour de communication et acheminez le au point indiqué.&lt;br/&gt;Il faudra un certain temps pour encrypter les communications et charger le nouveau firmware. Il faudra assurer la sécurité jusqu'à ce que ce qu'elle soit complétée.</French>
-			<Spanish>Misión #%1&lt;br/&gt;&lt;br/&gt;Informe: Fuerzas enemigas han destruido parte de nuestra red de comunicaciones cerca de %2. Necesitamos desplegar más instalaciones de comunicaciones en el área para uso de la población civil local y para mantener contacto con nuestras tropas operativas en la zona.&lt;br/&gt;&lt;br/&gt;Objetivo: Empleando la logística, carga el contenedor que contiene la torre de comunicaciones en el PUNTO DE RETORNO de la base y colócalo cerca del lugar indicado.&lt;br/&gt;Lllevará algo de tiempo cifrar el uplink/downlink y cargar el nuevo firmware, por lo que deberás asegurar la zona mientras COMMAND completa el proceso.</Spanish>
-			<Polish>Misja #%1&lt;br/&gt;&lt;br/&gt;Odprawa: Siły wroga zniszczyły część naszej sieci komunikacyjnej w rejonie miejscowości %2. Musimy rozmieścić tam sprzęt komunikacyjny aby przywrócić łączność z pobliskimi oddziałami i wspomagać miejscową ludność.&lt;br/&gt;&lt;br/&gt;Rozkazy: Używając adekwatnych środków logistycznych podjąć specjalistyczny kontener zawierający zestaw masztu komunikacyjnego, oczekujący przy bazie RETURN POINT, dostarczyć i rozstawić maszt w pobliżu oznaczonego miejsca.&lt;br/&gt;Zabezpieczyć teren do czasu, aż DOWÓDZTWO ukończy inicjalizację protokołów szyfrowania łączy ładowania i pobierania oraz zainstaluje nowe oprogramowanie.</Polish>
-			<German>Mission #%1&lt;br/&gt;&lt;br/&gt;Lage: Feindliche Einheiten haben unser Kommunikationsnetzwerk nahe %2 lahmgelegt. Wir müssen weitere Funktransmitter im Zielgebiet einrichten, um den Kontakt mit der lokalen Bevölkerung und Truppen aufrecht zu erhalten.&lt;br/&gt;&lt;br/&gt;Aufgabe: Transportieren Sie die am "Rückkehrpunkt" der Basis vorbereiteten Container zum Zielgbiet und bauen sie es auf.&lt;br/&gt;Die Initialisierung des Funkturms wird einige Zeit in Anspruch nehmen. Sichern Sie das Gebiet für diesen Zeitraum, bis COMMAND direkte Kommunikation mit den lokalen Einheiten hergestellt hat.</German>
-			<Czech>Mise #%1&lt;br/&gt;&lt;br/&gt;Situace: Nepřátelským silám se podařilo zničit náš vysílač poblíž %2. Potřebujeme postavit novou anténu, abychom obnovili spojení s našimi jednotkami v oblasti.&lt;br/&gt;&lt;br/&gt;Úkol: Naložte lodní kontejner obsahující díly na postavení věže na bodu RETURN POINT a postavte ji poblíž vyznačené oblasti.&lt;br/&gt;Zprovoznění antény a její zapojení do provozu bude nějakou dobu trvat. Braňte věž dokud nebude plně funkční</Czech>
 			<Russian>Миссия #%1&lt;br/&gt;&lt;br/&gt;Ситуация: Противник уничтожил часть сети коммуникаций рядом с %2. Нам нужно развернуть оборудование связи в данной области для обслуживания населения и поддержания связи с войсками поблизости.&lt;br/&gt;&lt;br/&gt;Задача: Доставить специализированный контейнер с коммуникационным оборудованием с базы в отмеченную точку и установить его.&lt;br/&gt;Установка оборудования и загрузка прошивки займет некоторое время и завершится командой </Russian>
 		</Key>
 		<Key ID="STR_PO3_M12_MSG_0">
 			<Original>Станция развернута. %1 минут до завершения прошивки</Original>
-			<Portuguese>Torre Erguida. %1 minutos para estabelecer o link</Portuguese>
-			<French>Tour Erigée. %1 minutes pour aligner la liaison</French>
-			<Spanish>Torre levantada. %1 minutos para alinear el uplink</Spanish>
-			<Polish>Maszt wzniesiony. %1 minut do dostosowania łącza.</Polish>
-			<German>Turm errichtet. %1 Minuten bis zum Abschluss der Initialisierung.</German>
-			<Czech>Anténa postavena. %1 minut do zprovoznění.</Czech>
 			<Russian>Станция развернута. %1 минут до завершения прошивки</Russian>
 		</Key>
 		<Key ID="STR_PO3_M12_MSG_1">
 			<Original>Силы %1 заглушили сигнал. Загрузка заморожена</Original>
-			<Portuguese>%1 inimigos estão interferindo em nosso sinal. O link caiu</Portuguese>
-			<French>%Les forces %1 ennemies ont brouillées le signal. La liaison est gelée.</French>
-			<Spanish>%1 fuerzas están interfiriendo la señal. Uplink detenido.</Spanish>
-			<Polish>Siły %1 zakłócają sygnał. Nadawanie zatrzymane.</Polish>
-			<German>%1 Truppen stören die Funkverbindung. Initialisierung unterbrochen.</German>
-			<Czech>%1 zprovoznila rušičku a ruší nám signál. Odesílání přerušeno......</Czech>
 			<Russian>Силы %1 заглушили сигнал. Загрузка заморожена</Russian>
 		</Key>
 		<Key ID="STR_PO3_M12_MSG_2">
 			<Original>Помехи %1 были отключены. Загрузка возобновлена</Original>
-			<Portuguese>%1 equipamento de interferência desabilitado. Estamos restabelecendo o link</Portuguese>
-			<French>%1 brouilleur désactivé. Nous reprenons la liaison montante.</French>
-			<Spanish>%1 inhibidor desactivado. Restablecemos el uplink.</Spanish>
-			<Polish>Zagłuszacz %1 unieszkodliwiony. Wznowiono nadawanie.</Polish>
-			<German>%1 Störer deaktiviert. Initialisierung wird fortgesetzt.</German>
-			<Czech>Rušička %1 byla zničena. Odesílání pokračuje....</Czech>
 			<Russian>Помехи %1 были отключены. Загрузка возобновлена</Russian>
 		</Key>
 		<Key ID="STR_PO3_M12_MSG_3">
 			<Original>Антенна работает. Установка соединения...</Original>
-			<Portuguese>L.O.S. alinhado. Estabelecendo link...</Portuguese>
-			<French>Connexion fonctionnelle. Etablissement de Connexion...</French>
-			<Spanish>LOS LINK alineado. Estableciendo uplink...</Spanish>
-			<Polish>Wizura prawidłowa. Ustanawianie połączenia...</Polish>
-			<German>Richtkontakt hergestellt. Initialisiere Uplink... </German>
-			<Czech>Anténa v provozu. Navazuji spojení...</Czech>
 			<Russian>Антенна работает. Установка соединения...</Russian>
 		</Key>
 		<Key ID="STR_PO3_M12_MSG_4">
 			<Original>Соединение установлено. Проверка качества сигнала...</Original>
-			<Portuguese>Link estabelecido. Testando a qualidade do sinal</Portuguese>
-			<French>LIAISON Connectée. Test de la Qualité de Connexion...</French>
-			<Spanish>UPLINK conectado. Probando calidad del enlace...</Spanish>
-			<Polish>ŁĄCZE ŁADOWANIA gotowe. Testowanie jakości przesyłu...</Polish>
-			<German>UPLINK initialisiert. Prüfe Verbindungsqualität...</German>
-			<Czech>Spojení navázáno. Ověřování kvality přenosu...</Czech>
 			<Russian>Соединение установлено. Проверка качества сигнала...</Russian>
 		</Key>
 		<Key ID="STR_PO3_M12_MSG_5">
 			<Original>Соединение потеряно! Установка соединения...</Original>
-			<Portuguese>ERRO NO LINK! Restabelecendo conexão...</Portuguese>	
-			<French>ERREUR de LIAISON! Rétablissez la Connexion...</French>
-			<Spanish>UPLINK ERROR! Restableciendo enlace ...</Spanish>
-			<Polish>BŁĄD ŁĄCZA ŁADOWANIA! Ponowne ustanawianie połączenia...</Polish>
-			<German>FEHLER im Uplink! Verbindung wird neu initialisiert...</German>
-			<Czech>Spojení ztraceno! Navazuji spojení...</Czech>
 			<Russian>Соединение потеряно! Установка соединения...</Russian>
 		</Key>
 		<Key ID="STR_PO3_M12_MSG_6">
 			<Original>Соединение проверено. Установка прошивки...</Original>
-			<Portuguese>Link conectado. Instalando Firmware...</Portuguese>
-			<French>LIAISON PRÊTE. Installation du Firmware...</French>
-			<Spanish>Uplink listo. Instalando Firmware...</Spanish>
-			<Polish>ŁĄCZE ŁADOWANIA w gotowości. Instalowanie oprogramowania...</Polish>
-			<German>Verbindung initialisiert. Verschlüsselung wird aktualisiert...</German>
-			<Czech>Spojení ověřeno. Instaluji Firmware.</Czech>
 			<Russian>Соединение проверено. Установка прошивки...</Russian>
 		</Key>
 		<Key ID="STR_PO3_M13_TITLE">
 			<Original>Обороняйте</Original>
-			<German>Verteidige %1</German>
-			<Portuguese>Defenda %1</Portuguese>
-			<French>Defendez %1</French>
-			<Czech>Braň %1</Czech>
 			<Russian>Обороняйте</Russian>
 		</Key>
 		<Key ID="STR_PO3_M13_DESCR">
 			<Original>Миссия #%1&lt;br/&gt;&lt;br/&gt;Ситуация: %3 скаутов было замечено поблизости Военной базы в точке %2. Командование считает, что они готовятся к атаке.&lt;br/&gt;&lt;br/&gt;Задача: Выдвигайтесь к базе и готовьтесь к обороне. Покинув территорию базы или допустив на нее противника, вы провалите миссию.</Original>
-			<German>Mission #%1&lt;br/&gt;&lt;br/&gt;Lage: %3 Aufklärer wurden nahe einer Militärbasis in %2 gesichtet und COMMAND erwartet einen unmittelbaren Angriff.&lt;br/&gt;&lt;br/&gt;Aufgabe:Verteidigen Sie die Basis gegen jegliche Angriffe. Ein Rückzug oder Kontrollverlust der Basis wird als Fehlschlag gewertet.</German>
-			<Portuguese>Missão #%1&lt;br/&gt;&lt;br/&gt;Brief: %3 observadores avançados inimigos foram vistos perto da Base Militar no GRID:%2 e o Comando acredita que um ataque é iminente.&lt;br/&gt;&lt;br/&gt;Tarefa: Mova para a base e resista a qualquer ataque. Debandar do local depois da chegada dos inimigos resultará em falha da missão.</Portuguese>
-			<French>Mission #%1&lt;br/&gt;&lt;br/&gt;Situations: %3 éclaireurs ont été repérés près d'une base militaire aux coordonnées:%2 et notre commandement estime qu'une attaque est imminente.&lt;br/&gt;&lt;br/&gt;Tâche: Déplacez-vous à la base et défendez la position. Toute évacuation après l'arrivée de l'ennemi sera considéré comme un échec.</French>
-			<Czech>Mise #%1&lt;br/&gt;&lt;br/&gt;Situace: Zvědi %3 byli spatřeny poblíž vojenské základny na souřadnicích %2 Velení věří, že se nepřítel připravuje na útok.&lt;br/&gt;&lt;br/&gt;Úkol: Přesuntě se na základnu a připravte se na obranu. Opuštění základny, nebo proniknutí nepřátelských sil do základny bude bráno jako selhání.</Czech>
 			<Russian>Миссия #%1&lt;br/&gt;&lt;br/&gt;Ситуация: %3 скаутов было замечено поблизости Военной базы в точке %2. Командование считает, что они готовятся к атаке.&lt;br/&gt;&lt;br/&gt;Задача: Выдвигайтесь к базе и готовьтесь к обороне. Покинув территорию базы или допустив на нее противника, вы провалите миссию.</Russian>
 		</Key>
 		<Key ID="STR_PO3_M14_TITLE">
 			<Original>Научное судно атаковано</Original>
-			<German>Forschungsschiff angegriffen</German>
-			<Portuguese>Navio de Pesquisa Atacado</Portuguese>
-			<French>Navire de Recherche Attaqué</French>
-			<Czech>Výzkumná loď byla napadena</Czech>
 			<Russian>Научное судно атаковано</Russian>
 		</Key>
 		<Key ID="STR_PO3_M14_DESCR">
 			<Original>Миссия #%1&lt;br/&gt;&lt;br/&gt;Ситуация: Гражданское научно-исследовательское судно подало сигнал тревоги недалеко от %1. Возможно они были атакованы войсками %2 и частично убиты.&lt;br/&gt;Они остро нуждаются в защите и запчастях для ремонта поврежденного двигателя.&lt;br/&gt;&lt;br/&gt;Задача: Обеспечьте безопасность судну и доставьте ящик поддержки с точки возврата к его центральной палубе.</Original>
-			<German>Mission #%1&lt;br/&gt;&lt;br/&gt;Lage: Ein ziviles Forschungsschiff hat ein Notsignal naha %1 abgesetzt. Wir vermuten, dass es von %2 Kräften angegriffen wird und manövrierunfähig ist.&lt;br/&gt;Sie benötigen dringend Schutz und eine Ersatzteillieferung, um die beschädigten Motoranlagen zu reparieren.&lt;br/&gt;&lt;br/&gt;Aufgabe: Sichern Sie das Schiff und transportieren sie die Versorgungskiste vom "Rückkehrpunkt" an der Basis zum Hauptdeck des Schiffs.</German>
-			<Portuguese>Missão #%1&lt;br/&gt;&lt;br/&gt;Brief: Um navio de pesquisa civil enviou um pedido de socorro perto de %1. É possível que esteja sob ataque de %2 inimigos e foram massacrados.&lt;br/&gt;Eles de suporte urgente para mante-los a salvo e para reparar o motor danificado.&lt;br/&gt;&lt;br/&gt;Task: Mantenha o navio em segurança e use a logística disponível para transportar o conteiner de suprimentos(localizado no Return Point) para o navio, em seu deque central.</Portuguese>
-			<French>Mission #%1&lt;br/&gt;&lt;br/&gt;Situation: un bateau de recherche civil a envoyé un signal de détresse près de %1. On suppose qu'il a subit une attaque par les forces %2.&lt;br/&gt;Ils ont besoin de soutien pendant qu'ils réparent leurs dégats.&lt;br/&gt;&lt;br/&gt;Tâche: sécurisez le bateau et utilisez la logistique pour transporter l'aide nécessaire disponible au marqueur (RETURN POINT) du port.</French>
-			<Czech>Mise #%1&lt;br/&gt;&lt;br/&gt;Situace: Civílní výzkumná loď vyslala volání SOS poblíž %1. Věříme, že na ně útočí %2 ,a že jim vyřadili motory.&lt;br/&gt;Potřebují okamžitou pomoc a náhradní díly.&lt;br/&gt;&lt;br/&gt;Úkol: Zajistěte loď a pomocí helikoptéry dopravte bednu součástek (je na Return Pointu) na střední palubu lodi.</Czech>
 			<Russian>Миссия #%1&lt;br/&gt;&lt;br/&gt;Ситуация: Гражданское научно-исследовательское судно подало сигнал тревоги недалеко от %1. Возможно они были атакованы войсками %2 и частично убиты.&lt;br/&gt;Они остро нуждаются в защите и запчастях для ремонта поврежденного двигателя.&lt;br/&gt;&lt;br/&gt;Задача: Обеспечьте безопасность судну и доставьте ящик поддержки с точки возврата к его центральной палубе.</Russian>
 		</Key>
 		<Key ID="STR_PO3_M14_MSG_1">
 			<Original>Сигнал бедствия</Original>
-			<German>Notruf</German>
-			<Portuguese>Chamado de Socorro</Portuguese>
-			<French>Appel de détresse</French>
-			<Czech>Nouzové volání</Czech>
 			<Russian>Сигнал бедствия</Russian>
 		</Key>
 		<Key ID="STR_PO3_M15_TITLE">
 			<Original>Обороняйте</Original>
-			<German>Verteidige %1</German>
-			<Portuguese>Defenda %1</Portuguese>
-			<French>Défendez %1</French>
-			<Czech>Braň %1</Czech>
 			<Russian>Обороняйте</Russian>
 		</Key>
 		<Key ID="STR_PO3_M15_DESCR">
 			<Original>Миссия #%1&lt;br/&gt;&lt;br/&gt; Ситуация: Карочи, вблизи %2 были замечены пидорасы %3 и командование считает, что атака неизбежна.&lt;br/&gt;&lt;br/&gt;Задача: Валите в город и обороняйте, если свалите оттуда раньше времени или пропустите хотя бы одного пидораса в город, - просрете миссию.</Original>
-			<German>Mission #%1&lt;br/&gt;&lt;br/&gt;Lage: %3 Aufklärer wurden nahe %2 gesichtet und COMMAND erwartet einen unmittelbaren Angriff.&lt;br/&gt;&lt;br/&gt;Aufgabe: Verteidigen Sie die Stadt gegen jegliche Offensiven. Ein Rückzug oder Kontrollverlust wird als Versagen gewertet.</German>
-			<Portuguese>Missão #%1&lt;br/&gt;&lt;br/&gt;Brief: %3 observadores avançados inimigos foram avistados perto de %2 e o Comando acredito que um ataque é iminente.&lt;br/&gt;&lt;br/&gt;Tarefa: Mova para a cidade, e resista a qualquer ataque. Debandar da cidade depois da chegada dos inimigos resultará em falha da missão.</Portuguese>
-			<French>Mission #%1&lt;br/&gt;&lt;br/&gt;Situation: %3 éclaireurs ont été repérés près de %2 et le commandement estime qu'une attaque est imminente.&lt;br/&gt;&lt;br/&gt;Tâche: Déplacez-vous vers la ville et contrez l'attaque. Toute évacuation après l'arrivée de l'ennemi sera considéré comme un échec.</French>
-			<Czech>Mise #%1&lt;br/&gt;&lt;br/&gt;Situace: Zvědi %3 byli spozorování poblíž %2 Velení věří, že nepřítel brzy zaútočí.&lt;br/&gt;&lt;br/&gt;Úkol: Přesuňte se do města a připravte se na obranu. Opuštění města, nebo proniknutí nepřátelských sil do města bude bráno jako selhání.</Czech>
 			<Russian>Миссия #%1&lt;br/&gt;&lt;br/&gt; Ситуация: Карочи, вблизи %2 были замечены пидорасы %3 и командование считает, что атака неизбежна.&lt;br/&gt;&lt;br/&gt;Задача: Валите в город и обороняйте, если свалите оттуда раньше времени или пропустите хотя бы одного пидораса в город, - просрете миссию.</Russian>
 		</Key>
 		<Key ID="STR_PO3_M15_MSG_1">
 			<Original>Зона чиста от %1 скаутов, приготовьтесь к защите.</Original>
-			<German>Gebiet frei von %1 Aufklärern, bereitmachen für die Feindoffensive!</German>
-			<Portuguese>Limpe a área de %1 de observadores avançados inimigos, prepare-se para defender sua posição</Portuguese>
-			<French>Zone sécurisée de %1 éclaireurs, préparez vous à défendre votre position</French>
-			<Czech>V oblasti se již nevyskytují pozorovatelé %1. Připravte se bránit své pozice</Czech>
 			<Russian>Зона чиста от %1 скаутов, приготовьтесь к защите.</Russian>
 		</Key>
 		<Key ID="STR_PO3_M15_MSG_2">
 			<Original>Тревога! Волна %1 сил подходит!</Original>
-			<German>ACHTUNG, eine Welle von %1 Kräften ist im Anmarsch!</German>
-			<Portuguese>ALERTA, reforços de %1 inimigos estão a caminho</Portuguese>
-			<French>ALERTE, une vague de forces %1 est en approche</French>
-			<Czech>POPLACH, blíží se k nám jednotky %1</Czech>
 			<Russian>Тревога! Волна %1 сил подходит!</Russian>
 		</Key>
 		<Key ID="STR_PO3_M15_MSG_3">
 			<Original>Тревога! Подходит очередная волна сил %1!</Original>
-			<German>ACHTUNG, eine weitere Welle von %1 Kräften ist im Anmarsch!</German>
-			<Portuguese>ALERTA, outra onda de reforços de %1 inimigos estão a caminho</Portuguese>
-			<French>ALERTE, une autre vague de forces %1 est en approche</French>
-			<Czech>POPLACH, blíží se k nám další vlna jednotek %1</Czech>
 			<Russian>Тревога! Подходит очередная волна сил %1!</Russian>
 		</Key>
 		<Key ID="STR_PO3_M15_MSG_4">
 			<Original>Тревога! Подходит большая волна сил %1!</Original>
-			<German>ACHTUNG, große Truppenverbände von %1 sind im Anmarsch!</German>
-			<Portuguese>ALERTA, um grande número de reforços de %1 inimigos estão a caminho</Portuguese>
-			<French>ALERTE, une grande vague de forces %1 est en Approche</French>
-			<Czech>POPLACH, blíží se k nám velké množství jednotek %1</Czech>
 			<Russian>Тревога! Подходит большая волна сил %1!</Russian>
 		</Key>
 		<Key ID="STR_PO3_M16_TITLE">
 			<Original>Уничтожьте артиллерию</Original>
-			<German>Artilleriebatterie zerstören</German>
-			<Portuguese>Destrua a Bateria de Artilharia</Portuguese>
-			<French>Détruisez la batterie d'artillerie</French>
-			<Czech>Zničte dělostřelectvo</Czech>
 			<Russian>Уничтожьте артиллерию</Russian>
 		</Key>
 		<Key ID="STR_PO3_M16_DESCR">
 			<Original>Миссия #%1&lt;br/&gt;&lt;br/&gt;Ситуация: Артиллерия %3 была замечена вблизи %2 и командование зассало, что она может атаковать нашу базу.&lt;br/&gt;&lt;br/&gt;Задача: Выдвигайтесь к %2, найдите примерно %4 артиллерийских частей и уничтожьте их с помощью любых средств.</Original>
-			<German>Mission #%1&lt;br/&gt;&lt;br/&gt;Lage: Eine %3 Artilleriebatterie wird nahe %2 eingerichtet und COMMAND erwartet einen baldigen Schlag gegen unsere Basis.&lt;br/&gt;&lt;br/&gt;Aufgabe: Finden Sie die vermuteten %4 Artilleriegeschütze nahe %2 und zerstören Sie sie.</German>
-			<Portuguese>Missão #%1&lt;br/&gt;&lt;br/&gt;Brief: Uma %3 Bateria de Artilharia foi localizada perto de %2 e o Comando acredita que um ataque a nossa base é iminente.&lt;br/&gt;&lt;br/&gt;Tarefa: Mova para %2, localize %4 peças de artilharia e as destrua.</Portuguese>
-			<French>Mission #%1&lt;br/&gt;&lt;br/&gt;Situation: une Batterie D'artillerie %3 en cours d'installation a été reperée près de %2 et le commandement estime qu'une attaque sur notre base est imminente.&lt;br/&gt;&lt;br/&gt;Tâche: déplacez-vous vers %2, localisez les %4 pièces d'artillerie et détruisez les par tous les moyens possibles.</French>
-			<Czech>Mise #%1&lt;br/&gt;&lt;br/&gt;Situace: Dělostřelecká baterie patřící %3 byla spatřena poblíž %2 . Velení se domnívá, že každou chvíli začne pálit na naší základnu.&lt;br/&gt;&lt;br/&gt;Úkol: Přesuňte se do %2, najděte přibližně %4 kusů dělostřelectva a okamžitě je zlikvidujte.</Czech>
 			<Russian>Миссия #%1&lt;br/&gt;&lt;br/&gt;Ситуация: Артиллерия %3 была замечена вблизи %2 и командование зассало, что она может атаковать нашу базу.&lt;br/&gt;&lt;br/&gt;Задача: Выдвигайтесь к %2, найдите примерно %4 артиллерийских частей и уничтожьте их с помощью любых средств.</Russian>
 		</Key>
 		<Key ID="STR_PO3_M17_TITLE">
 			<Original>Уничтожьте склады с оружием</Original>
-			<Portuguese>Destrua o depósito de munições</Portuguese>
-			<French>Détruire les caches d'armes</French>
-			<Spanish>Destruye los depósitos de armamento</Spanish>
-			<Polish>Zniszcz składy broni</Polish>
-			<German>Waffendepot vernichten</German>
-			<Czech>Zničte Zbraně a Munici</Czech>
 			<Russian>Уничтожьте склады с оружием</Russian>
 		</Key>
 		<Key ID="STR_PO3_M17_DESCR">
 			<Original>Миссия #%1&lt;br/&gt;&lt;br/&gt;Ситуация: Нам удалось остановить поставки оружия силам %2 . Командование считает, что противник спрятал остатки оружия в %3 и ждет подкреплений.&lt;br/&gt;&lt;br/&gt;Задача: Найти и уничтожить остатки вооружения, используя управляемую взрывчатку.&lt;br/&gt;&lt;br/&gt;&lt;</Original>
-			<Portuguese>Missão #%1&lt;br/&gt;&lt;br/&gt;Brief: %2 Inimigos foram avistados tentando transportar caixas de armametnos. O COMANDO acredita que eles a esconderam em %3 enquanto aguardam um comboio.&lt;br/&gt;&lt;br/&gt;Tarefa: Localize e destrua %4 das caixas de munições usando explosivos.&lt;br/&gt;&lt;br/&gt;&lt;img image='%5' /&gt;</Portuguese>
-			<French>Mission #%1&lt;br/&gt;&lt;br/&gt;Situation: des ennemis %2 ont été stoppés en train de transporter un ravitaillement de munitions. Nos éclaireurs rapportent que ce ravitaillement est peut-être stocké dans %3 en attendant un transfert.&lt;br/&gt;&lt;br/&gt;Tâche: localiser et détruire %4 des caches d'armes avec des explosifs.&lt;br/&gt;&lt;br/&gt;&lt;img image='%5' /&gt;</French>
-			<Spanish>Misión #%1&lt;br/&gt;&lt;br/&gt;Informe: %2 Las fuerzas enemigas han cejado en su intento de enviar suministros de armamento. COMMAND cree que los han almacenado en %3 mientras esperan un convoy de suministros antes de continuar.&lt;br/&gt;&lt;br/&gt;Objetivo: Localiza y destruye %4 de los depósitos de armamento usando explosivos controlados.&lt;br/&gt;&lt;br/&gt;&lt;img image='%5' /&gt;</Spanish>
-			<Polish>Misja #%1&lt;br/&gt;&lt;br/&gt;Odprawa: Siły %2 zaprzestały prób przerzutu zapasów uzbrojenia. DOWÓDZTWO uważa, iż nieprzyjaciel zmagazynował broń w miejscowości %3, gdzie oczekuje ona na przybycie konwoju zaopatrzeniowego.&lt;br/&gt;&lt;br/&gt;Rozkazy: Znajdź i zlikwiduj składy broni w liczbie %4 przy użyciu kierunkowych ładunków wybuchowych.&lt;br/&gt;&lt;br/&gt;&lt;img image='%5' /&gt;</Polish>
-			<German>Mission #%1&lt;br/&gt;&lt;br/&gt;Lage: %2 Truppen sind bei einem Waffentransport liegengeblieben. COMMAND nimmt an, dass die Waffen in %3 gelagert werden bis ein Nachschubkonvoi sie wieder aufsammelt.&lt;br/&gt;&lt;br/&gt;Aufgabe: Finden und zerstören Sie %4 Waffendepots. &lt;br/&gt;&lt;br/&gt;&lt;img image='%5' /&gt;</German>
-			<Czech>Mise #%1&lt;br/&gt;&lt;br/&gt;Situace: Podařilo se nám zastavit zásobovací konvoj %2 . Veleí věří, že nepřítel ukryl zbytky zásob poblíž %3 a čeká na posily.&lt;br/&gt;&lt;br/&gt;Úkol: Najděte a zničte %4 beden zbraní pomocí výbušnin.&lt;br/&gt;&lt;br/&gt;&lt;img image='%5' /&gt;</Czech>
 			<Russian>Миссия #%1&lt;br/&gt;&lt;br/&gt;Ситуация: Нам удалось остановить поставки оружия силам %2 . Командование считает, что противник спрятал остатки оружия в %3 и ждет подкреплений.&lt;br/&gt;&lt;br/&gt;Задача: Найти и уничтожить остатки вооружения, используя управляемую взрывчатку.&lt;br/&gt;&lt;br/&gt;&lt;img image='%5' /&gt;</Russian>
 		</Key>
 		<Key ID="STR_PO3_M18_TITLE">
 			<Original>Уничтожьте вражеские коммуникации</Original>
-			<Portuguese>Destrua a Comunicação Inimiga</Portuguese>
-			<French>Détruire les communications ennemies</French>
-			<Spanish>Destruye las comunicaciones enemigas</Spanish>
-			<Polish>Zniszcz nadajnik wroga</Polish>
-			<German>Feindkommunikation stören</German>
-			<Czech>Zničte vysílač</Czech>
 			<Russian>Уничтожьте вражеские коммуникации</Russian>
 		</Key>
 		<Key ID="STR_PO3_M18_DESCR">
 			<Original>Миссия #%1&lt;br/&gt;&lt;br/&gt;Обстановка: Мы обнаружили %2 коммуникации передающие инфу вблизи %3. Никакой дополнительной информации нет, так как они достаточно хорошо шифруют всю передаваемую информацию. Возможно они координируют свои действия используя высококачественные датчики.&lt;br/&gt;&lt;br/&gt;Задача: Найдите вражеские коммуникации поблизости %3 и уничтожьте их с помощью С4.</Original>
-			<Portuguese>Missão #%1&lt;br/&gt;&lt;br/&gt;Brief: Detectamos %2 frequencias de comunicação sendo transmitidas perto de %3. Não há maiores informações, pois o inimigo está utilizando um forte criptografia, porém é possível que esteja coordenando ataques utilizando sofisticados equipamentos de transmissão.&lt;br/&gt;&lt;br/&gt;Tarefa: Localize a torre de comunicação inimiga perto de %3 e destrua-a utilizando explosivos como o C4</Portuguese>
-			<French>Mission #%1&lt;br/&gt;&lt;br/&gt;Situation: Nous avons détecté %2 communications transmises près de %3. Aucune autre information n'est disponible en raison de l'encryption mais il est possible que l'ennemi utilise et coordonne ses attaques avec des équipements de diffusions sophistiqués.&lt;br/&gt;&lt;br/&gt;Tâche: localisez les tours de communication ennemies près de %3 et detruisez les avec un explosif comme du C4.</French>
-			<Spanish>Misión #%1&lt;br/&gt;&lt;br/&gt;Informe: Hemos detectado comunicaciones de %2 trasmitidas desde un lugar cercano a %3. No disponemos de más información ya que están empleando un sistema de encriptado muy potente, pero es más que posible que estén coordinando los movimientos de ataque mediante un sofisticado equipo de emisión.&lt;br/&gt;&lt;br/&gt;Objetivo: Localiza la torre de comunicaciones enemiga cercana a %3 y destrúyela con una detonación controlada, por ejemple mediante C4.</Spanish>
-			<Polish>Misja #%1&lt;br/&gt;&lt;br/&gt;Odprawa: Wykryliśmy %2 transmisje nadawane z okolic miejscowości %3. Z uwagi na zaaansowane szyfrowanie nie wiemy nic pewnego o ich treści, ale przypuszczamy, iż nieprzyjaciel przy użyciu zaawansowanego nadajnika koordynuje operację zaczepną.&lt;br/&gt;&lt;br/&gt;Rozkazy: Zlokalizuj maszt nadajnika w pobliżu miejscowości %3 i zniszcz go przy użyciu kontrolowanych detonacji ładunków C4.</Polish>
-			<German>Mission #%1&lt;br/&gt;&lt;br/&gt;Lage: Wir haben die Quelle von %2 Meldungen nahe %3 ausgemacht. Wir haben keine weiteren Informationen, aber es ist möglich dass von hier aus Angriffe koordiniert werden.&lt;br/&gt;&lt;br/&gt;Aufgabe: Finden Sie die feindliche Sendeanlage nahe %3 und zerstören Sie sie.</German>
-			<Czech>Mise #%1&lt;br/&gt;&lt;br/&gt;Situace: Objevili jsme vysílání %2 poblíž %3. Nemáme žádné další informace, ale je možné, že plánují útok na naše pozice a používají neznámou šifru. &lt;br/&gt;&lt;br/&gt;Úkol: Najděte nepřátelský vysílač poblíž %3 a zničte ho pomocí výbušnin.</Czech>
 			<Russian>Миссия #%1&lt;br/&gt;&lt;br/&gt;Обстановка: Мы обнаружили %2 коммуникации передающие инфу вблизи %3. Никакой дополнительной информации нет, так как они достаточно хорошо шифруют всю передаваемую информацию. Возможно они координируют свои действия используя высококачественные датчики.&lt;br/&gt;&lt;br/&gt;Задача: Найдите вражеские коммуникации поблизости %3 и уничтожьте их с помощью С4.</Russian>
 		</Key>
 		<Key ID="STR_PO3_M19_TITLE">
 			<Original>Скачайте информацию с БПЛА</Original>
-			<Portuguese>Recupere as informações do UAV.</Portuguese>
-			<French>Récupérer les données d'un UAV</French>
-			<Spanish>Recupera la información del UAV</Spanish>
-			<Polish>Odzyskaj dane wywiadowcze z UAV</Polish>
-			<German>Informationen aus UAV bergen</German>
-			<Czech>Zajistěte informace z UAV</Czech>
 			<Russian>Скачайте информацию с БПЛА</Russian>
 		</Key>
 		<Key ID="STR_PO3_M19_DESCR">
 			<Original>Миссия #%1&lt;br/&gt;&lt;br/&gt;Обстановка: Наш патруль сообщает, что вблизи %2 разбился вражеский UAV.&lt;br/&gt;Они полагают, что на нем может быть информация о местоположении вражеских войск.&lt;br/&gt;&lt;br/&gt;Задача: Найти UAV, зачичтить близлежащую территорию  и скачать разведданные. После этого уничтожить БПЛА.</Original>
-			<Portuguese>Missão #%1&lt;br/&gt;&lt;br/&gt;Brief: Uma patrulha aliada informou que abateu um UAV inimigo que caiu perto de %2.&lt;br/&gt;É possível que o UAV contenha importante informações sobre a localização das forças inimigas.&lt;br/&gt;&lt;br/&gt;Tarefa: Localize o UAV, limpe a área e mantenha uma unidade próxima ao equipamento abatido para estabelecer uma conexão com o drone e baixar as informações.XXX; Quando o download estiver completo, destrua o UAV.</Portuguese>
-			<French> Mission #%1&lt;br/&gt;&lt;br/&gt;Situation: une de nos patrouilles nous a rapporté qu'elle a trouvé un drone ennemi écrasé près de %2.&lt;br/&gt; Il est censé être un %3 et peut avoir des renseignements vitaux sur l'emplacement des ennemis.&lt;br/&gt;&lt;br/&gt;Tâche: localisez le drone, sécurisez le site et gardez une unité à proximité afin d'établir une liaison avec le drone pour télécharger ses données.&lt;br/&gt; Une fois le téléchargement terminé, détruisez le drone.</French>
-			<Spanish>Misión #%1&lt;br/&gt;&lt;br/&gt;Informe: Una patrulla aliada informa que ha avistado un UAV enemigo que posteriormente cayó cerca de %2.&lt;br/&gt;Se cree que es un %3 y puede contener información vital sobre las posiciones enemigas.&lt;br/&gt;&lt;br/&gt;Objetivo: Localiza el UAV, asegura la posición y mantén una unidad en las proximidades para establecer una conexión con el drone y poder descargar la información.&lt;br/&gt;Una vez que se haya completado la descarga de información, destruye el UAV.</Spanish>			
-			<Polish>Misja #%1&lt;br/&gt;&lt;br/&gt;Odprawa: Patrol zgłosił ostrzelanie wrogiego UAV, który rozbił się w rejonie miejscowości %2.&lt;br/&gt;Sądzimy, iż jest to statek powietrzny typu %3, który może zawierać kluczowe dane o rozlokowaniu nieprzyjaciela.&lt;br/&gt;&lt;br/&gt;Rozkazy: Zlokalizować UAV, zabezpieczyć miejsce i pozostać w pobliżu drona by nazwiązać z nim połączenie i ściągnąć dane.&lt;br/&gt;Ukończywszy pobieranie zniszczyć wrak.</Polish>
-			<German>Mission #%1&lt;br/&gt;&lt;br/&gt;Lage: Eine eigene Patrouille hat ein feindliches UAV vom Typ %3 in der Nähe von %2 zum Absturz gebracht.&lt;br/&gt;Wir erwarten bedeutende Informationen an Bord des UAVS über feindliche Truppenstandortezu finden.&lt;br/&gt;&lt;br/&gt;Aufgabe: Finden Sie das UAV, sichern Sie das Gebiet und stellen Sie eine Einheit in der Nähe des UAVs ab, die Zugriff auf die Drone erlangt.&lt;br/&gt;Sobald alle Daten heruntergeladen sind, vernichten Sie das UAV.</German>
-			<Czech>Mise #%1&lt;br/&gt;&lt;br/&gt;Situace: Hlídka nahlásila, že se ji podařilo sestřelit UAV poblíž %2.&lt;br/&gt;Domníváme se, že patří %3 a mohlo by obsahovat pozice nepřátelských jednotek.&lt;br/&gt;&lt;br/&gt;Úkol: Najděte UAV zajistěte oblast a zůstaňtě v oblasti, než se vám podaří stáhnout data z UAV.&lt;br/&gt;Jakmile budete mít data zničte UAV.</Czech>
 			<Russian>Миссия #%1&lt;br/&gt;&lt;br/&gt;Обстановка: Наш патруль сообщает, что вблизи %2 разбился вражеский UAV.&lt;br/&gt;Они полагают, что на нем может быть информация о местоположении вражеских войск.&lt;br/&gt;&lt;br/&gt;Задача: Найти UAV, зачичтить близлежащую территорию  и скачать разведданные. После этого уничтожить БПЛА.</Russian>
 		</Key>
 		<Key ID="STR_PO3_M19_MSG_0">
 			<Original>Процесс загрузки данных из %1 успешно завершен. Уничтожьте БПЛА.</Original>
-			<Portuguese>Download das informações do %1 completo. Destrua o UAV</Portuguese>
-			<French>Données correctement téléchargées de %1. Détruisez l'épave.</French>
-			<Spanish>La descarga de información del %1 se completó satisfactoriamente. Destruye los restos del aparato.</Spanish>
-			<Polish>Pomyślnie ukończono pobieranie danych z %1. Zniszcz wrak.</Polish>
-			<German>Daten erfolgreich von %1 heruntergeladen. Zerstören Sie das Wrack.</German>
-			<Czech>Informace úspěšně staženy z %1. Zničte vrak.</Czech>
 			<Russian>Процесс загрузки данных из %1 успешно завершен. Уничтожьте БПЛА.</Russian>
 		</Key>
 		<Key ID="STR_PO3_M20_TITLE">
 			<Original>Найдите и спасите</Original>
-			<German>Suchen und Retten</German>
-			<Portuguese>Busca e Resgate</Portuguese>
-			<French>Recherche et sauvetage</French>
-			<Czech>Najdi a Zachraň</Czech>
 			<Russian>Найдите и спасите</Russian>
 		</Key>
 		<Key ID="STR_PO3_M20_DESCR">
 			<Original>Миссия #%1&lt;br/&gt;&lt;br/&gt;Обстановка: %2 был сбит в точке %3. Аврийный маяк работает и нам удалось найти обломки, но враг также может знать их местоположение.&lt;br/&gt;&lt;br/&gt;Задача: Организуйте поисково-спасательную операцию и найдите выживших пилотов до того, как это сделает враг.&lt;br/&gt;&lt;br/&gt;Мы будем ждать их доставки в "Return point" или "Return point Marine".</Original>
-			<German>Mission #%1&lt;br/&gt;&lt;br/&gt;Lage: Ein %2 wurde nahe %3 abgeschossen. Das automatische EPIRB-System ist aktiv und wir haben das Wrack lokalisiert. Die Feinde wissen jedoch auch um die genaue Position.&lt;br/&gt;&lt;br/&gt;Aufgabe: Organisieren Sie ein Rettungsunternehmen und finden Sie die Piloten vor dem Feind.&lt;br/&gt;&lt;br/&gt;Bringen Sie sie anschließend zu einem "Rückkehrpunkt" an der Basis.</German>
-			<Portuguese>Missão #%1&lt;br/&gt;&lt;br/&gt;Brief: Um %2 foi abatido perto do GRID: %3. O localizador de emergência da aeronave está funcionando e foi possível localizar os destroços, porém o inimigo também pode ter recebido sua localização.&lt;br/&gt;&lt;br/&gt;Tarefa: Organize uma operação de busca e resgate e localize os pilotos abatidos antes do inimigo.&lt;br/&gt;&lt;br/&gt;Esperamos os pilotos no "Return Point" ou "Return Point Marine".</Portuguese>
-			<French>Mission #%1&lt;br/&gt;&lt;br/&gt;Mission: un %2 à été abattu aux coordonnées: %3. La balise de localisation est en marche et nous devons localiser l'épave, cependant l'ennemi peut connaître aussi la position précise de l'avion.&lt;br/&gt;&lt;br/&gt;Tâche: organisez une opération de secours et localisez les pilotes avant l'ennemi.&lt;br/&gt;&lt;br/&gt;Ramenez les au marqueur (RETURN Marine Point) du port.</French>
-			<Czech>Mise #%1&lt;br/&gt;&lt;br/&gt;Situace: %2 byl sestřelen poblíž souřadnic: %3. Nouzový vysílač ve vraku funguje, a tak máme jeho přesnou polohu. Tento signál ale zachytil i nepřítel &lt;br/&gt;&lt;br/&gt;Úkol: Uspořádejte záchranou operaci, a zachraňte piloty, než se k nim dostane nepřítel.&lt;br/&gt;&lt;br/&gt;Přepravte piloty na bod "Return Point" nebo "Return Point Marine".</Czech>
 			<Russian>Миссия #%1&lt;br/&gt;&lt;br/&gt;Обстановка: %2 был сбит в точке %3. Аврийный маяк работает и нам удалось найти обломки, но враг также может знать их местоположение.&lt;br/&gt;&lt;br/&gt;Задача: Организуйте поисково-спасательную операцию и найдите выживших пилотов до того, как это сделает враг.&lt;br/&gt;&lt;br/&gt;Мы будем ждать их доставки в "Return point" или "Return point Marine".</Russian>
 		</Key>
 		<Key ID="STR_PO3_M20_MSG_1">
 			<Original>Последнее известное местоположение</Original>
-			<German>Letzte bekannte Position.</German>
-			<Portuguese>Última Posição COnhecida</Portuguese>
-			<French>Dernière position connue</French>
-			<Czech>Poslední známá lokace</Czech>
 			<Russian>Последнее известное местоположение</Russian>
 		</Key>
 	</Package>
+
+	<!--Заголовки-->
 	<Package name="MPSFHeader">
 		<Key ID="STR_MISSION_AUTHOR">
-			<Original>Eightysix</Original>
+			<Original>Roy86, Armaclub.ru,Tehgam.com edition</Original>
 		</Key>
 		<Key ID="STR_MISSION_NAME">
 			<Original>Team Tactics</Original>
 		</Key>
 		<Key ID="STR_MISSION_DESC">
 			<Original>Patrol Operations is a dynamic mission generator with random objectives designed for combined arms co-operative tactical gameplay by larger groups of players.</Original>
-			<French>Opérations de patrouille est un générateur de missions aléatoires dynamiques offrant un gameplay tactique pour les grands groupes de joueurs.</French>
-			<Polish>Operacje Patrolowe to generator misji dynamicznych z losowymi zadaniami zaprojektowanymi z myślą o taktycznej, kooperacyjnej rozgrywce dla większych grup graczy z wykorzystaniem szerokiego spektrum uzbrojenia.</Polish>
-			<Portuguese>Operações de patrulha é um gerador de missão dinâmica, com objetivos aleatórios projetados para armas combinadas gameplay tático cooperativo por grandes grupos de jogadores.</Portuguese>
-			<Italian>Operazioni di pattugliamento è un generatore di missione dinamica con obiettivi casuali progettati per armi combinate cooperativa gameplay tattico da grandi gruppi di giocatori.</Italian>
-			<Czech>Patrol Operations je dynamický generátor misí a náhodných cílů, stanovených pro kombinované operace a kooperativní taktické hraní ve velké skupině hráčů.</Czech>
-			<Russian>Патрулирование - динамически генерируемые миссии со случайными задачами. Предназначены для тренировки отрядов всех видов войск в кооперативном режиме.</Russian>
-			<Spanish>Patrol Operations es un generador de misiones dinámico con objetivos aleatorios, diseñado para ser jugado empleando fuerzas combinadas de modo cooperativo y táctico por grupos de muchos jugadores.</Spanish>
-			<German>Patrol Operations ist ein dynamischer Missionsgenerator mit zufälligen Aufgaben, gedacht für kooperatives, taktisches Spiel mit größerer Spieleranzahl, um mit verbundenen Kräften zu agieren.</German>
 			<Russian>Team Tactics - миссия с динамической генерацией заданий. Используется для подготовки больших отрядов всех родов войск.</Russian>
 		</Key>
 		<Key ID="STR_MISSION_VERSION">
 			<Original>0.1</Original>
 		</Key>
 	</Package>
+	
+	<!--Брифинг-->
 	<Package name="MPSFBriefing">
 		<Key ID="STR_PO3_BRIEF_WINTITLE">
 			<Original>Mission Completed</Original>
-			<German>Mission Abgeschlossen</German>
-			<French>Mission Accomplie</French>
-			<Polish>Misja ukończona</Polish>
-			<Portuguese>Missão Cumprida</Portuguese>
-			<Italian>Missione Compiuta</Italian>
-			<Czech>Mise Dokončena</Czech>
 			<Russian>Миссия выполнена</Russian>
-			<Spanish>Misión Cumplida</Spanish>
-			<Czech>Mise splněna</Czech>
 		</Key>
 		<Key ID="STR_PO3_BRIEF_WINSUBTITLE">
 			<Original>You have succeeded the mission objectives.</Original>
-			<Portuguese>Você completou os objetivos da missão.</Portuguese>
-			<French>Vous avez accompli les objectifs de la mission.</French>
-			<Spanish>Has completado con éxito los objetivos de la misión.</Spanish>
-			<Polish>Udało ci się osiągnąć cele misji.</Polish>
-			<German>Missionsziele erfolgreich abgeschlossen.</German>
-			<Czech>Úspěšně jsi splnil cíle mise.</Czech>
 			<Russian>Вы успешно выполнили все задания в данной миссии</Russian>
 		</Key>
 		<Key ID="STR_PO3_BRIEF_WINDESCR">
 			<Original>Your team has succeeded in completing the mission objectives outlined. Well Done!</Original>
-			<Portuguese>Seu time teve sucesso ao completar os objetivos delineados da missão. Bom trabalho!</Portuguese>
-			<French>Votre équipe a complété les objectifs de la mission. Bon travail!</French>
-			<Spanish>Tu equipo ha completado con éxito los objetivos marcados de la misión. ¡Buen trabajo! </Spanish>
-			<Polish>Wasz zespół wypełnił powierzone mu zadania. Dobra robota!</Polish>
-			<German>Die angegebenen Missionsziele wurden erfolgreich abgeschlossen. Gute Arbeit!</German>
-			<Czech>Váš tým úspěšně dokončil cíle mise. Dobrá práce!</Czech>
 		</Key>
 		<Key ID="STR_PO3_BRIEF_LOSETITLE">
 			<Original>Mission Failed</Original>
-			<German>Mission fehlgeschlagen</German>
-			<French>Échec de la mission</French>
-			<Polish>Misja nieudana</Polish>
-			<Portuguese>fracasso da missão</Portuguese>
-			<Italian>missione Fallimento</Italian>
-			<Czech>Mise Selhání</Czech>
 			<Russian>Миссия провалена</Russian>
-			<Spanish>Misión fallida</Spanish>
-			<Czech>Mise nesplněna</Czech>
 		</Key>
 		<Key ID="STR_PO3_BRIEF_LOSESUBTITLE">
 			<Original>You have failed the mission objectives.</Original>
-			<Portuguese>Você falhou no objetivo da missão.</Portuguese>
-			<French>Vous avez raté les objectifs de mission.</French>
-			<Spanish>Has fallado en los objetivos de la misión.</Spanish>
-			<Polish>Nie udało ci się osiągnąć celów misji.</Polish>
-			<German>Das Missionsziel wurde nicht erreicht.</German>
-			<Czech>Selhal jsi v cílech mise.</Czech>
 			<Russian>Вы провалили задания миссии</Russian>
 		</Key>
 		<Key ID="STR_PO3_BRIEF_LOSEDESCR">
 			<Original>Your team has failed to complete the mission objectives outlined and are withdrawn from combat.</Original>
-			<Portuguese>O seu time falhou no objetivo delineado da missão e está se retirando do combate.</Portuguese>
-			<French>Votre équipe n'a pas accomplie les objectifs de mission et s'est retirée du combat.</French>
-			<Spanish>Tu equipo no ha logrado completar los objetivos marcados de la misión y se retira del combate.</Spanish>
-			<Polish>Wasz zespół nie wypełnił powierzonych mu zadań i zostaje wycofany z walki. </Polish>
-			<German>Die Missionsziele wurden nicht erreicht, ziehen Sie sich aus dem Kampf zurück.</German>
-			<Czech>Váš tým selhal v dokončení cílů mise, a byl stažen z boje.</Czech>
 		</Key>
 	</Package>
+	
+	<!--Параметры-->
 	<Package name="MPSFParams">
 		<Key ID="STR_PO3_PTITLE_INJURY">
 			<Original>====== Injury Options ======</Original>
-			<French>====== Blessures Options ======</French>
-			<Spanish>====== Opciones de daño ======</Spanish>
-			<Polish>====== Opcje obrażeń ======</Polish>
-			<German>====== Verletzungen ======</German>
-			<Czech>====== Nastavení systému zranění ======</Czech>
 		</Key>
 		<Key ID="STR_PO3_PARAM_ACEWTTL">
 			<Original>Set Wounds: Time to Live for wounded</Original>
-			<French>Temps de vie des blessés : </French>
-			<Spanish>Establecer heridas: Tiempo de vida para los heridos</Spanish>
-			<Polish>Ustawienie symulacji ran: czas życia rannych</Polish>
-			<German>Kampfunfähig: Zeit bis zum Tod</German>
-			<Czech>Nastavit systém zranení: Čas života pro zraněné</Czech>
 		</Key>
 		<Key ID="STR_PO3_PARAM_ACEW1STAIDDMG">
 			<Original>Set Wounds: Damage after First Aid</Original>
-			<French>Dommage après application d'une trousse de secours :</French>
-			<Spanish>Establecer heridas: Daño tras primeros auxilios</Spanish>
-			<Polish>Ustawienie symulacji ran: obrażenia po opatrzeniu</Polish>
-			<German>Kampfunfähig: Gesundheitsschaden nach erster Hilfe</German>
-			<Czech>Nastavit systém zranení: Zraněn po první pomoci</Czech>
 		</Key>
 		<Key ID="STR_PO3_PARAM_ACEWUNCONSPECT">
 			<Original>Enable Wounds: Spectate while unconscious</Original>
-			<French>Mode spectacteur quand on est inconscient :</French>
-			<Spanish>Habilitar heridas: Modo espectador al quedar inconsciente</Spanish>
-			<Polish>Opcja symulacji ran: tryb widza dla nieprzytomnych</Polish>
-			<German>Wunden aktiv: Beobachten während kampfunfähig</German>
-			<Czech>Povolit systém zranení - Spektátor během stavu bezvědomí</Czech>
 		</Key>
 		<Key ID="STR_PO3_PARAM_ACEWPUNISH">
 			<Original>Enable Wounds: ESC->Respawn is punished</Original>
-			<French>Utiliser ECHAP comme Respawn est puni</French>
-			<Spanish>Habilitar heridas: ESC->Respawn penalizado</Spanish>
-			<Polish>Opcja symulacji ran: ESC->Odrodzenie jest karane</Polish>
-			<German>Wunden aktiv: Strafe für Esc->Respawn</German>
-			<Czech>Povolit systém zranení: ESC->Respawn je trestán</Czech>
 		</Key>
 		<Key ID="STR_PO3_PARAM_ACEWMOBMEDICVEH">
 			<Original>Enable Wounds: Mobile Medical Vehicles</Original>
-			<French>Vehicule de secours mobile :</French>
-			<Spanish>Habilitar heridas: Vehículos médicos</Spanish>
-			<Polish>Opcja symulacji ran: Pojazdy Medyczne</Polish>
-			<German>Wunden aktiv: Mobile Sanitätsfahrzeuge</German>
-			<Czech>Povolit systém zranení: Mobilní zdravotnické vozidla</Czech>
 		</Key>
 		<Key ID="STR_PO3_PARAM_ACEWALLMEDICS">
 			<Original>Enable Wounds: Everyone medic</Original>
-			<French>Tous le monde peut être medecin :</French>
-			<Spanish>Habilitar heridas: Todos médico</Spanish>
-			<Polish>Opcja symulacji ran: wszyscy są sanitariuszami</Polish>
-			<German>Wunden aktiv: Jeder ist Sanitäter</German>
-			<Czech>Povolit systém zranení: Všichni jsou medici</Czech>
 		</Key>
 		<Key ID="STR_PO3_PARAM_ACEWNOMEDGEAR">
 			<Original>Enable Wounds: Medical Gear</Original>
-			<French>Equipement médical :</French>
-			<Spanish>Habilitar heridas: Equipo médico</Spanish>
-			<Polish>Opcja symulacji ran: Sprzęt medyczny</Polish>
-			<German>Wunden aktiv: Medizinische Ausrüstung</German>
-			<Czech>Povolit systém zranení: medické vybavení</Czech>
 		</Key>
 		<Key ID="STR_PO3_PARAM_INJURYTOLERANCE">
 			<Original>Player Injury Tolerance</Original>
-			<French>Tolérance de blessures par joueur :</French>
-			<Spanish>Tolerancia del jugador a las lesiones</Spanish>
-			<Polish>Odporność gracza na obrażenia</Polish>
-			<German>Verletzungstoleranz der Spieler</German>
-			<Czech>Tolerance poranění hráče</Czech>
 		</Key>
 		<Key ID="STR_PO3_PARAM_INJURYDOWN">
 			<Original>Enable Player Unconscious State</Original>
-			<French>Activer l'état d'inconscience quand bléssé</French>
-			<Spanish>Habilitar estado inconsciente para el jugador</Spanish>
-			<Polish>Włącz utratę przytomności dla gracza</Polish>
-			<German>Spieler-Bewusstlosigkeit aktivieren</German>
-			<Czech>Povolit stav bezvědomí pro hráče</Czech>
 		</Key>
 		<Key ID="STR_PO3_PTITLE_RESPAWN">
 			<Original>====== Respawn Options ======</Original>
-			<French>====== Options de Respawn ======</French>
-			<Spanish>====== Opciones de Respawn ======</Spanish>
-			<Polish>====== Opcje odrodzenia ======</Polish>
-			<German>====== Respawn ======</German>
-			<Czech>====== Nastavení Respawnu ======</Czech>
 		</Key>
 		<Key ID="STR_PO3_PARAM_RESPAWNLIVES">
 			<Original>Set Player: Lives</Original>
-			<French>Nombre de vies par joueur</French>
-			<Spanish>Establecer jugador: Vidas</Spanish>
-			<Polish>Ustawienia gracza: liczba żyć</Polish>
-			<German>Spielerleben</German>
-			<Czech>Nastavit počet životů</Czech>
 		</Key>
 		<Key ID="STR_PO3_PARAM_RESPAWNTIME">
 			<Original>Set Redeploy: Time Till Available</Original>
-			<Spanish>Establecer reaparición: Tiempo hasta estar disponible</Spanish>
-			<Polish>Ustawienie powrotu na mapę: pauza nim dostępny</Polish>
-			<German>Zeit bis Respawn verfügbar ist</German>
-			<French>Règlage de redéploiement: Temps avant respawn</French>
-			<Czech>Znovunasazení bude možné po čase: </Czech>
 		</Key>
 		<Key ID="STR_PO3_PARAM_SECUREZONE">
 			<Original>Restrict Redeploy: Enemies Near</Original>
-			<Spanish>Restringir reaparición: Enemigos cerca</Spanish>
-			<Polish>Ograniczenie powrotu na mapę: wróg w pobliżu</Polish>
-			<German>Respawn verbieten, wenn Feinde in der Nähe</German>
-			<French>Restreindre le Redéploiement: Ennemis Proches</French>
-			<Czech>Omezené znovunasazení pokud jsou blízko nepřátelé</Czech>
 		</Key>
 		<Key ID="STR_PO3_PARAM_RESPAWNRALLY">
 			<Original>Enable Redeploy: Rallypoints</Original>
-			<Spanish>Habilitar reaparición: Puntos de encuentro</Spanish>
-			<Polish>Opcja powrotu na mapę: punkty zbiórki</Polish>
-			<German>Respawn an Rallypoints erlauben</German>
-			<French>Activer Redéploiement: Respawn Avancé</French>
-			<Czech>Povolit znovunasazení: SHROMAŽDIŠTĚ</Czech>
 		</Key>
 		<Key ID="STR_PO3_PARAM_RESPAWNHALO">
 			<Original>Enable Redeploy: HALO</Original>
-			<Spanish>Habilitar reaparición: Salto en paracaídas</Spanish>
-			<Polish>Opcja powrotu na mapę: skok HALO</Polish>
-			<German>Respawn via HALO erlauben</German>
-			<French>Activer Redéploiement: Parachute</French>
-			<Czech>Povolit znovunasazení: SESKOK PADÁKEM</Czech>
 		</Key>
 		<Key ID="STR_PO3_PARAM_RESPAWNHALOTIME">
 			<Original>Set HALO delay between jumps</Original>
-			<Spanish>Establecer retraso entre saltos con paracaídas</Spanish>
-			<Polish>Ustawienie pauzy pomiędzy skokami HALO</Polish>
-			<German>HALO-Verzögerung zwischen Sprüngen</German>
-			<French>Régler le délai entre deux Sauts de PARACHUTE</French>
-			<Czech>Nastavit spoždění mezi seskoky padákem</Czech>
 		</Key>
 		<Key ID="STR_PO3_PTITLE_GAMEOPTIONS">
 			<Original>====== Gameplay Options ======</Original>
-			<Spanish>====== Opciones de juego ======</Spanish>
-			<Polish>====== Opcje rozgrywki ======</Polish>
-			<German>====== Gameplay ======</German>
-			<French>====== Options de Jeu ======</French>
-			<Czech>====== Herní nastavení ======</Czech>
 		</Key>
 		<Key ID="STR_PO3_PARAM_GAMERADIO">
 			<Original>Enable Radio Text</Original>
-			<Spanish>Habilitar mensajes de radio</Spanish>
-			<Polish>Włącz tekstowe komunikaty radiowe</Polish>
-			<German>Radiotext aktivieren</German>
-			<French>Activer le texte de la Radio</French>
-			<Czech>Povolit text rádia</Czech>
 		</Key>
 		<Key ID="STR_PO3_PARAM_GRPMARK_GRP">
 			<Original>Enable Squad Map Markers</Original>
-			<Spanish>Habilitar marcadores en el mapa para pelotones</Spanish>
-			<Polish>Włącz znaczniki drużyn na mapie</Polish>
-			<German>Squad-Kartenmarker aktivieren</German>
-			<French>Activer les marqueurs d'escouade sur la carte</French>
-			<Czech>Povolit značení družstev na mapě</Czech>
 		</Key>
 		<Key ID="STR_PO3_PARAM_GRPMARK_SQD">
 			<Original>Enable Squad Member Map Markers</Original>
-			<Spanish>Habilitar marcadores en el mapa para miembros del pelotón</Spanish>
-			<Polish>Włącz znaczniki członków drużyn na mapie</Polish>
-			<German>Squadmitglieder-Kartenmarker aktivieren</German>
-			<French>Activer les marqueurs des membres de l'escouade sur la carte</French>
-			<Czech>Povolit značení členů družstev na mapě</Czech>
 		</Key>
 		<Key ID="STR_PO3_PARAM_WRECKSVEH">
 			<Original>Remove Vehicle Wrecks</Original>
-			<Spanish>Quitar restos de vehículos</Spanish>
-			<Polish>Usuwaj wraki pojazdów</Polish>
-			<German>Fahrzeugwracks entfernen</German>
-			<French>Enlever les épaves des véhicules</French>
-			<Czech>Odebrat vraky vozidel</Czech>
 		</Key>
 		<Key ID="STR_PO3_PARAM_WRECKSBODY">
 			<Original>Remove Deceased Bodies</Original>
-			<Spanish>Quitar cuerpos de muertos</Spanish>
-			<Polish>Usuwaj zwłoki</Polish>
-			<German>Leichen entfernen</German>
-			<French>Enlever les cadavres</French>
-			<Czech>Odebrat mrtvá těla</Czech>
 		</Key>
 		<Key ID="STR_PO3_PTITLE_PLAYROPTIONS">
 			<Original>====== Player Options ======</Original>
-			<Spanish>====== Opciones del jugador ======</Spanish>
-			<Polish>====== Opcje gracza ======</Polish>
-			<German>====== Spieler ======</German>
-			<French>====== Options des Joueurs ======</French>
-			<Czech>====== Uživatelské nastavení ======</Czech>
 		</Key>
 		<Key ID="STR_PO3_PARAM_PLAYRFATIGUE">
 			<Original>Enable Player Fatigue</Original>
-			<Spanish>Habilitar fatiga</Spanish>
-			<Polish>Włącz zmęczenie gracza</Polish>
-			<German>Erschöpfung aktivieren</German>
-			<French>Activer la fatigue</French>
-			<Czech>Povolit únavu hráče</Czech>
 		</Key>
 		<Key ID="STR_PO3_PARAM_HUD2DCURSOR">
 			<Original>Enable Hud 2D Cursor Names</Original>
-			<Spanish>Habilitar nombres en el Hud en 2D</Spanish>
-			<Polish>Wyświetlaj na ekranie HUDa 2D imiona postaci wskazanych kursorem</Polish>
-			<German>2D Cursor HUD Namen aktivieren</German>
-			<French>Activer le HUD 2D avec les Noms indiqués</French>
-			<Czech>Povolit 2D zobrazení jmen při zamíření</Czech>
 		</Key>
 		<Key ID="STR_PO3_PARAM_HUD3DWORLD">
 			<Original>Enable Hud 3D Hover Names</Original>
-			<Spanish>Habilitar nombres en el Hud en 3D al pasar el cursor</Spanish>
-			<Polish>Wyświetlaj w trybie HUDa 3D unoszące się imiona postaci</Polish>
-			<German>3D Hover HUD Namen aktivieren</German>
-			<French>Activer le HUD 3D affichant le nom au dessus des joueurs</French>
-			<Czech>Povolit 3D zobrazení jmen</Czech>
 		</Key>
 		<Key ID="STR_PO3_PARAM_HUDGRASS">
 			<Original>Enable Hud Grass Detail Change</Original>
-			<Spanish>Habilitar cambio de detalle para la hierba en el Hud</Spanish>
-			<Polish>Wyświetlaj opcję zmiany ustawień trawy w trybie HUDa</Polish>
-			<German>HUD Grasqualität einstellbar</German>
-			<French>Activer le HUD pour changer les détails de l'herbe</French>
-			<Czech>Povolit změnu nastavení trávy</Czech>
 		</Key>
 		<Key ID="STR_PO3_PARAM_CAMNVG">
 			<Original>Enable Night Vision</Original>
-			<Spanish>Habilitar visión nocturna</Spanish>
-			<Polish>Udostepnij tryb noktowizyjny</Polish>
-			<German>Nachtsicht aktivieren</German>
-			<French>Activer les lunettes de visions nocturnes</French>
-			<Czech>Povolit noční vidění</Czech>
 		</Key>
 		<Key ID="STR_PO3_PARAM_3DVWALKER">
 			<Original>Restrict Player 3rd Person View</Original>
-			<Spanish>Forzar vista en 3ª persona para el jugador</Spanish>
-			<Polish>Wyłącz widok TPP dla gracza</Polish>
-			<German>Außenkamera für Infanterie verbieten</German>
-			<French>Restreindre la vue à la 3ême personne</French>
-			<Czech>Omezit 3rd pohled pro hráče</Czech>
 		</Key>
 		<Key ID="STR_PO3_PARAM_3DVDRIVER">
 			<Original>Restrict Driver 3rd Person View</Original>
-			<Spanish>Forzar vista en 3ª persona para el conductor</Spanish>
-			<Polish>Wyłącz widok TPP dla kierowcy</Polish>
-			<German>Außenkamera für Fahrer verbieten</German>
-			<French>Restreindre la vue des condutcteur à la 3ême personne</French>
-			<Czech>Omezit 3rd pohled pro řidiče vozidla</Czech>
 		</Key>
 		<Key ID="STR_PO3_PARAM_3DVCREWMN">
 			<Original>Restrict Crew 3rd Person View</Original>
-			<Spanish>Forzar vista en 3ª persona para la tripulación</Spanish>
-			<Polish>Wyłącz widok TPP dla załogi pojazdu</Polish>
-			<German>Außenkamera für Fahrzeuginsassen verbieten</German>
-			<French>Restreindre la vue à la 3ême personne des passagers</French>
-			<Czech>Omezit 3rd pohled pro posádku vozidla</Czech>
 		</Key>
 		<Key ID="STR_PO3_PTITLE_AIOPTIONS">
 			<Original>====== AI Options ======</Original>
-			<Spanish>====== Opciones de la IA ======</Spanish>
-			<Polish>====== Opcje AI ======</Polish>
-			<German>====== KI ======</German>
-			<French>>====== Options des IA======</French>
-			<Czech>====== AI Nastavení ======</Czech>
 		</Key>
 		<Key ID="STR_PO3_PARAM_SETAISKILL">
 			<Original>AI Skill Level</Original>
-			<Spanish>Nivel de la IA</Spanish>
-			<Polish>Poziom umiejętności AI</Polish>
-			<German>KI Skill Level</German>
-			<French>Niveau de compétence des IA</French>
-			<Czech>Level schopností AI</Czech>
 		</Key>
 		<Key ID="STR_PO3_PARAM_SETAITKILL">
 			<Original>Enable AI Easy Takedown</Original>
-			<French>Activer L'IA facile à tuer</French>
-			<Czech>Povolit jednoduché zabití AI</Czech>
 		</Key>
 		<Key ID="STR_PO3_PARAM_AIBASEPROTECT">
 			<Original>Enable Base Protection</Original>
-			<Spanish>Habilitar protección en la base</Spanish>
-			<Polish>Włącz ochronę bazy</Polish>
-			<German>Basisverteidigung aktiv</German>
-			<French>Activer la proctection de la BASE</French>
-			<Czech>Povolit ochranu základny</Czech>
 		</Key>
 		<Key ID="STR_PO3_PTITLE_AMBIENT">
 			<Original>====== Ambient Environment ======</Original>
-			<Spanish>====== Condiciones ambientales ======</Spanish>
-			<Polish>====== Otoczenie ======</Polish>
-			<German>====== Umgebung ======</German>
-			<French>======  Environnement Ambiant ======</French>
-			<Czech>======  Náhodné prostředí ======</Czech>
 		</Key>
 		<Key ID="STR_PO3_PARAM_AMBWEATHER">
 			<Original>Enable Ambient Weather</Original>
-			<Spanish>Habilitar tiempo atmosférico</Spanish>
-			<Polish>Włącz efekty pogodowe</Polish>
-			<German>Dynamisches Wetter aktivieren</German>
-			<French>Activer la METEO ambiante</French>
-			<Czech>Povolit náhodné počasí</Czech>
 		</Key>
 		<Key ID="STR_PO3_PARAM_AMBCIVIS">
 			<Original>Enable Ambient Civilians</Original>
-			<Spanish>Habilitar civiles</Spanish>
-			<Polish>Włącz ludność cywilną w tle</Polish>
-			<German>Zivilisten aktivieren</German>
-			<French>Activer les CIVILS</French>
-			<Czech>Povolit náhodné obyvatelstvo</Czech>
 		</Key>
 		<Key ID="STR_PO3_PARAM_AMBVEHICLE">
 			<Original>Enable Ambient Traffic</Original>
-			<Spanish>Habilitar tráfico</Spanish>
-			<Polish>Włącz ruch drogowy w tle</Polish>
-			<German>Verkehr aktivieren</German>
-			<French>Activer le traffic des voitures CIVILS</French>
-			<Czech>Povolit náhodný provoz</Czech>
 		</Key>
 		<Key ID="STR_PO3_PARAM_AMBGAIA">
 			<Original>Enable Ambient Animals</Original>
-			<Spanish>Habilitar animales</Spanish>
-			<Polish>Włącz faunę w tle</Polish>
-			<German>Tiere aktivieren</German>
-			<French>Activer les animaux</French>
-			<Czech>Povolit náhodná zvířata</Czech>
 		</Key>
 	</Package>
+	
+	<!--Экшены-->
 	<Package name="MPSFActions">
 		<Key ID="STR_PO3_ACTION_BUSY">
 			<Original>You are currently too busy and cannot engage in another action</Original>
-			<Spanish>Actualmente estás demasiado ocupado y no puedes participar en otra acción</Spanish>
-			<Polish>Jesteś obecnie zbyt zajęty, by podjąć inną akcję</Polish>
-			<German>Du bist momentan beschäftigt und kannst keine andere Aktion beginnen.</German>
-			<Portuguese>Você está ocupado e não pode iniciar outra ação</Portuguese>
-			<French>Vous êtes déjà trop occupé et ne pouvez pas vous engagé dans une autre action</French>
-			<Czech>Jsi zrovna moc zaneprázdněný a nemůžeš provést další akci</Czech>
 		</Key>
 		<Key ID="STR_PO3_ACTION_SETTINGS">
 			<Original>Settings</Original>
-			<Spanish>Configuración</Spanish>
-			<Polish>Ustawienia</Polish>
-			<German>Einstellungen</German>
-			<Portuguese>Configurações</Portuguese>
-			<French>Réglages</French>
-			<Czech>Nastavení</Czech>
 		</Key>
 		<Key ID="STR_PO3_ACTION_CREATERALLY">
 			<Original>Create Rallypoint</Original>
-			<Spanish>Crear punto de encuentro</Spanish>
-			<Polish>Utwórz punkt zbiórki</Polish>
-			<German>Rallypoint setzen</German>
-			<Portuguese>Criar um ponto de encontro</Portuguese>
-			<French>Installer Respawn Avancé</French>
-			<Czech>Vytvořit shromaždiště</Czech>
 		</Key>
 		<Key ID="STR_PO3_ACTION_REMOVERALLY">
 			<Original>Remove %1 Rallypoint</Original>
-			<Spanish>Quitar %1 punto de encuentro</Spanish>
-			<Polish>Usuń %1 punkt zbiórki</Polish>
-			<German>%1 Rallypoint entfernen</German>
-			<French>Désinstaller %1 Respawn Avancé</French>
-			<Czech>Odebrat %1 shrozmaždiště</Czech>
 		</Key>
 		<Key ID="STR_PO3_ACTION_REDEPLOYUNIT">
 			<Original>Redeploy Soldier</Original>
-			<Spanish>Reaparacer soldado</Spanish>
-			<Polish>Rozmieść żołnierza</Polish>
-			<German>Neu einsteigen</German>
-			<Portuguese>Remover o %1 ponto de encontro</Portuguese>
-			<French>Réapparaitre</French>
-			<Czech>Znovu nasadit Vojáka</Czech>
 		</Key>
 		<Key ID="STR_PO3_ACTION_CAPTUREUNIT">
 			<Original>Capture %1</Original>
-			<Spanish>Capturar %1</Spanish>
-			<Polish>Weź jeńca: %1</Polish>
-			<German>Erobere %1</German>
-			<Portuguese>Capture %1</Portuguese>
-			<French>Capturer %1</French>
-			<Czech>Obsadit %1</Czech>
 		</Key>
 		<Key ID="STR_PO3_ACTION_DRAG">
 			<Original>Drag %1</Original>
-			<Spanish>Arrastrar %1</Spanish>
-			<Polish>Ciągnij: %1</Polish>
-			<German>%1 ziehen</German>
-			<Portuguese>Arrastar %1</Portuguese>
-			<French>Tirer au sol %1</French>
-			<Czech>Táhnout %1</Czech>
 		</Key>
 		<Key ID="STR_PO3_ACTION_UNPACK">
 			<Original>Unpack %1</Original>
-			<Spanish>Desempaquetar %1</Spanish>
-			<Polish>Rozpakuj: %1</Polish>
-			<German>%1 auspacken</German>
-			<Portuguese>Desempacotar %1</Portuguese>
-			<French>Décharger %1</French>
-			<Czech>Vybalit %1</Czech>
 		</Key>
 		<Key ID="STR_PO3_ACTION_PACK">
 			<Original>Pack %1</Original>
-			<Spanish>Empaquetar %1</Spanish>
-			<Polish>Spakuj: %1</Polish>
-			<German>%1 zusammenpacken</German>
-			<Portuguese>Empacotar %1</Portuguese>
-			<French>Charger %1</French>
-			<Czech>Sbalit %1</Czech>
 		</Key>
 		<Key ID="STR_PO3_ACTION_IEDDEFUSE">
 			<Original>Defuse IED</Original>
-			<Spanish>Desactivar IED</Spanish>
-			<Polish>Rozbrój IED</Polish>
-			<German>IED entschärfen</German>
-			<Portuguese>Desativar IED</Portuguese>
-			<French>Désactiver IED</French>
-			<Czech>Zneškodnit IED</Czech>
 		</Key>
 		<Key ID="STR_PO3_ACTION_IEDDETONATE">
 			<Original>Detonate IED</Original>
-			<Spanish>Detonar IED</Spanish>
-			<Polish>Zdetonuj IED</Polish>
-			<German>IED zünden</German>
-			<Portuguese>Detonar IED</Portuguese>
-			<French>Activer IED</French>
-			<Czech>Odpálit IED</Czech>
 		</Key>
 		<Key ID="STR_PO3_ACTION_ASSISTINJURED">
 			<Original>Assist %1</Original>
-			<Spanish>Ayudar %1</Spanish>
-			<Polish>Opatrz: %1</Polish>
-			<German>%1 unterstützen</German>
-			<Portuguese>Ajudar %1</Portuguese>
-			<French>Assister %1</French>
-			<Czech>Pomoct %1</Czech>
 		</Key>
 		<Key ID="STR_PO3_ACTION_DRAGINJURED">
 			<Original>Drag %1</Original>
-			<Spanish>Soltar %1</Spanish>
-			<Polish>Ciągnij: %1</Polish>
-			<German>Ziehe %1</German>
-			<Portuguese>Arrastar %1</Portuguese>
-			<French>Tirer au sol %1</French>
-			<Czech>Táhnout %1</Czech>
 		</Key>
 		<Key ID="STR_PO3_ACTION_LOADON0">
 			<Original>Load %1 on to...</Original>
-			<Spanish>Cargar %1 en...</Spanish>
-			<Polish>Załaduj %1 na...</Polish>
-			<German>%1 einladen in...</German>
-			<Portuguese>Carregar %1 em...</Portuguese>
-			<French>Charger %1 sur ...</French>
-			<Czech>Nalož %1 na...</Czech>
 		</Key>
 		<Key ID="STR_PO3_ACTION_LOADON1">
 			<Original>...on to %1</Original>
-			<Spanish>...en %1</Spanish>
-			<Polish>...na: %1</Polish>
-			<German>..in %1</German>
-			<Portuguese>...em %1</Portuguese>
-			<French>... sur %1</French>
-			<Czech>...na %1</Czech>
 		</Key>
 		<Key ID="STR_PO3_ACTION_LOADOFF0">
 			<Original>Unload %1</Original>
-			<Spanish>Descargar %1</Spanish>
-			<Polish>Wyładuj: %1</Polish>
-			<German>%1 ausladen</German>
-			<Portuguese>Descarregar %1</Portuguese>
-			<French>Décharger %1</French>
-			<Czech>Vylož %1</Czech>
 		</Key>
 		<Key ID="STR_PO3_ACTION_LIFTHOOKA">
 			<Original>Activate Lift Hook</Original>
-			<Spanish>Activar gancho elevador</Spanish>
-			<Polish>Aktywuj zaczep</Polish>
-			<German>Schlepphaken aktivieren</German>
-			<Portuguese>Ativar gancho de carga</Portuguese>
-			<French>Allumer camera cargaison</French>
-			<Czech>Aktivuj zvedací hák</Czech>
 		</Key>
 		<Key ID="STR_PO3_ACTION_LIFTHOOKD">
 			<Original>Deactivate Lift Hook</Original>
-			<Spanish>Desactivar gancho elevador</Spanish>
-			<Polish>Zwolnij zaczep</Polish>
-			<German>Schlepphaken lösen</German>
-			<Portuguese>Desativar gancho de carga</Portuguese>
-			<French>Eteindre camera cargaison</French>
-			<Czech>Deaktivuj zvedací hák</Czech>
 		</Key>
 		<Key ID="STR_PO3_ACTION_ILLUMFLARE">
 			<Original>Deploy Illumination Flare</Original>
-			<Spanish>Lanzar bengala</Spanish>
-			<Polish>Wystrzel flarę</Polish>
-			<German>Leuchtgeschoss einsetzen</German>
-			<Portuguese>Lançar flare de iluminação</Portuguese>
-			<French>Déployer Fusée de Détresse</French>
-			<Czech>Vystřelit Světlici</Czech>
 		</Key>
 		<Key ID="STR_PO3_ABORTHEAL">
 			<Original>Cancel First Aid</Original>
-			<Spanish>Cancelar primeros auxilios</Spanish>
-			<French>Annuler les Soins</French>
-			<Polish>Przerwij pierwszą pomoc</Polish>
-			<German>Erste Hilfe abbrechen</German>
-			<Portuguese>Cancelar Primeiros socorros</Portuguese>
-			<Czech>Zrušit První Pomoc</Czech>
 		</Key>
 	</Package>
+	
+	<!--Диалоги-->
 	<Package name="MPSFDialogs">
 		<Key ID="STR_PO3_DIALOG_GRAPHIC_KEYPRESS">
 			<Original>Press "U" to open the same dialogue</Original>
-			<French>Appuyer sur "U" pour ouvrir le panneau de réglages</French>
-			<Spanish>Presiona "U" para abrir el mismo diálogo</Spanish>
-			<Polish>Wciśnij "U" by otworzyć to samo okno dialogowe</Polish>
-			<German>Drücke "U" um diesen Dialog zu öffnen</German>
-			<Czech>Stiskni "U" pro znovu otevření tohoto dialogu</Czech>
 		</Key>
 		<Key ID="STR_PO3_DIALOG_GRAPHIC_VIEWTITLE">
 			<Original>View Distance Settings</Original>
-			<French>Réglage de votre vue</French>
-			<Spanish>Opciones de distancia de visión</Spanish>
-			<Polish>Ustawienia zasięgu widoczności</Polish>
-			<German>Sichtweite</German>
-			<Czech>Nast. Dohlednosti</Czech>
 		</Key>
 		<Key ID="STR_PO3_DIALOG_GRAPHIC_VIEWDESCR">
 			<Original>Change View Distance Settings</Original>
-			<French>Distance affichée pour le joueur</French>
-			<Spanish>Cambiar distancia de visión</Spanish>
-			<Polish>Zmień ustawienia zasięgu widoczności</Polish>
-			<German>Sichtweite einstellen</German>
-			<Portuguese>Alterar a distância da visão</Portuguese>
-			<Czech>Změnit Nastavení Dohlednosti</Czech>
 		</Key>
 		<Key ID="STR_PO3_DIALOG_GRAPHIC_TERRTITLE">
 			<Original>Terrain Detail Settings</Original>
-			<French>Densité de l'herbe</French>
-			<Spanish>Opciones de detalles del terreno</Spanish>
-			<Polish>Ustawienia detali terenu</Polish>
-			<German>Grasdetaillevel</German>
-			<Portuguese>Opções de detalhes do terreno</Portuguese>
-			<Czech>Nastavení terénu</Czech>
 		</Key>
 		<Key ID="STR_PO3_DIALOG_GRAPHIC_VIEWDIST">
 			<Original>Viewdistance: %1m</Original>
-			<French>Distance choisie de : %1m</French>
-			<Spanish>Distancia de visión: %1m</Spanish>
-			<Polish>Zasięg widoczności: %1m</Polish>
-			<German>Sichtweite: %1m</German>
-			<Portuguese>Distancia de visão: %1m</Portuguese>
-			<Czech>Dohlednost: %1m</Czech>
 		</Key>
 		<Key ID="STR_PO3_DIALOG_GRAPHIC_3DEnabled">
 			<Original>3D HUD Enabled</Original>
-			<Spanish>HUD en 3D habilitado</Spanish>
-			<Polish>HUD 3D aktywny</Polish>
-			<German>3D Anzeige Aktiviert</German>
-			<Portuguese>HUD 3D Ativo</Portuguese>
-			<French>HUD 3D Activé</French>
-			<Czech>3D HUD Zapnutý</Czech>
 		</Key>
 		<Key ID="STR_PO3_DIALOG_GRAPHIC_3DDisabled">
 			<Original>3D HUD Disabled</Original>
-			<German>3D Anzeige Deaktiviert</German>
-			<French>HUD 3D Desactivé</French>
-			<Spanish>HUD en 3D deshabilitado</Spanish>
-			<Polish>HUD 3D wyłączony</Polish>
-			<Portuguese>HUD 3D Desativado</Portuguese>
-			<Czech>3D HUD Vypnutý</Czech>
 		</Key>
 		<Key ID="STR_PO3_DIALOG_GRAPHIC_2DEnabled">
 			<Original>2D HUD Enabled</Original>
-			<Spanish>HUD en 2D habilitado</Spanish>
-			<Polish>HUD 2D aktywny</Polish>
-			<German>2D Anzeige Aktiviert</German>
-			<Portuguese>HUD 2D Ativo</Portuguese>
-			<French>HUD 2D Activé</French>
-			<Czech>2D HUD Zapnutý</Czech>
 		</Key>
 		<Key ID="STR_PO3_DIALOG_GRAPHIC_2DDisabled">
 			<Original>2D HUD Disabled</Original>
-			<German>2D Anzeige Deaktiviert</German>
-			<French>HUD 2D Desactivé</French>
-			<Spanish>HUD en 2D deshabilitado</Spanish>
-			<Polish>HUD 2D wy??czony</Polish>
-			<Portuguese>HUD 2D Desativado</Portuguese>
-			<Czech>2D HUD Vypnutý</Czech>
 		</Key>
 		<Key ID="STR_PO3_DIALOG_GRAPHIC_3DRequire">
 			<Original>You need Tactical Glasses or a pilot helmet for 3D HUD to work</Original>
-			<German>Sie benötigen eine taktische Brille oder ein Pilotenhelm für die 3D Anzeige</German>
-			<French>Vous avez besoin des lunettes tactiques ou un casque de pilote pour voir le hud 3d fonctionner</French>
-			<Spanish>Necesitas gafas tácticas o casco de piloto para que funcione el HUD en 3D</Spanish>
-			<Polish>By wejść w tryb HUDa 3D musisz nosić okulary taktyczne lub hełm pilota</Polish>
-			<Portuguese>Você precisa de um óculos tático ou de um capacete de piloto para o HUD 3D funcionar</Portuguese>
-			<Czech>Potřebuješ Taktické brýle nebo pilotní helmu pro zobrazení 3D HUDu</Czech>
 		</Key>
 		<Key ID="STR_PO3_DIALOG_CEASEFIRE">
 			<Original>You are firing at base without approval. Cease your actions Immediately!</Original>
-			<German>Sie schießen in der Basis. Feuer sofort einstellen!</German>
-			<French>Vous faites feu à la base sans approbation. Cessez vos actions immédiatement!</French>
-			<Polish>Strzelasz w bazie bez pozwolenia. Natychmiast przerwij ogień!</Polish>
-			<Portuguese>Você está atirando em base sem aprovação. Cessar suas ações imediatamente!</Portuguese>
-			<Italian>Si sparano alla base senza approvazione. Cessate le vostre azioni Subito!</Italian>
-			<Czech>Střílíš na základně bez povolení. Okamžitě toho nech!</Czech>
 			<Russian>Хорош палить на базе!</Russian>
-			<Spanish>Estás disparando en la base sin autorización. Cesa tus acciones inmediatamente!</Spanish>
 		</Key>
 		<Key ID="STR_PO3_DIALOG_JOINEDGROUP">
 			<Original>You have joined %1, new squad leader is %2</Original>
-			<Spanish>Te has unido a %1, el nuevo líder de pelotón es %2</Spanish>
-			<Polish>Dołączyłeś do grupy %1, nowym dowódcą drużyny jest %2</Polish>
-			<German>Sie sind %1 beigetreten, Squadleader ist %2</German>
-			<Portuguese>Você entrou no %1, o novo líder do time é %2</Portuguese>
-			<French>Vous avez rejoint %1, le nouveau chef d'escouade est %2</French>
-			<Czech>Připojil jsi se k %1, nový velitel družstva je %2</Czech>
 		</Key>
 		<Key ID="STR_PO3_DIALOG_ALREADYINGROUP">
 			<Original>You are already assigned to %1</Original>
-			<Spanish>Ya estás asignado a %1</Spanish>
-			<Polish>Jesteś już przypisany do grupy %1</Polish>
-			<German>Sie sind bereits in %1</German>
-			<Portuguese>Você já pertence ao grupo %1</Portuguese>
-			<French>Vous êtes déjà assigné a %1</French>
-			<Czech>Už jsi přiřazen do %1</Czech>
 		</Key>
 		<Key ID="STR_PO3_DIALOG_ASSIGNLEADERGROUP">
 			<Original>You have been assigned as leader of %1</Original>
-			<Spanish>Has sido asignado como líder de %1</Spanish>
-			<Polish>Obejmujesz komendę nad grupą %1</Polish>
-			<German>Sie wuden als Squadler von %1 zugewiesen</German>
-			<Portuguese>Você foi designado líder do %1</Portuguese>
-			<French>Vous êtes assigné LEADER de l'escouade %1</French>
-			<Czech>Byl jsi přiřazen jako velitel %1</Czech>
 		</Key>
 		<Key ID="STR_PO3_DIALOG_NEWGROUPLEADER">
 			<Original>%1 has been assigned as leader of %2</Original>
-			<Spanish>%1 ha sido asignado como líder de %2</Spanish>
-			<Polish>%1 obejmuje komendę nad grupą %2</Polish>
-			<German>%1 wurde als Squadleader von %2 zugewiesen</German>
-			<Portuguese>%1 foi designado líder do %2</Portuguese>
-			<French>%1 est assigné LEADER de l'escouade %2</French>
-			<Czech>%1 byl přiřazen jako velitel %2</Czech>
 		</Key>
 		<Key ID="STR_PO3_DIALOG_ASSIGNROLE">
 			<Original>You are now QUALIFIED as a %1</Original>
-			<Spanish>Te has CALIFICADO como %1</Spanish>
-			<Polish>Uzyskałeś UPRAWNIENIA %1</Polish>
-			<German>Du bist nun als %1 QUALIFIZIERT</German>
-			<Portuguese>Você está agora QUALIFICADO como %1</Portuguese>
-			<French>Vous êtes maintenant QUALIFIE en tant que %1</French>
-			<Czech>Jsi nyní KVALIFIKOVANÝ jako %1</Czech>
 		</Key>
 		<Key ID="STR_PO3_DIALOG_ASSIGNEDROLE">
 			<Original>%1 is now QUALIFIED as a %2</Original>
-			<Spanish>%1 se ha CALIFICADO como %2</Spanish>
-			<Polish>%1 uzyskał UPRAWNIENIA %2</Polish>
-			<German>%1 hat sich als %2 QUALIFIZIERT</German>
-			<Portuguese>%1 está agora QUALIFICADO como %2</Portuguese>
-			<French>%1 est maintenant QUALIFIE en tant %2</French>
-			<Czech>%1 je nyní KVALIFIKOVANÝ jako %2</Czech>
 		</Key>
 		<Key ID="STR_PO3_DIALOG_ASSIGNROLEPILOT">
 			<Original>You are now QUALIFIED as a Pilot</Original>
-			<Spanish>Te has CALIFICADO como piloto</Spanish>
-			<Polish>Uzyskałeś UPRAWNIENIA pilota</Polish>
-			<German>Du bist nun als Pilot QUALIFIZIERT</German>
-			<Portuguese>Você está agora QUALIFICADO como Piloto</Portuguese>
-			<French>Vous êtes maintenant QUALIFIE en tant Pilote d'avion et d'hélicoptère</French>
-			<Czech>Jsi nyní KVALIFIKOVANÝ jako Pilot, lítej opatrně!</Czech>
 		</Key>
 		<Key ID="STR_PO3_DIALOG_ASSIGNEDROLEPILOT">
 			<Original>%1 is now QUALIFIED as a Pilot</Original>
-			<Spanish>%1 se ha CALIFICADO como piloto</Spanish>
-			<Polish>%1 uzyskał UPRAWNIENIA pilota</Polish>
-			<German>%1 hat sich als Pilot QUALIFIZIERT</German>
-			<Portuguese>%1 está agora QUALIFICADO como Piloto</Portuguese>
-			<French>%1 est maintenant QUALIFIE en tant que PILOTE d'avion et d'hélicoptère</French>
-			<Czech>%1 je nyní KVALIFIKOVANÝ jako pilot</Czech>
 		</Key>
 		<Key ID="STR_PO3_DIALOG_ASSIGNROLECREW">
 			<Original>You are now QUALIFIED as a Crewman</Original>
-			<Spanish>Te has CALIFICADO como miembro de la tripulación</Spanish>
-			<Polish>Uzyskałeś UPRAWNIENIA członka załogi</Polish>
-			<German>Du hast dich als Fahrzeugbesatzung QUALIFIZIERT</German>
-			<French>Vous êtes maintenant QUALIFIE en tant Conducteur-Tireur-Commandant de Blindé</French>
-			<Czech>Jsi nyní KVALIFIKOVANÝ jako člen posádky</Czech>
 		</Key>
 		<Key ID="STR_PO3_DIALOG_ASSIGNEDROLECREW">
 			<Original>%1 is now QUALIFIED as a Crewman</Original>
-			<Spanish>%1 se ha CALIFICADO como miembro de la tripulación</Spanish>
-			<Polish>%1 uzyskał UPRAWNIENIA członka załogi</Polish>
-			<German>%1 hat sich als Fahrzeugbesatzung QUALIFIZIERT</German>
-			<French>%1 est maintenant QUALIFIE en tant Conducteur-Tireur-Commandant de Blindé</French>
-			<Czech>%1 je nyní KVALIFIKOVANÝ jako člen posádky</Czech>
 		</Key>
 	</Package>
+	
+	<!--Медицина
 	<Package name="MPSFInjury">
 		<Key ID="STR_PO3_INJURY_ISDOWN">
 			<Original>%1 has been critically wounded and is in agony</Original>
-			<Spanish>%1 ha sido herido de gravedad y está agonizando</Spanish>
-			<Polish>%1 został krytycznie ranny i jest w agonii</Polish>
-			<German>%1 wurde schwer verletzt und leidet</German>
-			<Portuguese>%1 foi ferido gravemente e está agonizando</Portuguese>
-			<French>%1 est critiquement bléssé et agonise</French>
-			<Czech>%1 byl vážně zraněn a je na tom špatně</Czech>
 		</Key>
 		<Key ID="STR_PO3_INJURY_ISUP1">
 			<Original>%1 is up after being assisted by %2</Original>
-			<Spanish>%1 se ha recuperado tras ser asistido por %2</Spanish>
-			<Polish>%1 jest gotowy do działania dzięki pomocy: %2</Polish>
-			<German>%1 ist dank %2 wieder auf den Beinen</German>
-			<Portuguese>%1 está recuperado depois de ser curado por %2</Portuguese>
-			<French>%1 est de nouveau opérationnel après avoir été soigné par %2</French>
-			<Czech>%1 je znovu na nohou potom co mu pomohl %2</Czech>
 		</Key>
 		<Key ID="STR_PO3_INJURY_ISUP2">
 			<Original>%1 is up after being assisted</Original>
-			<Spanish>%1 se ha recuperado tras ser asistido</Spanish>
-			<Polish>%1 jest gotowy do działania dzięki udzielonej mu pomocy</Polish>
-			<German>%1 ist mit Unterstützung wieder auf den Beinen</German>
-			<Portuguese>%1 está recuperado depois de ser curado</Portuguese>
-			<French>%1 est de nouveau opérationnel après avoir été soigné</French>
-			<Czech>%1 je znovu na nohou potom co pomohli</Czech>
 		</Key>
 		<Key ID="STR_PO3_INJURY_ISNOTUP">
 			<Original>%1 was unable to be revied and has died</Original>
-			<Spanish>%1 fue incapaz de recuperarse y ha fallecido</Spanish>
-			<Polish>Próba reanimacji nieudana - %1 umarł</Polish>
-			<German>%1 wurde nicht rechtzeitig behandelt und ist gestorben</German>
-			<Portuguese>%1 não pode ser revivido e está morto</Portuguese>
-			<French>%1 n'a pas pu être soigné et est Mort</French>
-			<Czech>%1 podlehl těžkým zraněním</Czech>
 		</Key>
 		<Key ID="STR_PO3_INJURY_CHECKDEAD">
 			<Original>%1 is Dead</Original>
-			<Spanish>%1 ha muerto</Spanish>
-			<Polish>%1 nie żyje</Polish>
-			<German>%1 ist tot</German>
-			<Portuguese>%1 está morto</Portuguese>
-			<French>%1 est Mort</French>
-			<Czech>%1 je Mrtvý</Czech>
 		</Key>
-	</Package>
+	</Package>-->
+	
+	<!--Логистика-->
 	<Package name="MPSFLogistics">
 		<Key ID="STR_PO3_VEHRSUP_ACTION">
 			<Original>Resupply %1</Original>
-			<Spanish>Reabastecer %1</Spanish>
-			<Polish>Wsparcie logistyczne: %1</Polish>
-			<German>%1 überholen</German>
-			<French>Réaarmer %1</French>
-			<Czech>Zásabouj %1</Czech>
+			<Russian>Перезарядка %1</Russian>
 		</Key>
 		<Key ID="STR_PO3_VEHRSUP_CHECK">
 			<Original>Vehicle Resupply: Analysing %1&lt;br/&gt;&lt;br/&gt;MAP: #%2&lt;br/&gt;Damage: %3&lt;br/&gt;Fuel: %4</Original>
-			<Spanish>Reabasteciendo el vehículo: Analizando%1&lt;br/&gt;&lt;br/&gt;MAPA: #%2&lt;br/&gt;Daño: %3&lt;br/&gt;Combustible: %4</Spanish>
-			<Polish>Wsparcie logistyczne pojazdów: Analiza %1&lt;br/&gt;&lt;br/&gt;Koordynaty: #%2&lt;br/&gt;Uszkodzenia: %3&lt;br/&gt;Paliwo: %4</Polish>
-			<German>Fahrzeugüberholung: Untersuche %1&lt;br/&gt;&lt;br/&gt;Karte: #%2&lt;br/&gt;Schaden: %3&lt;br/&gt;Treibstoff: %4</German>
-			<French>Réarmement du Véhicule :  Analyse en cours %1&lt;br/&gt;&lt;br/&gt;Carte: #%2&lt;br/&gt;Dommage: %3&lt;br/&gt;Carburant: %4</French>
-			<Czech>Zásobování vozidla: Analyzuji %1&lt;br/&gt;&lt;br/&gt;Souřadnice: #%2&lt;br/&gt;Poškození: %3&lt;br/&gt;Palivo: %4</Czech>
 		</Key>
 		<Key ID="STR_PO3_VEHRSUP_START">
 			<Original>Vehicle Resupply of %1 Started</Original>
-			<Spanish>Ha comenzado el reabastecimeinto del vehículo %1</Spanish>
-			<Polish>Rozpoczęto wsparcie logistyczne pojazdu: %1</Polish>
-			<German>Fahrzeug %1 wird überholt</German>
-			<French>Réarmement du Véhicule de %1 Commencé</French>
-			<Czech>Zásobování vozidla %1 Začalo</Czech>
+			<Russian>Начата перезарядка %1</Russian>
 		</Key>
 		<Key ID="STR_PO3_VEHRSUP_END">
 			<Original>Vehicle Resupply of %1 Complete</Original>
-			<Spanish>Completado el reabastecimeinto del vehículo %1</Spanish>
-			<Polish>Ukończono wsparcie logistyczne pojazdu: %1</Polish>
-			<German>Überholung von %1 ist abgeschlossen</German>
-			<French>Réarmement du Véhicule de %1 Complété</French>
-			<Czech>Zásobování vozidla %1 Dokončeno</Czech>
+			<Russian>Перезарядка %1 закончена</Russian>
 		</Key>
 		<Key ID="STR_PO3_VEHRSUP_STOP">
 			<Original>Vehicle Resupply of %1 Cancelled</Original>
-			<Spanish>Se ha cancelado el reabastecimeinto del vehículo %1</Spanish>
-			<Polish>Anulowano wsparcie logistyczne pojazdu: %1</Polish>
-			<German>Überholung von %1 wurde abgebrochen</German>
-			<French>Réarmement du Véhicule de %1 Annulé</French>
-			<Czech>Zásobování vozidla %1 Zrušeno</Czech>
+			<Russian>Перезарядка %1 отменена</Russian>
 		</Key>
 		<Key ID="STR_PO3_VEHRSUP_REPAIR">
 			<Original>Vehicle Resupply: %1&lt;br/&gt;Repairing: %2</Original>
-			<Spanish>Reabasteciendo el vehículo: %1&lt;br/&gt;Reparando: %2</Spanish>
-			<Polish>Wsparcie logistyczne pojazdów: %1&lt;br/&gt;Naprawa: %2</Polish>
-			<German>Überholung von %1&lt;br/&gt;Repariere: %2</German>
-			<French>Réarmement du Véhicule: %1&lt;br/&gt;Réparation: %2</French>
-			<Czech>Zásobování vozidla: %1&lt;br/&gt;Opravování: %2</Czech>
 		</Key>
 		<Key ID="STR_PO3_VEHRSUP_REARM">
 			<Original>Vehicle Resupply: %1&lt;br/&gt;Rearming: %2</Original>
-			<Spanish>Reabasteciendo el vehículo: %1&lt;br/&gt;Rearmando: %2</Spanish>
-			<Polish>Wsparcie logistyczne pojazdów: %1&lt;br/&gt;Amunicja: %2</Polish>
-			<German>Überholung von %1&lt;br/&gt;Neu bewaffnen: %2</German>
-			<French>Réarmement du Véhicule: %1&lt;br/&gt;Réarmement: %2</French>
-			<Czech>Zásobování vozidla: %1&lt;br/&gt;Přezbrojování: %2</Czech>
 		</Key>
 		<Key ID="STR_PO3_VEHRSUP_REFUEL">
 			<Original>Vehicle Resupply: %1&lt;br/&gt;Refueling: %2</Original>
-			<Spanish>Reabasteciendo el vehículo: %1&lt;br/&gt;Repostando: %2</Spanish>
-			<Polish>Wsparcie logistyczne pojazdów: %1&lt;br/&gt;Tankowanie: %2</Polish>
-			<German>Überholung von %1&lt;br/&gt;Auftanken: %2</German>
-			<French>Réarmement du Véhicule: %1&lt;br/&gt;Carburant Transfert %2</French>
-			<Czech>Zásobování vozidla: %1&lt;br/&gt;Tankování: %2</Czech>
 		</Key>
 		<Key ID="STR_PO3_LOGIST_MAGBOX_ONBOARD">
 			<Original>An Ammobox is already loaded</Original>
-			<Spanish>Una caja de municiones ya ha sido cargada</Spanish>
-			<Polish>Skrzynia z amunicją jest już załadowana</Polish>
-			<German>Eine Munitionskiste ist bereits geladen.</German>
-			<French>Une caisse d'armement est déjà chargée</French>
-			<Czech>Bedna s municí už je naložena</Czech>
 		</Key>
 		<Key ID="STR_PO3_LOGIST_MAGBOX_LOAD">
 			<Original>Load Ammobox</Original>
-			<Spanish>Cargar caja de municiones</Spanish>
-			<Polish>Załaduj skrzynię z amunicją</Polish>
-			<German>Munitionskiste laden</German>
-			<French>Charger la caisse d'Armement</French>
-			<Czech>Nalož bednu s municí</Czech>
 		</Key>
 		<Key ID="STR_PO3_LOGIST_MAGBOX_LOADING">
 			<Original>Loading Ammobox onto %1</Original>
-			<Spanish>Cargando caja de municiones en %1</Spanish>
-			<Polish>Ładowanie skrzyni z amunicją na: %1</Polish>
-			<German>Munitionskiste wird in %1 geladen</German>
-			<French>Charger la caisse d'Armement sur %1</French>
-			<Czech>Nakládám bednu s municí do %1</Czech>
 		</Key>
 		<Key ID="STR_PO3_LOGIST_MAGBOX_LOADED">
 			<Original>Loaded Ammobox onto %1</Original>
-			<Spanish>Cargada caja de municiones en %1</Spanish>
-			<Polish>Skrzynia z amunicją załadowana na: %1</Polish>
-			<German>Munitionskiste in %1 eingeladen</German>
-			<French>Caisse d'armement chargée sur %1</French>
-			<Czech>Byla naložena bedna s municí do %1</Czech>
 		</Key>
 		<Key ID="STR_PO3_LOGIST_MAGBOX_ULOAD">
 			<Original>Unload Ammobox</Original>
-			<Spanish>Descargar caja de municiones</Spanish>
-			<Polish>Wyładuj skrzynię z amunicją</Polish>
-			<German>Munitionskiste abladen</German>
-			<French>Décharger la caisse d'armement</French>
 		</Key>
 		<Key ID="STR_PO3_LOGIST_MAGBOX_ULOADING">
 			<Original>Unloading Ammobox from %1</Original>
-			<Spanish>Desargando caja de municiones de %1</Spanish>
-			<Polish>Wyładowywanie skrzyni z amunicją z: %1</Polish>
-			<German>Munitionskiste wird von %1 abgeladen</German>
-			<French>Caisse d'armement - déchargement en cours de %1</French>
-			<Czech>Vykládám bednu s municí z %1</Czech>
 		</Key>
 		<Key ID="STR_PO3_LOGIST_MAGBOX_ULOADED">
 			<Original>Unloaded Ammobox from %1</Original>
-			<Spanish>Descargada caja de municiones de %1</Spanish>
-			<Polish>Skrzynia z amunicją wyładowana z: %1</Polish>
-			<German>Munitionskiste von %1 abgeladen</German>
-			<French>Caisse d'armement déchargée de %1</French>
-			<Czech>Vyložena bedna s municí z %1</Czech>
 		</Key>
 		<Key ID="STR_PO3_LOGIST_UNLOADINGOBJECT">
 			<Original>Unloading %1 from %2%1&lt;br/&gt;Keep away from rear of %2</Original>
-			<Spanish>Descargando %1 de %2%1&lt;br/&gt;Mantente lejos de la parte trasera de %2</Spanish>
-			<Polish>Wyładunek: %1 z: %2%1&lt;br/&gt;Zachowaj odstęp</Polish>
-			<German>Lade %1 aus %2%1&lt;br/&gt; aus.  Platz hinter %2 freihalten!</German>
-			<French>Déchargement %1 de %2%1&lt;br/&gt;Tenez vous à l'écart de l'arrière de %2</French>
-			<Czech>Vykládám %1 z %2%1&lt;br/&gt;Držte se dál od %2</Czech>
 		</Key>
 		<Key ID="STR_PO3_LOGIST_UNLOADEDOBJECT">
 			<Original>Unloaded %1 from %2</Original>
-			<Spanish>Descargando %1 de %2</Spanish>
-			<Polish>%1 wyładowano z: %2</Polish>
-			<German>%1 aus %2 ausgeladen</German>
-			<French>Déchargée %1 de %2</French>
-			<Czech>Vyloženo %1 z %2</Czech>
 		</Key>
 		<Key ID="STR_PO3_LOGIST_SELETLOADER">
 			<Original>Select a vehicle or container to load %1 into</Original>
-			<Spanish>Selecciona un vehículo o contenedor donde cargar %1</Spanish>
-			<Polish>Wskaż pojazd lub kontener by załadować na niego %1</Polish>
-			<German>Wähle ein Fahrzeug oder Container, in das %1 geladen werden soll</German>
-			<French>Choisissez un véhicule ou un container à charger dans %1</French>
-			<Czech>Vyberte si vozidlo nebo kontejner pro naložení %1</Czech>
 		</Key>
 		<Key ID="STR_PO3_LOGIST_TOOHEAVY">
 			<Original>%1 is too heavy for a %2</Original>
-			<Spanish>%1 pesa demasiado para un %2</Spanish>
-			<Polish>%1: obiekt jest za ciężki dla %2</Polish>
-			<German>%1 ist für %2 zu schwer</German>
-			<French>%1 est trop lourd pour %2</French>
-			<Czech>%1 je moc těžké pro %2</Czech>
 		</Key>
 		<Key ID="STR_PO3_LOGIST_OBJECTLOADED">
 			<Original>%1 loaded onto %2</Original>
-			<Spanish>%1 ha sido cargado en %2</Spanish>
-			<Polish>%1 załadowany na: %2</Polish>
-			<German>%1 ist in %2 eingeladen</German>
-			<French>%1 chargé sur %2</French>
-			<Czech>%1 naloženo do %2</Czech>
 		</Key>
 		<Key ID="STR_PO3_LOGIST_OBJPACKIOBJ">
 			<Original>Packing %1 into a %2</Original>
-			<Spanish>Empaquetando %1 en %2</Spanish>
-			<Polish>Pakowanie %1 do: %2</Polish>
-			<German>Packe %1 in %2</German>
-			<French>Conditionnement %1 dans %2</French>
-			<Czech>Balím %1 do %2</Czech>
 		</Key>
 		<Key ID="STR_PO3_LOGIST_OBJPACKUOBJ">
 			<Original>Unpacking %1 from a %2</Original>
-			<Spanish>Desempaquetando %1 de %2</Spanish>
-			<Polish>Wypakowywanie %1 z: %2</Polish>
-			<German>Packe %1 aus %2 aus</German>
-			<French>DéConditionnement %1 de %2</French>
-			<Czech>Rozbaluji %1 od %2</Czech>
 		</Key>
 		<Key ID="STR_PO3_LOGIST_SUPPLYDROPFAIL0">
 			<Original>Failed to deploy chute for %1 due to LOW ALLTITUDE</Original>
-			<Spanish>Fallo al desplegar el paracaídas de %1 debido a la BAJA ALTITUD</Spanish>
-			<Polish>Nieudane rozwinięcie spadochronu dla: %1 z uwagi na ZBYT NISKI PUŁAP</Polish>
-			<German>Fallschirm für %1 öffnete sich nicht wegen NIEDRIGER HÖHE</German>
-			<French>Impossible de déployer le parachute de %1 en raison de la FAIBLE ALLTITUDE</French>
-			<Czech>Nasazení padáku pro %1 selhalo kvůli NÍZKÉ VÝŠCE</Czech>
 		</Key>
 		<Key ID="STR_PO3_LOGIST_SUPPLYDROP0">
 			<Original>%1 has dropped %2 over GRID:%3</Original>
-			<Spanish>%1 ha lanzado %2 sobre la CELDA:%3</Spanish>
-			<Polish>%1 zrzucił %2 na współrzędnych: %3</Polish>
-			<German>%1 hat %2 an Koordinaten %3 abgeworfen</German>
-			<French>%1 a été largué de %2 sur la GRILLE:%3</French>
-			<Czech>%1 shodil %2 na SOUŘADNICÍCH:%3</Czech>
 		</Key>
 		<Key ID="STR_PO3_LOGIST_ILLUMFLARE0">
 			<Original>A %1 has dropped over GRID:%2</Original>
-			<Spanish>Un %1 ha lanzado sobre la CELDA:%2</Spanish>
-			<Polish>%1 zrzucono na współrzędnych: %2</Polish>
-			<German>Eine %1 wude in %2 abgeworfen</German>
-			<French>Un %1 a été largé sur la GRILLE:%2</French>
-			<Czech>%1 bylo shozeno na SOUŘADNICÍCH:%2</Czech>
 		</Key>
 		<Key ID="STR_PO3_LOGIST_VEHWEIGHT">
 			<Original>Vehicle Weight: &lt;t color='#ffc600'&gt;%1kg&lt;/t&gt;&lt;br/&gt;</Original>
-			<Spanish>Peso del vehículo: &lt;t color='#ffc600'&gt;%1kg&lt;/t&gt;&lt;br/&gt;</Spanish>
-			<Polish>Masa pojazdu: &lt;t color='#ffc600'&gt;%1kg&lt;/t&gt;&lt;br/&gt;</Polish>
-			<German>Fahrzeuggewicht:  &lt;t color='#ffc600'&gt;%1kg&lt;/t&gt;&lt;br/&gt;</German>
-			<French>Poid du Véhicule: &lt;t color='#ffc600'&gt;%1kg&lt;/t&gt;&lt;br/&gt;</French>
-			<Czech>Váha vozidla: &lt;t color='#ffc600'&gt;%1kg&lt;/t&gt;&lt;br/&gt;</Czech>
 		</Key>
 		<Key ID="STR_PO3_LOGIST_VEHCPACTY">
 			<Original>Load Capacity: &lt;t color='#ffc600'&gt;%1kg&lt;/t&gt;&lt;br/&gt;</Original>
-			<Spanish>Capacidad de carga: &lt;t color='#ffc600'&gt;%1kg&lt;/t&gt;&lt;br/&gt;</Spanish>
-			<Polish>Ładowność: &lt;t color='#ffc600'&gt;%1kg&lt;/t&gt;&lt;br/&gt;</Polish>
-			<German>Ladekapazität: &lt;t color='#ffc600'&gt;%1kg&lt;/t&gt;&lt;br/&gt;</German>
-			<French>Capacité de Chargement: &lt;t color='#ffc600'&gt;%1kg&lt;/t&gt;&lt;br/&gt;</French>
-			<Czech>Kapacita: &lt;t color='#ffc600'&gt;%1kg&lt;/t&gt;&lt;br/&gt;</Czech>
 		</Key>
 	</Package>
+	
+	<!--Респавн-->
 	<Package name="MPSFRespawn">
 		<Key ID="STR_PO3_RESPWN_TITLE">
 			<Original>Redeployment System - Available Positions</Original>
-			<Spanish>Sistema de reaparición - Posiciones disponibles</Spanish>
-			<Polish>System Rozlokowania - dostępne pozycje</Polish>
-			<German>Verfügbare Einstiegspunkte</German>
-			<French>Système de réapparition - Positions disponibles</French>
-			<Czech>Znovunasazovací Systém - Dostupné Pozice</Czech>
 		</Key>
 		<Key ID="STR_PO3_RESPWN_LIFEREM">
 			<Original>\n\n%1 Lives Remaining</Original>
-			<Spanish>\n\n%1 Vidas restantes</Spanish>
-			<Polish>\n\n%1 Pozostałe życia</Polish>
-			<German>\n\n%1 Leben verbleiben</German>
-			<French>\n\n%1 Vie restantes</French>
-			<Czech>\n\n%1 Životů Zbývá</Czech>
 		</Key>
 		<Key ID="STR_PO3_RESPWN_RENTER">
 			<Original>You have re-entered the battlefield%1</Original>
-			<Spanish>Has vuelto al campo de batalla%1</Spanish>
-			<Polish>Powróciłeś na pole walki %1</Polish>
-			<German>Du bist dem Schlachtfeld wieder beigetreten, %1</German>
-			<French>Vous êtes réentrer dans le champ de bataille%1</French>
-			<Czech>Znovu jsi vstoupil do boje, %1</Czech>
 		</Key>
 		<Key ID="STR_PO3_RESPWN_KILLED">
 			<Original>Your Soldier was Killed in Action</Original>
-			<Spanish>Tu soldado ha muerto en acción</Spanish>
-			<Polish>Twój żołnierz poległ w boju</Polish>
-			<German>Dein Soldat wurde im Kampf getötet</German>
-			<French>Vous avez été tué</French>
-			<Czech>Váš voják byl zabit v akci</Czech>
 		</Key>
 		<Key ID="STR_PO3_RESPWN_NOPOINT">
 			<Original>No Redeployment Points in List</Original>
-			<Spanish>No hay punto de reaparición en la lista</Spanish>
-			<Polish>Brak punktów rozlokowania na liście</Polish>
-			<German>Keine Einstiegspunkte in der Liste</German>
-			<French>Pas de points de redéploiement dans la liste</French>
-			<Czech>Žádné znovunasazovací body v seznamu</Czech>
 		</Key>
 		<Key ID="STR_PO3_RESPWN_REQUEST">
 			<Original>Requesting Redeployment</Original>
-			<Spanish>Solicitando reaparición</Spanish>
-			<Polish>Żądanie rozlokowania</Polish>
-			<German>Fordere Wiedereinstieg an</German>
-			<French>Demande de redéploiement</French>
-			<Czech>Žádám o znovunasazení</Czech>
 		</Key>
 		<Key ID="STR_PO3_RESPWN_DEPLYED">
 			<Original>You have redeployed</Original>
-			<Spanish>Has reaparecido</Spanish>
-			<Polish>Dokonałeś rozlokowania</Polish>
-			<German>Du bist neu eingestiegen</German>
-			<French>Vous êtes redéployé</French>
-			<Czech>Byl si znovunasazen</Czech>
 		</Key>
 		<Key ID="STF_PO3_RESPWN_HALO">
 			<Original>Request HALO Jump</Original>
-			<Spanish>Solicitar inserción en paracaídas</Spanish>
-			<Polish>Żądanie skoku HALO</Polish>
-			<German>HALO-Sprung anfordern</German>
-			<French>Demande de SAUT en Parachute</French>
-			<Czech>Žádat o seskok padákem</Czech>
 		</Key>
 		<Key ID="STR_PO3_RESPWN_CANTDEPLY">
 			<Original>Cannot Deploy to Location</Original>
-			<Spanish>No puedes aparecer en esa posición</Spanish>
-			<Polish>Rozmieszczenie na pozycji niemożliwe</Polish>
-			<German>Kann hier nicht einsteigen</German>
-			<French>Ne peut être déployer à la position</French>
-			<Czech>Nelze nasadit do této lokace</Czech>
 		</Key>
 		<Key ID="STR_PO3_RESPWN_CNTDEPLY1">
 			<Original>%1 DOESN'T HAVE ENOUGH CARGO SPACES</Original>
-			<Spanish>%1 NO TIENE SUFICIENTE ESPACIO DISPONIBLE</Spanish>
-			<Polish>%1 MA ZA MAŁO MIEJSC</Polish>
-			<German>%1 HAT NICHT GENUG LADERAUM</German>
-			<French>%1 ne possède pas assez de PLACE EN CARGAISON</French>
-			<Czech>%1 NEMÁ DOST VOLNÉHO MÍSTA</Czech>
 		</Key>
 		<Key ID="STR_PO3_RESPWN_CNTDEPLY2">
 			<Original>%1 IS TOO LOW TO REDEPLOY TO</Original>
-			<Spanish>%1 ESTÁ DEMASIADO BAJO PARA REALIZAR LA REAPARICIÓN</Spanish>
-			<Polish>%1 JEST ZBYT NISKO BY DOKONAĆ ROZMIESZCZENIA</Polish>
-			<German>%1 IST ZU NIEDRIG UM EINZUSTEIGEN</German>
-			<French>%1 est trop faible pour se redéployer vers</French>
-			<Czech>%1 JE PŘÍLIŽ NÍZKO PRO ZNOVUNASAZENÍ</Czech>
 		</Key>
 		<Key ID="STR_PO3_RESPWN_CNTDEPLY3">
 			<Original>%1 IS MOVING TO FAST TO REDEPLOY</Original>
-			<Spanish>%1 VA DEMASIADO RÁPIDO PARA REALIZAR LA REAPARICIÓN</Spanish>
-			<Polish>%1 PORUSZA SIĘ ZBYT SZYBKO BY DOKONAĆ ROZMIESZCZENIA</Polish>
-			<German>%1 IST ZU SCHNELL UM EINZUSTEIGEN</German>
-			<French>%1 se déplace trop vite pour être redéployé</French>
-			<Czech>%1 SE POHYBUJE MOC RYCHLE PRO ZNOVUNASAZENÍ</Czech>
 		</Key>
 		<Key ID="STR_PO3_RESPWN_CNTDEPLY4">
 			<Original>Enemies are too close to redeploy</Original>
-			<Spanish>Los enemigos están demasiado cercar para realizar la reaparición</Spanish>
-			<Polish>Nieprzyjaciel zbyt blisko, by rozmieścić</Polish>
-			<German>Feinde sind in der Nähe, kann nicht einsteigen</German>
-			<French>%1 Les forces ennemies sont trop proche  pour redéployer</French>
-			<Czech>Nepřátelé jsou blízko pro znovunasazení</Czech>
 		</Key>
 		<Key ID="STR_PO3_RESPWN_CNTDEPLY5">
 			<Original>Double Click on the map to HALO</Original>
-			<French>Double click sur la carte pour un parachutage</French>
-			<Spanish>Haz doble click en el mapa para realizar el salto en paracaídas</Spanish>
-			<Polish>Kliknij dwukrotnie na mapie by wykonać skok HALO</Polish>
-			<German>Doppelklick auf Karte für HALO</German>
-			<French>Double clic sur la carte pour un parachutage</French>
-			<Czech>Klikni dvakrát na mapu pro seskok padákem</Czech>
 		</Key>
 		<Key ID="STR_PO3_RESPWN_CNTDEPLY6">
 			<Original>Halo is unavailable</Original>
-			<French>Parachutage indisponible</French>
-			<Spanish>Salto en paracaídas no disponible</Spanish>
-			<Polish>Skok HALO jest niedostępny</Polish>
-			<German>HALO nicht verfügbar</German>
-			<Czech>Seskok padákem je nedostupný</Czech>
 		</Key>
 		<Key ID="STR_PO3_RESPWN_CNTDEPLY7">
 			<Original>Halo is unavailable for %1 mins</Original>
-			<French>Parachutage indisponible pour %1 mins</French>
-			<Spanish>El salto en paracaídas no estará disponible durante %1 minuto(s)</Spanish>
-			<Polish>Skok HALO jest niedostępny przez %1 minut</Polish>
-			<German>HALO ist erst in %1 Minuten wieder verfügbar</German>
-			<Czech>Seskok padákem je nedostupný po %1 minut</Czech>
 		</Key>
 		<Key ID="STR_PO3_RESPWN_RALLYPLACE">
 			<Original>Placing a Rallypoint</Original>
-			<French>Placer un Rallypoint </French>
-			<Spanish>Estableciendo punto de reunión</Spanish>
-			<Polish>Umieszczanie punktu zbiórki</Polish>
-			<German>Rallypoint setzen</German>
-			<French>Installation Respawn Avancé</French>
-			<Czech>Pokládám Shromaždiště</Czech>
 		</Key>
 		<Key ID="STR_PO3_RESPWN_RALLYREMVI">
 			<Original>Removing Rallypoint</Original>
-			<Spanish>Eliminando punto de reunión</Spanish>
-			<Polish>Usuwanie punktu zbiórki</Polish>
-			<German>Rallypoint entfernen</German>
-			<French>Desinstallation du Respawn Avancé</French>
-			<Czech>Odtraňuji Shromaždiště</Czech>
 		</Key>
 		<Key ID="STR_PO3_RESPWN_RALLYREMVE">
 			<Original>Rallypoint Removed</Original>
-			<Spanish>Punto de reunión eliminado</Spanish>
-			<Polish>Punkt zbiórki usunięty</Polish>
-			<German>Rallypoint entfernt</German>
-			<French>Desinstallation du Respawn Avancé</French>
-			<Czech>Shromaždiště odstraněno</Czech>
 		</Key>
 		<Key ID="STF_PO3_RESPWN_RALLYNAME">
 			<Original>%1's Rallypoint</Original>
-			<Spanish>Punto de reunión en 1%</Spanish>
-			<Polish>Punkt zbiórki: %1</Polish>
-			<German>%1 Rallypoint</German>
-			<French>Respawn Avancé %1'</French>
-			<Czech>%1 Shromaždiště</Czech>
 		</Key>
 	</Package>
+	
+	<!--Задачи-->
 	<Package name="MPSFTask">
 		<Key ID="STR_PO3_TASK_ASGN">
 			<Original>TASK ASSIGNED</Original>
-			<French>TACHE ASSIGNEE</French>
-			<Spanish>TAREA ASIGNADA</Spanish>
-			<Polish>ZADANIE PRZYDZIELONE</Polish>
-			<German>AUFGABE ZUGEWIESEN</German>
-			<Czech>ÚKOL PŘIŘAZEN</Czech>
+			<Russian>Задание назначено</Russian>
 		</Key>
 		<Key ID="STR_PO3_TASK_CANX">
 			<Original>TASK CANCELED</Original>
-			<French>TACHE ANNULEE</French>
-			<Spanish>TAREA CANCELADA</Spanish>
-			<Polish>ZADANIE ANULOWANE</Polish>
-			<German>AUFGABE ABGEBROCHEN</German>
-			<Czech>ÚKOL ZRUŠEN</Czech>
+			<Russian>Задание отменено</Russian>
 		</Key>
 		<Key ID="STR_PO3_TASK_CREA">
 			<Original>NEW TASK ASSIGNED</Original>
-			<French>NOUVELLE TACHE ASSIGNEE</French>
-			<Spanish>NUEVA TAREA ASIGNADA</Spanish>
-			<Polish>NOWE ZADANIE PRZYDZIELONE</Polish>
-			<German>NEUE AUFGABE ZUGEWIESEN</German>
-			<Czech>PŘIŘAZEN NOVÝ ÚKOL</Czech>
+			<Russian>Назначено новое задание</Russian>
 		</Key>
 		<Key ID="STR_PO3_TASK_FAIL">
 			<Original>TASK FAILED</Original>
-			<French>TACHE RATEE</French>
-			<Spanish>TAREA FALLIDA</Spanish>
-			<Polish>ZADANIE NIEWYKONANE</Polish>
-			<German>AUFGABE GESCHEITERT</German>
-			<Czech>ÚKOL NESPLNĚN</Czech>
+			<Russian>Задание провалено</Russian>
 		</Key>
 		<Key ID="STR_PO3_TASK_SUCC">
 			<Original>TASK COMPLETED</Original>
-			<French>TACHE ACCOMPLIE</French>
-			<Spanish>TAREA COMPLETADA</Spanish>
-			<Polish>ZADANIE WYKONANE</Polish>
-			<German>AUFGABE ABGESCHLOSSEN</German>
-			<Czech>ÚKOL SPLNĚN</Czech>
+			<Russian>Задание выполнено</Russian>
 		</Key>
 		<Key ID="STR_PO3_TASK_UPDT">
 			<Original>TASK UPDATED</Original>
-			<French>TACHE REACTUALISEE</French>
-			<Spanish>TAREA ACTUALIZADA</Spanish>
-			<Polish>ZADANIE ZAKTUALIZOWANE</Polish>
-			<German>AUFGABE AKTUALISIERT</German>
-			<French>TACHE ACTUALISEE</French>
-			<Czech>ÚKOL AKTUALIZOVÁN</Czech>
+			<Russian>Задание обновлено</Russian>
 		</Key>
 	</Package>
+	
+	<!--Текст-->
 	<Package name="MPSFText">
 		<Key ID="STR_PO3_TEXT_ACCEPT">
 			<Original>Accept</Original>
-			<French>Accepter</French>
-			<Spanish>Aceptar</Spanish>
-			<Polish>Akceptuj</Polish>
-			<German>Akzeptieren</German>
-			<Czech>Přijmout</Czech>
+			<Russian>Принять</Russian>
 		</Key>
 		<Key ID="STR_PO3_TEXT_ALLOW">
 			<Original>Allow</Original>
-			<French>Autoriser</French>
-			<Spanish>Permitir</Spanish>
-			<Polish>Zezwól</Polish>
-			<German>Erlauben</German>
-			<Czech>Povolit</Czech>
+			<Russian>Все</Russian>
 		</Key>
 		<Key ID="STR_PO3_TEXT_BACK">
 			<Original>Back</Original>
-			<Spanish>Atrás</Spanish>
-			<Polish>Cofnij</Polish>
-			<German>Zurück</German>
-			<French>Retour Arrière</French>
-			<Czech>Zpět</Czech>
+			<Russian>Назад</Russian>
 		</Key>
 		<Key ID="STR_PO3_TEXT_CANCEL">
 			<Original>Cancel</Original>
-			<French>Annuler</French>
-			<Spanish>Cancelar</Spanish>
-			<Polish>Anuluj</Polish>
-			<German>Abbrechen</German>
-			<Czech>Zrušit</Czech>
+			<Russian>Отмена</Russian>
 		</Key>
 		<Key ID="STR_PO3_TEXT_CLOSE">
 			<Original>Close</Original>
-			<German>Schließen</German>
-			<French>Fermer</French>
-			<Polish>Zamknij</Polish>
-			<Portuguese>Fechar</Portuguese>
-			<Italian>Chiudi</Italian>
-			<Czech>Zavřít</Czech>
 			<Russian>Закрыть</Russian>
-			<Spanish>Cerrar</Spanish>
 		</Key>
 		<Key ID="STR_PO3_TEXT_DISABLED">
 			<Original>Disabled</Original>
-			<German>Deaktiviert</German>
-			<French>Désactivé</French>
-			<Spanish>Desactivado</Spanish>
-			<Polish>Wyłączone</Polish>
-			<Czech>Vypnuto</Czech>
+			<Russian>Выключить</Russian>
 		</Key>
 		<Key ID="STR_PO3_TEXT_DISALLOW">
 			<Original>Deny</Original>
-			<Spanish>No permitir</Spanish>
-			<Polish>Odmów</Polish>
-			<German>Verweigern</German>
-			<French>Interdit</French>
-			<Czech>Zamítnout</Czech>
+			<Russian>Отклонить</Russian>
 		</Key>
 		<Key ID="STR_PO3_TEXT_DRAG">
 			<Original>Drag</Original>
-			<Spanish>Arrastrar</Spanish>
-			<Polish>Przeciągnij</Polish>
-			<German>Ziehen</German>
-			<French>Trainer au sol</French>
-			<Czech>Táhnout</Czech>
+			<Russian>Тащить</Russian>
 		</Key>
 		<Key ID="STR_PO3_TEXT_DROP">
 			<Original>Drop</Original>
-			<Spanish>Soltar</Spanish>
-			<Polish>Upuść</Polish>
-			<German>Ablegen</German>
-			<French>Lacher</French>
-			<Czech>Odložit</Czech>
+			<Russian>Положить</Russian>
 		</Key>
 		<Key ID="STR_PO3_TEXT_ENABLED">
 			<Original>Enabled</Original>
-			<French>Activé</French>
-			<Spanish>Activado</Spanish>
-			<Polish>Włączone</Polish>
-			<German>Aktiv</German>
-			<Czech>Povoleno</Czech>
+			<Russian>Включить</Russian>
 		</Key>
 		<Key ID="STR_PO3_TEXT_FALSE">
 			<Original>False</Original>
-			<French>Faux</French>
-			<Spanish>Falso</Spanish>
-			<Polish>Nie</Polish>
-			<German>Falsch</German>
-			<Czech>Ne</Czech>
 		</Key>
 		<Key ID="STR_PO3_TEXT_FORCEOFF">
 			<Original>Force Off</Original>
-			<Spanish>Forzar apagado</Spanish>
-			<Polish>Zabroń</Polish>
-			<German>Erzwungenes Aus</German>
-			<French>Force Désactivé</French>
-			<Czech>Trvale Vypnout</Czech>
 		</Key>
 		<Key ID="STR_PO3_TEXT_FORCEON">
 			<Original>Force On</Original>
-			<Spanish>Forzar encendido</Spanish>
-			<Polish>Wymuś</Polish>
-			<German>Erzwungenes An</German>
-			<French>Force Activé</French>
-			<Czech>Trvale Zapnout</Czech>
 		</Key>
 		<Key ID="STR_PO3_TEXT_FRONT">
 			<Original>Front</Original>
-			<Spanish>Delante</Spanish>
-			<Polish>Przód</Polish>
-			<German>Front</German>
-			<French>Devant</French>
-			<Czech>Před</Czech>
 		</Key>
 		<Key ID="STR_PO3_TEXT_HIGH">
 			<Original>High</Original>
-			<Spanish>Alto</Spanish>
-			<Polish>Wysoko</Polish>
-			<German>Hoch</German>
-			<French>Elevée</French>
-	  <Czech>Vysoké</Czech>
 		</Key>
 		<Key ID="STR_PO3_TEXT_LOADOUT">
 			<Original>Loadout</Original>
-			<Spanish>Equipación</Spanish>
-			<Polish>Wyposażenie</Polish>
-			<German>Ausrüstung</German>
-			<French>Equipement</French>
-			<Czech>Vybavení</Czech>
+			<Russian>Экипировка</Russian>
 		</Key>
 		<Key ID="STR_PO3_TEXT_LOW">
 			<Original>Low</Original>
-			<Spanish>Bajo</Spanish>
-			<Polish>Nisko</Polish>
-			<German>Niedrig</German>
-			<French>Faible</French>
-			<Czech>Nízké</Czech>
+			<Russian>Низко</Russian>
 		</Key>
 		<Key ID="STR_PO3_TEXT_MED">
 			<Original>Medium</Original>
-			<Spanish>Medio</Spanish>
-			<Polish>Średnio</Polish>
-			<German>Mittel</German>
-			<French>Moyenne</French>
-			<Czech>Střední</Czech>
+			<Russian>Норма</Russian>
 		</Key>
 		<Key ID="STR_PO3_TEXT_NO">
 			<Original>No</Original>
-			<Spanish>No</Spanish>
-			<Polish>Nie</Polish>
-			<German>Nein</German>
-			<French>Non</French>
-			<Czech>Ne</Czech>
+			<Russian>Нет</Russian>
 		</Key>
 		<Key ID="STR_PO3_TEXT_NONE">
 			<Original>None</Original>
-			<German>Null</German>
-			<French>Nullement</French>
-			<Polish>Brak</Polish>
-			<Portuguese>Nenhum</Portuguese>
-			<Italian>Non</Italian>
-			<Czech>Nic</Czech>
 			<Russian>Нет</Russian>
-			<Spanish>Ninguno</Spanish>
 		</Key>
 		<Key ID="STR_PO3_TEXT_OFF">
 			<Original>Off</Original>
-			<German>Aus</German>
-			<French>éteindre le</French>
-			<Polish>Wyłącz</Polish>
-			<Portuguese>Fora</Portuguese>
-			<Italian>Spento</Italian>
-			<Czech>Vypnout</Czech>
 			<Russian>Выключить</Russian>
-			<Spanish>Apagado</Spanish>
-			<French>NULLE</French>
 		</Key>
 		<Key ID="STR_PO3_TEXT_ON">
 			<Original>On</Original>
-			<German>Ein</German>
-			<Polish>Włącz</Polish>
-			<Portuguese>Sobre</Portuguese>
-			<Italian>Su</Italian>
-			<Czech>Zapnuté</Czech>
 			<Russian>Включить</Russian>
-			<Spanish>Encendido</Spanish>
-			<French>Activé</French>
 		</Key>
 		<Key ID="STR_PO3_TEXT_OPEN">
 			<Original>Open</Original>
-			<German>Öffnen</German>
-			<French>Ouvert</French>
-			<Polish>Otwórz</Polish>
-			<Portuguese>Aberto</Portuguese>
-			<Italian>Aprire</Italian>
-			<Czech>Otevřít</Czech>
 			<Russian>Открыть</Russian>
-			<Spanish>Abrir</Spanish>
 		</Key>
 		<Key ID="STR_PO3_TEXT_REMOVE">
 			<Original>Remove</Original>
-			<Spanish>Quitar</Spanish>
-			<Polish>Usuń</Polish>
-			<German>Entfernen</German>
-			<French>Enlever</French>
-			<Czech>Odebrat</Czech>
+			<Russian>Удалить</Russian>
 		</Key>
 		<Key ID="STR_PO3_TEXT_THERMAL">
 			<Original>Thermal</Original>
-			<Spanish>Térmicas</Spanish>
-			<German>Wärme</German>
-			<French>Thermiques</French>
-			<Czech>Termální</Czech>
 		</Key>
 		<Key ID="STR_PO3_TEXT_TOGGLE">
 			<Original>Toggle</Original>
-			<German>Sehen</German>
-			<French>Basculer</French>
-			<Polish>Przełącz</Polish>
-			<Portuguese>Alternar</Portuguese>
-			<Italian>Alterna</Italian>
-			<Czech>Přepnout</Czech>
 			<Russian>Переключить</Russian>
-			<Spanish>Alternar</Spanish>
 		</Key>
 		<Key ID="STR_PO3_TEXT_TOP">
 			<Original>Top</Original>
-			<German>Spitze</German>
-			<French>Haut</French>
-			<Polish>Góra</Polish>
-			<Portuguese>Cima</Portuguese>
-			<Italian>Cima</Italian>
-			<Czech>Nejvyšší</Czech>
 			<Russian>Верх</Russian>
-			<Spanish>Superior</Spanish>
 		</Key>
 		<Key ID="STR_PO3_TEXT_TRUE">
 			<Original>True</Original>
-			<German>Wahre</German>
-			<French>Vrai</French>
-			<Polish>Tak</Polish>
-			<Portuguese>Verdadeiro</Portuguese>
-			<Italian>Vero</Italian>
-			<Czech>Ano</Czech>
 			<Russian>Правда</Russian>
-			<Spanish>Verdadero</Spanish>
 		</Key>
 		<Key ID="STR_PO3_TEXT_ULTRA">
 			<Original>Ultra</Original>
-			<German>Ultra</German>
-			<French>Ultra</French>
-			<Polish>Ultra</Polish>
-			<Portuguese>Extremista</Portuguese>
-			<Italian>Ultra</Italian>
-			<Czech>Ultra</Czech>
 			<Russian>Ультра</Russian>
-			<Spanish>Ultra</Spanish>
 		</Key>
 		<Key ID="STR_PO3_TEXT_VHIGH">
 			<Original>Very High</Original>
-			<German>Sehr Hoch</German>
-			<French>Très Haut</French>
-			<Polish>Bardzo Wysoko</Polish>
-			<Portuguese>Muito Alta</Portuguese>
-			<Italian>Molto Alto</Italian>
-			<Czech>Velmi Vysoká</Czech>
-			<Russian>Очень высокая</Russian>
-			<Spanish>Muy Alta</Spanish>
+			<Russian>Очень высоко</Russian>
 		</Key>
 		<Key ID="STR_PO3_TEXT_YES">
 			<Original>Yes</Original>
-			<German>Ja</German>
-			<French>Oui</French>
-			<Polish>Tak</Polish>
-			<Portuguese>Sim</Portuguese>
-			<Italian>Sì</Italian>
-			<Czech>Ano</Czech>
 			<Russian>Да</Russian>
-			<Spanish>Sí</Spanish>
 		</Key>
 		<Key ID="STR_PO3_TEXT_2DHUD">
 			<Original>2D Hud</Original>
-			<Polish>HUD 2D</Polish>
-			<French>HUD 2D</French>
 		</Key>
 		<Key ID="STR_PO3_TEXT_3DHUD">
 			<Original>3D Hud</Original>
-			<Polish>HUD 3D</Polish>
-			<French>HUD 3D</French>
 		</Key>
 		<Key ID="STR_PO3_PARAM_HUDGLASSES">
 			<Original>HUD requires Tactical Glasses</Original>
-			<Czech>HUD vyžaduje taktické brýle</Czech>
 		</Key>
 		<Key ID="STR_PO3_TEXT_PLAYERS">
 			<Original>Players</Original>
-			<Czech>Hráči</Czech>
-			<French>Joueurs</French>
 		</Key>
 		<Key ID="STR_PO3_TEXT_LEADERS">
 			<Original>Group Leaders</Original>
-			<Czech>Velitelé skupin</Czech>
-			<French>Chefs d'escouade</French>
 		</Key>
 		<Key ID="STR_PO3_TEXT_RENAME">
 			<Original>Rename</Original>
-			<Czech>Přejmenovat</Czech>
-			<French>Renommer</French>
 		</Key>
 		<Key ID="STR_PO3_NEWGROUP">
 			<Original>New Group</Original>
-			<Czech>Nová skupina</Czech>
-			<French>Nouveau Groupe</French>
 		</Key>
 		<Key ID="STR_PO3_JOINGROUP">
 			<Original>Join Group</Original>
-			<Czech>Přeřadit k</Czech>
-			<French>Rejoindre le groupe</French>
 		</Key>
 		<Key ID="STR_PO3_MAKELEADER">
 			<Original>Make Leader</Original>
-			<Czech>Velitel</Czech>
-			<French>Nommer comme chef</French>
 		</Key>
 		<Key ID="STR_PO3_ASSIGNEEROLE">
 			<Original>Assigned Role</Original>
-			<Czech>Přiřazené role</Czech>
-			<French>Rôle assigné</French>
 		</Key>
 		<Key ID="STR_PO3_REQUESTUAV">
 			<Original>Request UAV</Original>
-			<Czech>Vyžádat UAV</Czech>
-			<French>Requête de drone</French>
 		</Key>
 		<Key ID="STR_PO3_REQUESTUGV">
 			<Original>Request UGV</Original>
-			<Czech>Vyžádat UGV</Czech>
-			<French>Requête de UGV</French>
 		</Key>
 		<Key ID="STR_PO3_SKIPTASK">
 			<Original>Skip Mission</Original>
-			<Czech>Přeskočit misi</Czech>
-			<French>Mission suivante</French>
 		</Key>
 		<Key ID="STR_PO3_VERSION">
 			<Original>3.1</Original>
 		</Key>
-	</Package>
-
-	<!-- <Package name="VASMain">
-		<Key ID="STR_VAS_Main_Weapons">
-			<Original>Weapons</Original>
-			<German>Waffen</German>
-			<French>Armes</French> 
-			<Polish>Broń</Polish>
-			<Portuguese>Armas</Portuguese>
-			<Italian>Armi</Italian>
-			<Czech>Zbrane</Czech>
-			<Russian>Оружие</Russian>
-			<Spanish>Armas</Spanish>
-		</Key>
-		<Key ID="STR_VAS_Main_Magazines">
-			<Original>Magazines</Original>
-			<German>Magazine</German>
-			<French>Chargeurs</French>
-			<Polish>Amunicja</Polish>
-			<Portuguese>Munições</Portuguese>
-			<Italian>Munizioni</Italian>
-			<Czech>Munice</Czech>
-			<Russian>Патроны</Russian>
-			<Spanish>Cargadores</Spanish>
-		</Key>
-		<Key ID="STR_VAS_Main_Items">
-			<Original>Items</Original>
-			<German>Gegenstände</German>
-			<French>Objets</French>
-			<Polish>Przedmioty</Polish>
-			<Portuguese>Items</Portuguese>
-			<Italian>Oggetti</Italian>
-			<Czech>Predmety</Czech>
-			<Russian>Вещи</Russian>
-			<Spanish>Articulos</Spanish>
-		</Key>
-		<Key ID="STR_VAS_Main_Backpacks">
-			<Original>Backpacks</Original>
-			<German>Rucksäcke</German>
-			<French>Sacs à dos</French>
-			<Polish>Plecaki</Polish>
-			<Portuguese>Mochilas</Portuguese>
-			<Italian>Zaini</Italian>
-			<Czech>Batohy</Czech>
-			<Russian>Рюкзаки</Russian>
-			<Spanish>Mochilas</Spanish>
-		</Key>
-		<Key ID="STR_VAS_Main_Goggles">
-			<Original>Goggles</Original>
-			<German>Brillen</German>
-			<French>Lunettes</French>
-			<Polish>Gogle</Polish>
-			<Portuguese>Óculos</Portuguese>
-			<Italian>Occhiali</Italian>
-			<Czech>Bryle</Czech>
-			<Russian>Очки</Russian>
-			<Spanish>Gafas</Spanish>
-		</Key>
-		<Key ID="STR_VAS_Main_Uniforms">
-			<Original>Uniforms</Original>
-			<German>Uniformen</German>
-			<French>Uniformes</French>
-			<Polish>Mundury</Polish>
-			<Portuguese>Uniformes</Portuguese>
-			<Italian>Uniformi</Italian>
-			<Czech>Uniformy</Czech>
-			<Russian>Униформа</Russian>
-			<Spanish>Uniformes</Spanish>
-		</Key>
-		<Key ID="STR_VAS_Main_Vests">
-			<Original>Vests</Original>
-			<German>Westen</German>
-			<French>Gilets Tac.</French>
-			<Polish>Kamizelki</Polish>
-			<Portuguese>Coletes</Portuguese>
-			<Italian>Gibernaggio</Italian>
-			<Czech>Vesty</Czech>
-			<Russian>Разгрузка</Russian>
-			<Spanish>Ropa</Spanish>
-		</Key>
-		<Key ID="STR_VAS_Main_Headgear">
-			<Original>Headgear</Original>
-			<German>Kopfbekleidung</German>
-			<French>Casques</French>
-			<Polish>Nakrycia głowy</Polish>
-			<Portuguese>Capacetes</Portuguese>
-			<Italian>Elmetto</Italian>
-			<Czech>Pokryvky Hlavy</Czech>
-			<Russian>Шлемы</Russian>
-			<Spanish>Cascos</Spanish>
-		</Key>
-		<Key ID="STR_VAS_Main_Attachments">
-			<Original>Attachments</Original>
-			<German>Anbauteile</German>
-			<French>Objets Attachés</French>
-			<Polish>Dodatki</Polish>
-			<Portuguese>Acessórios</Portuguese>
-			<Italian>Accessori</Italian>
-			<Czech>Doplnky</Czech>
-			<Russian>Приспособления</Russian>
-			<Spanish>Accesorios</Spanish>
-		</Key>
-		<Key ID="STR_VAS_Main_Misc">
-			<Original>Misc</Original>
-			<German>Diverses</German>
-			<French>Objets Divers</French>
-			<Polish>Inne</Polish>
-			<Portuguese>Diversos</Portuguese>
-			<Italian>Varie</Italian>
-			<Czech>Ostatni</Czech>
-			<Russian>Разное</Russian>
-			<Spanish>Diversos</Spanish>
-		</Key>
-		<Key ID="STR_VAS_Main_btnAdd">
-			<Original>Add Item</Original>
-			<German>Zufügen</German>
-			<French>Ajouter Arme/Obj.</French>
-			<Polish>Dodaj przedmiot</Polish>
-			<Portuguese>Acrescemtar Item</Portuguese>
-			<Italian>Aggiungi oggetto</Italian>
-			<Czech>Pridat predmet</Czech>
-			<Russian>Добавить</Russian>
-			<Spanish>Equipar Articulo</Spanish>
-		</Key>
-		<Key ID="STR_VAS_Main_btnRemove">
-			<Original>Remove Item</Original>
-			<German>Entfernen</German>
-			<French>Retirer Arme/Obj.</French>
-			<Polish>Usuń przedmiot</Polish>
-			<Portuguese>Remover Item</Portuguese>
-			<Italian>Rimuovi oggetto</Italian>
-			<Czech>Odebrat Predmet</Czech>
-			<Russian>Убрать</Russian>
-			<Spanish>Eliminar Articulo</Spanish>
-		</Key>
-		<Key ID="STR_VAS_Main_btnClose">
-			<Original>Close</Original>
-			<German>Schließen</German>
-			<French>Fermer</French>
-			<Polish>Zamknij</Polish>
-			<Portuguese>Fechar</Portuguese>
-			<Italian>Chiudi</Italian>
-			<Czech>Zavrit</Czech>
-			<Russian>Закрыть</Russian>
-			<Spanish>Cerrar</Spanish>
-		</Key>
-		<Key ID="STR_VAS_Main_btnLoad">
-			<Original>Load Gear</Original>
-			<German>Laden</German>
-			<French>Charger</French>
-			<Polish>Załaduj wyposażenie</Polish>
-			<Portuguese>Carregar Equipamento</Portuguese>
-			<Italian>Carica equipaggiamento</Italian>
-			<Czech>Nahrat Vybaveni</Czech>
-			<Russian>Загрузить</Russian>
-			<Spanish>Cargar</Spanish>
-		</Key>
-		<Key ID="STR_VAS_Main_btnSave">
-			<Original>Save Gear</Original>
-			<German>Speichern</German>
-			<French>Sauver</French>
-			<Polish>Zapisz wyposażenie</Polish>
-			<Portuguese>Gravar Equipamento</Portuguese>
-			<Italian>Salva equipaggiamento</Italian>
-			<Czech>Ulozit Vybaveni</Czech>
-			<Russian>Сохранить</Russian>
-			<Spanish>Guardar</Spanish>
-		</Key>
-		<Key ID="STR_VAS_Main_btnRemoveAll">
-			<Original>Remove All</Original>
-			<German>Alles Entfernen</German>
-			<French>Retir.Tout</French>
-			<Polish>Usuń wszystko</Polish>
-			<Portuguese>Retirar Tudo</Portuguese>
-			<Italian>Rimuovi tutto</Italian>
-			<Czech>Odebrat Vse</Czech>
-			<Russian>Очистить</Russian>
-			<Spanish>Eliminar Todo</Spanish>
-		</Key>
-		<Key ID="STR_VAS_Main_VirtGear">
-			<Original>Virtual Ammobox</Original>
-			<German>Interaktive Waffenkiste</German>
-			<Portuguese>Caixa de Munições Virtual</Portuguese>
-			<Russian>Виртуальный ящик</Russian>
-		</Key>
-		<Key ID="STR_VAS_Main_YCG">
-			<Original>Your Current Gear</Original>
-			<German>Aktuelle Ausrüstung</German>
-			<French>Votre équipement actuel</French>
-			<Polish>Twoje Aktualne Wyposażenie</Polish>
-			<Portuguese>Equipamento Actual</Portuguese>
-			<Italian>Equipaggiamento attuale</Italian>
-			<Czech>Vase soucasne vybaveni</Czech>
-			<Russian>Ваше снаряжение</Russian>
-			<Spanish>Equipamiento Actual</Spanish>
-		</Key>
-		<Key ID="STR_Vas_Main_CL">
-			<Original>Custom Loadout</Original>
-			<German>Angepasste Ausrüstung</German>
-			<French>Emplacement perso</French>
-			<Polish>Niestandardowe wyposażenie</Polish>
-			<Portuguese>Equipamento Customizado</Portuguese>
-			<Italian>Equip. personalizzato</Italian>
-			<Czech>Vlastni Vybava</Czech>
-			<Russian>Особый набор</Russian>
-			<Spanish>Equipamiento Customizado</Spanish>
-		</Key>
-		<Key ID="STR_Vas_Main_Rifles">
-			<Original>Rifles</Original>
-			<German>Gewehre</German>
-			<French>Fusils (Tous)</French>
-			<Polish>Karabiny</Polish>
-			<Portuguese>Espingardas</Portuguese>
-			<Italian>Fucili</Italian>
-			<Czech>Pusky</Czech>
-			<Russian>Винтовки</Russian>
-			<Spanish>Fusiles</Spanish>
-		</Key>
-		<Key ID="STR_Vas_Main_Scoped">
-			<Original>Scoped</Original>
-			<German>Fernkampf</German>
-			<French>Fusils (Longs)</French>
-			<Polish>Bron Ciężka</Polish>
-			<Portuguese>Telescópicas</Portuguese>
-			<Italian>Fucili (ottica)</Italian>
-			<Czech>Odstrelovacky</Czech>
-			<Russian>С оптикой</Russian>
-			<Spanish>Fusiles Largos</Spanish>
-		</Key>
-		<Key ID="STR_Vas_Main_Heavy">
-			<Original>Heavy</Original>
-			<German>Schwere Waffen</German>
-			<French>Lourds</French>
-			<Polish>Wyrzutnie</Polish>
-			<Portuguese>Pesadas</Portuguese>
-			<Italian>Pesanti</Italian>
-			<Czech>Tezke Zbrane</Czech>
-			<Russian>Тяжелое</Russian>
-			<Spanish>Pesadas</Spanish>
-		</Key>
-		<Key ID="STR_Vas_Main_Launcher">
-			<Original>Launcher</Original>
-			<German>Raketenwerfer</German>
-			<French>Lanceurs</French>
-			<Portuguese>Lança-Misseis</Portuguese>
-			<Italian>Lanciamissili</Italian>
-			<Czech>Odpalovace</Czech>
-			<Russian>Гранатометы</Russian>
-			<Spanish>Lanzamisiles</Spanish>	
-		</Key>
-		<Key ID="STR_Vas_Main_Pistols">
-			<Original>Pistols</Original>
-			<German>Pistolen</German>
-			<French>Pistolets</French>
-			<Polish>Pistolety</Polish>
-			<Portuguese>Pistolas</Portuguese>
-			<Italian>Pistole</Italian>
-			<Czech>Pistole</Czech>
-			<Russian>Пистолеты</Russian>
-			<Spanish>Pistolas</Spanish>
-		</Key>
-		<Key ID="STR_VAS_restricted">
-			<Original>is a restricted item and will not be added to your inventory.</Original>
-			<Italian>è un oggetto bloccato e non sarà aggiunto al tuo inventario</Italian>
-		</Key>
-	</Package> -->
-	<!-- <Package name="LoadGear">
-		<Key ID="STR_VAS_Load_Title">
-			<Original>Virtual Ammobox System - Load Gear</Original>
-			<German>Virtual Ammobox System - Ausrüstung Laden</German>
-			<French>Caisse Virtuelle - Charger</French>
-			<Portuguese>Caixa de Munições Virtual - Carregar</Portuguese>
-			<Italian>Virtual Ammobox System - Carica equipaggiamento</Italian>
-			<Czech>Virtual Ammobox System - Nahrat Vybaveni</Czech>
-			<Russian>Виртуальный ящик - Загрузка снаряжения</Russian>
-			<Spanish>Virtual Ammobox System - Cargar Equipamiento</Spanish>
-		</Key>
-		<Key ID="STR_VAS_Load_LOR">
-			<Original>Load On Respawn</Original>
-			<German>Beim Respawn Laden</German>
-			<French>Charg. à la réap</French>
-			<Polish>Załaduj przy respawnie</Polish>
-			<Portuguese>Carregar em Respawn</Portuguese>
-			<Italian>Carica al respawn</Italian>
-			<Czech>Vybava-respawn</Czech>
-			<Russian>Загрузить при появлении</Russian>
-			<Spanish>Equipar En Respawn</Spanish>
-		</Key>
-		<Key ID="STR_VAS_Load_TransferBtn">
-			<Original>Transfer</Original>
-			<Russian>Передать</Russian>
-		</Key>
-		<Key ID="STR_VAS_Load_btnLoad">
-			<Original>Load</Original>
-			<German>Laden</German>
-			<French>Charger</French>
-			<Polish>Załaduj</Polish>
-			<Portuguese>Carregar</Portuguese>
-			<Italian>Carica</Italian>
-			<Czech>Nahrat</Czech>
-			<Russian>Загрузить</Russian>
-			<Spanish>Cargar</Spanish>
-		</Key>
-		<Key ID="STR_VAS_Load_btnDelete">
-			<Original>Delete</Original>
-			<German>Löschen</German>
-			<French>Supprimer</French>
-			<Polish>Usuń</Polish>
-			<Portuguese>Apagar</Portuguese>
-			<Italian>Cancella</Italian>
-			<Czech>Smazat</Czech>
-			<Russian>Удалить</Russian>
-			<Spanish>Eliminar</Spanish>
+		<Key ID="STR_TT_VERSION">
+			<Original>0.1</Original>
 		</Key>
 	</Package>
-	<Package name="SaveGear">
-		<Key ID="STR_VAS_Save_Title">
-			<Original>Virtual Ammobox System - Save Gear</Original>
-			<German>Virtual Ammobox System - Ausrüstung Speichern</German>
-			<French>Caisse Virtuelle - Sauver</French>
-			<Portuguese>Caixa de Munições Virtual - Gravar</Portuguese>
-			<Italian>Virtual Ammobox System - Salva equipaggiamento</Italian>
-			<Czech>Virtual Ammobox System - Ulozit Vybaveni</Czech>
-			<Russian>Виртуальный ящик - Сохранение снаряжения</Russian>
-			<Spanish>Virtual Ammobox System - Guardar Equipamiento</Spanish>
-		</Key>
-		<Key ID="STR_VAS_Save_btnSave">
-			<Original>Save</Original>
-			<German>Speichern</German>
-			<French>Sauver</French>
-			<Polish>Zapisz</Polish>
-			<Portuguese>Gravar</Portuguese>
-			<Italian>Salva</Italian>
-			<Czech>Uloz</Czech>
-			<Russian>Сохранить</Russian>
-			<Spanish>Guardar</Spanish>
-		</Key>
-		<Key ID="STR_VAS_Save_CLN">
-			<Original>Custom Loadout Name</Original>
-			<German>Angepasste Ausrüstung</German>
-			<French>Nom de l'emplacement perso</French>
-			<Portuguese>Nome da Selecção</Portuguese>
-			<Italian>Nome equipaggiamento</Italian>
-			<Czech>Nazev Vybavy</Czech>
-			<Russian>Название набора</Russian>
-			<Spanish>Nombre De Equipamiento Customizado</Spanish>
-		</Key>
-	</Package>
-	<Package name="VASTransferMenu">
-		<Key ID="STR_VAS_Transfer_MainMenu">
-			<Original>Virtual Ammobox System - Transfer Menu</Original>
-			<Russian>Виртуальный Ящик - Меню Передачи</Russian>
-		</Key>
-		<Key ID="STR_VAS_Transfer_SaveMenu">
-			<Original>Virtual Ammobox System - Save Transfer</Original>
-		</Key>
-		<Key ID="STR_VAS_Transfer_Request">
-			<Original>wants to transfer you their saved loadout.</Original>
-		</Key>
-		<Key ID="STR_VAS_Transfer_Request2">
-			<Original>Would you like to receive this request and save it?</Original>
-		</Key>
-		<Key ID="STR_VAS_Transfer_NoSlotSelection">
-			<Original>You either did not select a slot that you wanted to transfer to another user or the slot had no information.</Original>
-			<Russian>Вы либо не выбрали слот, который вы хотели передать другому пользователю или в слоте не было никакой аммуниции.</Russian>
-		</Key>
-		<Key ID="STR_VAS_Transfer_BadUnit">
-			<Original>The selected user either doesn't exist.</Original>
-		</Key>
-	</Package>
-	<Package name="VASPrompts">
-		<Key ID="STR_VAS_Prompt_selectSlotFail">
-			<Original>You didn't select a slot to delete!</Original>
-			<Italian>Non hai selezionato uno slot da cancellare</Italian>
-			<French>Aucun emplacement choisi pour être supprimé!</French>
-		</Key>
-		<Key ID="STR_VAS_Prompt_deleteSlotNoInfo">
-			<Original>You can't delete that slot, it has no information!</Original>
-			<Italian>Non puoi cancellare questo slot, è già vuoto</Italian>
-			<French>Vous ne pouvez pas supprimer cette emplacement, aucun enregistrement détecté!</French>
-		</Key>
-		<Key ID="STR_VAS_Prompt_deleteSlotWarning">
-			<Original>You are about to delete slot</Original>
-			<Italian>Stai per cancellare lo slot</Italian>
-			<French>Vous êtes sur le point de supprimer cet emplacement</French>
-		</Key>
-		<Key ID="STR_VAS_Prompt_deleteCanelled">
-			<Original>You cancelled deleting slot</Original>
-			<Italian>Hai cancellato lo slot cancellandolo</Italian>
-			<French>Vous avez annulé la suppression de l'emplacement</French>
-		</Key>
-		<Key ID="STR_VAS_Prompt_deleteSuccess">
-			<Original>You deleted slot</Original>
-			<Italian>Hai cancellato lo slot</Italian>
-			<French>Vous avez supprimé cet emplacement</French>
-		</Key>
-		<Key ID="STR_VAS_Prompt_deleteYes">
-			<Original>Yes</Original>
-			<Italian>Sì</Italian>
-			<Spanish>Sì</Spanish>
-			<French>Oui</French>
-		</Key>
-		<Key ID="STR_VAS_Prompt_deleteNo">
-			<Original>No</Original>
-			<Italian>No</Italian>
-			<Spanish>No</Spanish>
-			<French>Non</French>
-		</Key>
-		<Key ID="STR_VAS_Prompt_slotNoInfo">
-			<Original>You didn't select a slot!</Original>
-			<Italian>Non hai selezionato uno slot!</Italian>
-			<French>Vous n'avez pas choisi d'emplacement!</French>
-		</Key>
-		<Key ID="STR_VAS_Prompt_onRespawnFail">
-			<Original>No slot was selected to be loaded upon respawn!</Original>
-			<Italian>Non hai selezionato nessuno slot da caricare al respawn!</Italian>
-			<French>Aucun emplacement n'a été sélectionné pour être chargé lors de la réapparition!</French>
-			<Russian>Не выбран слот, который нужно загрузить</Russian>
-		</Key>
-		<Key ID="STR_VAS_Prompt_slotSelFail">
-			<Original>You didn't select a slot!</Original>
-			<Italian>Non hai selezionato uno slot</Italian>
-			<French>Vous n'avez pas choisi d'emplacement!</French>
-		</Key>
-		<Key ID="STR_VAS_Prompt_addToWeapon">
-			<Original>Weapon</Original>
-			<Italian>Armi</Italian>
-			<French>Armes</French>
-			<Russian>Оружие</Russian>
-		</Key>
-		<Key ID="STR_VAS_Prompt_addToInv">
-			<Original>Inventory</Original>
-			<Italian>Inventario</Italian>
-			<French>Inventaire</French>
-			<Russian>Инвентарь</Russian>
-		</Key>
-		<Key ID="STR_VAS_Prompt_acc1">
-			<Original>What do you want to do with that attachment?</Original>
-			<Italian>Cosa vuoi fare con questo accessorio?</Italian>
-			<French>Que voulez-vous faire avec cet emplacement?</French>
-			<Russian>Что вы хотите сделать с этим креплением?</Russian>
-		</Key>
-		<Key ID="STR_VAS_Prompt_acc2">
-			<Original>Please know that if you choose to add it to your weapon your current existing attachment in that slot will be lost.</Original>
-			<Italian>Attenzione, se attacchi l'accessorio alla tua arma, l'accessorio attaccato attualmente sarà sostituito.</Italian>
-			<French>Si vous choisissez de placer cette objet sur votre arme, sachez que l'objet actuellement placé sur l'arme sera automatiquement supprimé</French>
-			<Russian>Пожалуйста, знайте, что если вы прикрепите его к своему оружию, то ваше текущее крепление в этом слоте будет потеряно.</Russian>
-		</Key>
-	</Package> -->
-
 </Project>

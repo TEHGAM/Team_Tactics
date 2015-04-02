@@ -3,15 +3,26 @@
 #include "scripts\taw_vd\dialog.hpp"
 #include "data\dialogs.hpp"
 
-DisabledAI		= 1;			// <!-- Where 0 Fills empty playable slots with AI, 1 is They Don't fill the empty slots
-joinUnassigned	= 0;		// <!-- Where 0 forces joining players into the first empty slot, 1 leaves them to select their own
-enableDebugConsole	= 0;		// <!-- Enable the debug console where (0=disabled),(1=Admins Only),(2=Everyone) DO NOT SET AS 2!
-showGPS			= 1;			// <!-- Allow GPS
-showCompass		= 1;			// <!-- Allow Compass
-showWatch		= 1;			// <!-- Allow Watch
+DisabledAI		= 1;				
+joinUnassigned	= 0;				
+enableDebugConsole	= 0;			
+showGPS			= 1;				
+showCompass		= 1;				
+showWatch		= 1;				
 forceRotorLibSimulation = 1;
+
+corpseManagerMode = 1;				//менеджер по уборке трупов 1-вкл
+corpseLimit = 20;
+corpseRemovalMinTime = 300; 		//second
+corpseRemovalMaxTime = 350;
+
+wreckManagerMode =1;				//Менеджер по уборке хлама 1- вкл
+wreckLimit = 10;
+wreckRemovalMinTime = 300;
+wreckRemovalMaxTime = 350;
+
 class Header {
-	maxPlayers = 61;	// <!-- CHANGE Where the number is the total playable slots
+	maxPlayers = 60;
 	minPlayers = 1;
 	gameType = COOP;
 };

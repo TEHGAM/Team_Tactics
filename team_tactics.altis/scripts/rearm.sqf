@@ -1,8 +1,12 @@
 //На каждую из групп вешаем модуль с установкой позывного
-waitUntil {player == player};
-waitUntil {sleep 0.1; alive player};
-_gid = groupID(group player);
-switch (_gid) do
+//Скрипт для восстановления дефолта
+private ["_unit","_gid"];
+
+_unit = _this select 1;
+_gid = groupID(group _unit);
+if (_unit == player) then 
+{
+	switch (_gid) do
 	{
 		case "GROUP_1": {[player] execVM "scripts\Rearm\otd_1.sqf"};
 		case "GROUP_2": {[player] execVM "scripts\Rearm\otd_2.sqf"};
@@ -10,3 +14,4 @@ switch (_gid) do
 		case "GROUP_4": {[player] execVM "scripts\Rearm\otd_4.sqf"};
 		default {[player] execVM "scripts\Rearm\def.sqf";};
 	};
+};
