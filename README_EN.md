@@ -19,8 +19,8 @@ If you have some experience with editing Arma 3 and are interested in assisting 
          alt="Issues" />
   </a>
     <a href="http://arma3.ru/forums/topic/3972-arma3ru-team-tactics-addons-cba-vts-task-force-ru/">
-    <img src="https://img.shields.io/badge/ARMA3.RU-Forum-lightgrey.svg?style=flat"
-         alt="Forum" />
+    <img src="https://img.shields.io/badge/ARMA3.RU-Thread-lightgrey.svg?style=flat"
+         alt="ARMA3.RU Thread" />
   </a>
     <a href="http://creativecommons.org/licenses/by-nc-sa/3.0">
     <img src="http://img.shields.io/badge/License-CC-red.svg?style=flat"
