@@ -130,6 +130,7 @@ class Mission
 					leader=1;
 					rank="CAPTAIN";
 					skill=0.60000002;
+					init="this setVariable[""GROUP"",0,true];";
 					description="Командир взвода";
 					syncId=0;
 					synchronizations[]={14};
@@ -144,6 +145,7 @@ class Mission
 					player="PLAY CDG";
 					rank="LIEUTENANT";
 					skill=0.60000002;
+					init="this setVariable[""GROUP"",0,true];";
 					description="Зам. командира взвода";
 					syncId=1;
 					synchronizations[]={15};
@@ -167,6 +169,7 @@ class Mission
 					leader=1;
 					rank="SERGEANT";
 					skill=0.60000002;
+					init="this setVariable[""GROUP"",0,true];";
 					description="Командир РСЗО";
 					syncId=2;
 					synchronizations[]={14,15};
@@ -181,6 +184,7 @@ class Mission
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.60000002;
+					init="this setVariable[""GROUP"",0,true];";
 					description="Член экипажа РСЗО";
 				};
 			};
@@ -202,6 +206,7 @@ class Mission
 					leader=1;
 					rank="SERGEANT";
 					skill=0.60000002;
+					init="this setVariable[""GROUP"",0,true];";
 					description="Командир САУ";
 					syncId=3;
 					synchronizations[]={14,15};
@@ -216,6 +221,7 @@ class Mission
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.60000002;
+					init="this setVariable[""GROUP"",0,true];";
 					description="Член экипажа САУ";
 				};
 				class Item2
@@ -228,6 +234,7 @@ class Mission
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.60000002;
+					init="this setVariable[""GROUP"",0,true];";
 					description="Член экипажа САУ";
 				};
 			};
@@ -249,6 +256,7 @@ class Mission
 					leader=1;
 					rank="SERGEANT";
 					skill=0.60000002;
+					init="this setVariable[""GROUP"",0,true];";
 					description="Командир танка";
 					syncId=4;
 					synchronizations[]={14,15};
@@ -263,6 +271,7 @@ class Mission
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.60000002;
+					init="this setVariable[""GROUP"",0,true];";
 					description="Танкист";
 				};
 				class Item2
@@ -275,6 +284,7 @@ class Mission
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.60000002;
+					init="this setVariable[""GROUP"",0,true];";
 					description="Механик";
 				};
 			};
@@ -296,6 +306,7 @@ class Mission
 					leader=1;
 					rank="SERGEANT";
 					skill=0.60000002;
+					init="this setVariable[""GROUP"",0,true];";
 					description="Командир ЗСУ";
 					syncId=5;
 					synchronizations[]={14,15};
@@ -310,6 +321,7 @@ class Mission
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.60000002;
+					init="this setVariable[""GROUP"",0,true];";
 					description="Член экипажа ЗСУ";
 				};
 				class Item2
@@ -322,6 +334,7 @@ class Mission
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.60000002;
+					init="this setVariable[""GROUP"",0,true];";
 				};
 			};
 		};
@@ -342,6 +355,7 @@ class Mission
 					leader=1;
 					rank="LIEUTENANT";
 					skill=0.60000002;
+					init="this setVariable[""GROUP"",0,true];";
 					description="Пилот истребителя";
 				};
 			};
@@ -363,6 +377,7 @@ class Mission
 					leader=1;
 					rank="LIEUTENANT";
 					skill=0.60000002;
+					init="this setVariable[""GROUP"",0,true];";
 					description="Пилот боевого вертолета";
 				};
 				class Item1
@@ -375,6 +390,7 @@ class Mission
 					player="PLAY CDG";
 					rank="LIEUTENANT";
 					skill=0.60000002;
+					init="this setVariable[""GROUP"",0,true];";
 					description="Стрелок боевого вертолета";
 					syncId=6;
 					synchronizations[]={14,15};
@@ -398,6 +414,7 @@ class Mission
 					leader=1;
 					rank="LIEUTENANT";
 					skill=0.60000002;
+					init="this setVariable[""GROUP"",0,true];";
 					syncId=7;
 					synchronizations[]={14};
 				};
@@ -411,6 +428,7 @@ class Mission
 					player="PLAY CDG";
 					rank="LIEUTENANT";
 					skill=0.60000002;
+					init="this setVariable[""GROUP"",0,true];";
 				};
 				class Item2
 				{
@@ -422,6 +440,7 @@ class Mission
 					player="PLAY CDG";
 					rank="LIEUTENANT";
 					skill=0.60000002;
+					init="this setVariable[""GROUP"",0,true];";
 				};
 				class Item3
 				{
@@ -433,6 +452,7 @@ class Mission
 					player="PLAY CDG";
 					rank="LIEUTENANT";
 					skill=0.60000002;
+					init="this setVariable[""GROUP"",0,true];";
 					syncId=8;
 					synchronizations[]={15};
 				};
@@ -455,6 +475,7 @@ class Mission
 					leader=1;
 					rank="SERGEANT";
 					skill=0.5;
+					init="this setVariable[""GROUP"",0,true];";
 					syncId=9;
 					synchronizations[]={14,15};
 				};
@@ -465,9 +486,10 @@ class Mission
 					id=21;
 					side="WEST";
 					vehicle="B_soldier_UAV_F";
-					player="PLAY CDG";
+					player="PLAYER COMMANDER";
 					rank="SERGEANT";
 					skill=0.5;
+					init="this setVariable[""GROUP"",0,true];";
 				};
 			};
 		};
@@ -533,7 +555,7 @@ class Mission
 					leader=1;
 					rank="SERGEANT";
 					skill=0.60000002;
-					text="sq1_1";
+					init="this setVariable[""GROUP"",1,true];";
 					syncId=10;
 					synchronizations[]={14,15};
 				};
@@ -546,7 +568,7 @@ class Mission
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.60000002;
-					text="sq1_3";
+					init="this setVariable[""GROUP"",1,true];";
 				};
 				class Item2
 				{
@@ -557,7 +579,7 @@ class Mission
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.60000002;
-					text="sq1_6";
+					init="this setVariable[""GROUP"",1,true];";
 				};
 				class Item3
 				{
@@ -568,7 +590,7 @@ class Mission
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.60000002;
-					text="sq1_7";
+					init="this setVariable[""GROUP"",1,true];";
 				};
 				class Item4
 				{
@@ -579,7 +601,7 @@ class Mission
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.60000002;
-					text="sq1_2";
+					init="this setVariable[""GROUP"",1,true];";
 				};
 				class Item5
 				{
@@ -590,7 +612,7 @@ class Mission
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.60000002;
-					text="sq1_5";
+					init="this setVariable[""GROUP"",1,true];";
 				};
 				class Item6
 				{
@@ -601,7 +623,7 @@ class Mission
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.60000002;
-					text="sq1_4";
+					init="this setVariable[""GROUP"",1,true];";
 				};
 				class Item7
 				{
@@ -612,7 +634,7 @@ class Mission
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.60000002;
-					text="sq1_8";
+					init="this setVariable[""GROUP"",1,true];";
 				};
 			};
 		};
@@ -632,7 +654,7 @@ class Mission
 					leader=1;
 					rank="SERGEANT";
 					skill=0.60000002;
-					text="sq2_1";
+					init="this setVariable[""GROUP"",2,true];";
 					syncId=11;
 					synchronizations[]={14,15};
 				};
@@ -645,7 +667,7 @@ class Mission
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.60000002;
-					text="sq2_3";
+					init="this setVariable[""GROUP"",2,true];";
 				};
 				class Item2
 				{
@@ -656,7 +678,7 @@ class Mission
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.60000002;
-					text="sq2_6";
+					init="this setVariable[""GROUP"",2,true];";
 				};
 				class Item3
 				{
@@ -667,7 +689,7 @@ class Mission
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.60000002;
-					text="sq2_7";
+					init="this setVariable[""GROUP"",2,true];";
 				};
 				class Item4
 				{
@@ -678,7 +700,7 @@ class Mission
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.60000002;
-					text="sq2_2";
+					init="this setVariable[""GROUP"",2,true];";
 				};
 				class Item5
 				{
@@ -689,7 +711,7 @@ class Mission
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.60000002;
-					text="sq2_5";
+					init="this setVariable[""GROUP"",2,true];";
 				};
 				class Item6
 				{
@@ -700,7 +722,7 @@ class Mission
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.60000002;
-					text="sq2_4";
+					init="this setVariable[""GROUP"",2,true];";
 				};
 				class Item7
 				{
@@ -711,7 +733,7 @@ class Mission
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.60000002;
-					text="sq2_8";
+					init="this setVariable[""GROUP"",2,true];";
 				};
 			};
 		};
@@ -727,11 +749,11 @@ class Mission
 					id=39;
 					side="WEST";
 					vehicle="B_recon_M_F";
-					player="PLAYER COMMANDER";
+					player="PLAY CDG";
 					leader=1;
 					rank="SERGEANT";
 					skill=0.60000002;
-					text="sq3_1";
+					init="this setVariable[""GROUP"",3,true];";
 					syncId=12;
 					synchronizations[]={14,15};
 				};
@@ -744,7 +766,7 @@ class Mission
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.60000002;
-					text="sq3_3";
+					init="this setVariable[""GROUP"",3,true];";
 				};
 				class Item2
 				{
@@ -755,7 +777,7 @@ class Mission
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.60000002;
-					text="sq3_2";
+					init="this setVariable[""GROUP"",3,true];";
 				};
 				class Item3
 				{
@@ -766,7 +788,7 @@ class Mission
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.60000002;
-					text="sq3_4";
+					init="this setVariable[""GROUP"",3,true];";
 				};
 			};
 		};
@@ -786,7 +808,7 @@ class Mission
 					leader=1;
 					rank="SERGEANT";
 					skill=0.60000002;
-					text="sq4_1";
+					init="this setVariable[""GROUP"",4,true];";
 					syncId=13;
 					synchronizations[]={14,15};
 				};
@@ -799,7 +821,7 @@ class Mission
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.60000002;
-					text="sq4_2";
+					init="this setVariable[""GROUP"",4,true];";
 				};
 				class Item2
 				{
@@ -810,7 +832,7 @@ class Mission
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.60000002;
-					text="sq4_6";
+					init="this setVariable[""GROUP"",4,true];";
 				};
 				class Item3
 				{
@@ -821,7 +843,7 @@ class Mission
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.60000002;
-					text="sq4_4";
+					init="this setVariable[""GROUP"",4,true];";
 				};
 				class Item4
 				{
@@ -832,7 +854,7 @@ class Mission
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.60000002;
-					text="sq4_5";
+					init="this setVariable[""GROUP"",4,true];";
 				};
 				class Item5
 				{
@@ -843,7 +865,7 @@ class Mission
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.60000002;
-					text="sq4_3";
+					init="this setVariable[""GROUP"",4,true];";
 				};
 			};
 		};
